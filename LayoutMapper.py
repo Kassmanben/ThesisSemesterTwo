@@ -34,7 +34,7 @@ def mark_state(test_img):
             start_Coord = y
     pages_part_counters[pg_num] = part_counter
 
-for x in range(1, 40):
+for x in range(12, 14):
     # print(x)
     pg_num = x
     if pg_num < 10:
