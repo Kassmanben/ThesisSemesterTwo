@@ -11,6 +11,7 @@ import cv2
 import os
 import pickle
 
+
 ocr_page_text = {}
 with open('ppc.pickle', 'rb') as handle:
     ppc = pickle.load(handle)
