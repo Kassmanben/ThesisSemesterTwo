@@ -1,41 +1,43 @@
 import io
+import os
 
 import PyPDF2
+import time
 import wand
 import wand.image
+from PIL.Image import new
+from PyPDF2 import PdfFileReader
+from PyPDF2 import PdfFileWriter
 from wand.color import Color
+from wand.image import Image
 
+filename = "Algorithms.pdf"
 
-def pdf_page_to_png(src_pdf, pagenum = 0, resolution = 72,):
-    """
-    Returns specified PDF page as wand.image.Image png.
-    :param PyPDF2.PdfFileReader src_pdf: PDF from which to take pages.
-    :param int pagenum: Page number to take.
-    :param int resolution: Resolution for resulting png in DPI.
-    """
-    dst_pdf = PyPDF2.PdfFileWriter()
-    dst_pdf.addPage(src_pdf.getPage(pagenum))
+inputpdf = PdfFileReader(open(filename, "rb"))
 
-    pdf_bytes = io.BytesIO()
-    dst_pdf.write(pdf_bytes)
-    pdf_bytes.seek(0)
+for i in range(inputpdf.numPages):
+    output = PdfFileWriter()
+    output.addPage(inputpdf.getPage(i))
+    base = os.path.basename(filename)
+    directory_name = os.path.splitext(base)[0]
+    if not os.path.exists(directory_name):
+        os.makedirs(directory_name)
+    new_filename = directory_name+"/page %s.pdf" % i
+    if not os.path.exists(new_filename):
+        with open(new_filename, "wb") as outputStream:
+            output.write(outputStream)
 
-    img = wand.image.Image(file = pdf_bytes, resolution = resolution)
-    img.convert("png")
-    img.background_color = Color("white")
-    img.alpha_channel = "remove"
+    print(new_filename)
+    try:
+        img = Image(filename=new_filename,resolution=300)
+    except:
+        continue
+    print('pages = ', len(img.sequence))
 
-    return img
-
-min_pg = 11
-max_pg = 13
-
-
-pdfFileObj = open('/Users/Ben/Downloads/Sedgewick_ALGORITHMS_ED4_3513.pdf', 'rb')
-src_pdf = PyPDF2.PdfFileReader(pdfFileObj)
-
-for pg_num in range(min_pg, max_pg):
-    big_filename = str(pg_num) + ".png"
-    pageObj = src_pdf.getPage(pg_num)
-    img = pdf_page_to_png(src_pdf, pg_num, resolution = 300)
-    img.save(filename = big_filename)
+    converted =  img.convert('png')
+    if not os.path.exists(directory_name):
+        os.makedirs(directory_name)
+    new_filename = new_filename.replace(".pdf",".png")
+    if not os.path.exists(new_filename):
+        with open(new_filename, "wb") as outputStream:
+            converted.save(filename=new_filename)

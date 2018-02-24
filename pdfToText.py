@@ -6,7 +6,7 @@ pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 
 correct_text_by_page = {}
 
-min_pg = 11
+min_pg = 0
 max_pg = 13
 
 for pg_num in range(min_pg, max_pg):
