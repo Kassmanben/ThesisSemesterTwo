@@ -1,0 +1,1567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smil PUBLIC "-//NISO//DTD dtbsmil 2005-2//EN" "http://www.daisy.org/z3986/2005/dtbsmil-2005-2.dtd">
+<smil xmlns="http://www.w3.org/2001/SMIL20/">
+  <head>
+    <meta name="dtb:uid" content="9781119284512" />
+    <meta name="dtb:generator" content="Bookshare.org" />
+    <meta name="dtb:totalElapsedTime" content="0" />
+    <layout>
+      <region id="textRegion" height="auto" width="auto" bottom="auto" top="auto" left="auto" right="auto" fit="hidden" showBackground="always" />
+    </layout>
+    <customAttributes>
+      <customTest id="pagenumCustomTest" defaultState="false" override="visible" />
+    </customAttributes>
+  </head>
+  <body>
+    <seq id="baseseq" class="book" fill="remove">
+      <par id="span_000075" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000075" region="textRegion" />
+      </par>
+      <par id="span_000076" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000076" region="textRegion" />
+      </par>
+      <par id="em_000016" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000016" region="textRegion" />
+      </par>
+      <par id="span_000077" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000077" region="textRegion" />
+      </par>
+      <par id="span_000078" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000078" region="textRegion" />
+      </par>
+      <par id="em_000017" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000017" region="textRegion" />
+      </par>
+      <par id="span_000079" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000079" region="textRegion" />
+      </par>
+      <par id="span_000080" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000080" region="textRegion" />
+      </par>
+      <par id="em_000018" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000018" region="textRegion" />
+      </par>
+      <par id="span_000081" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000081" region="textRegion" />
+      </par>
+      <par id="span_000082" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000082" region="textRegion" />
+      </par>
+      <par id="em_000019" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000019" region="textRegion" />
+      </par>
+      <par id="span_000083" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000083" region="textRegion" />
+      </par>
+      <par id="span_000084" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000084" region="textRegion" />
+      </par>
+      <par id="em_000020" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000020" region="textRegion" />
+      </par>
+      <par id="span_000085" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000085" region="textRegion" />
+      </par>
+      <par id="span_000086" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000086" region="textRegion" />
+      </par>
+      <par id="em_000021" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000021" region="textRegion" />
+      </par>
+      <par id="span_000087" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000087" region="textRegion" />
+      </par>
+      <par id="span_000088" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000088" region="textRegion" />
+      </par>
+      <par id="em_000022" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000022" region="textRegion" />
+      </par>
+      <par id="span_000089" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000089" region="textRegion" />
+      </par>
+      <par id="span_000090" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000090" region="textRegion" />
+      </par>
+      <par id="em_000023" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000023" region="textRegion" />
+      </par>
+      <par id="span_000091" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000091" region="textRegion" />
+      </par>
+      <par id="span_000092" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000092" region="textRegion" />
+      </par>
+      <par id="em_000024" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000024" region="textRegion" />
+      </par>
+      <par id="span_000093" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000093" region="textRegion" />
+      </par>
+      <par id="span_000094" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000094" region="textRegion" />
+      </par>
+      <par id="em_000025" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000025" region="textRegion" />
+      </par>
+      <par id="span_000095" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000095" region="textRegion" />
+      </par>
+      <par id="p27" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p27" region="textRegion" />
+      </par>
+      <par id="c02-start" class="h1">
+        <text src="Combustion_Engines__An_Intro.xml#c02-start" region="textRegion" />
+      </par>
+      <par id="c02-c2-s1" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c02-c2-s1" region="textRegion" />
+      </par>
+      <par id="span_000096" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000096" region="textRegion" />
+      </par>
+      <par id="p28" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p28" region="textRegion" />
+      </par>
+      <par id="span_000097" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000097" region="textRegion" />
+      </par>
+      <par id="span_000098" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000098" region="textRegion" />
+      </par>
+      <par id="p29" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p29" region="textRegion" />
+      </par>
+      <par id="span_000099" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000099" region="textRegion" />
+      </par>
+      <par id="p_000061" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000061" region="textRegion" />
+      </par>
+      <par id="c02-c2-s2" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c02-c2-s2" region="textRegion" />
+      </par>
+      <par id="span_000100" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000100" region="textRegion" />
+      </par>
+      <a href="#c02-fig2-1" external="false">
+        <par id="c02-fig2-1a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c02-fig2-1a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000101" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000101" region="textRegion" />
+      </par>
+      <par id="img_000006" class="img">
+        <img src="images/30_1.jpg" />
+      </par>
+      <par id="strong_000006" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000006" region="textRegion" />
+      </par>
+      <par id="span_000103" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000103" region="textRegion" />
+      </par>
+      <par id="span_000104" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000104" region="textRegion" />
+      </par>
+      <par id="p30" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p30" region="textRegion" />
+      </par>
+      <par id="span_000105" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000105" region="textRegion" />
+      </par>
+      <par id="p_000065" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000065" region="textRegion" />
+      </par>
+      <par id="p31" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p31" region="textRegion" />
+      </par>
+      <par id="p_000066" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000066" region="textRegion" />
+      </par>
+      <par id="span_000106" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000106" region="textRegion" />
+      </par>
+      <par id="p32" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p32" region="textRegion" />
+      </par>
+      <par id="span_000107" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000107" region="textRegion" />
+      </par>
+      <par id="c02-c2-s3" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c02-c2-s3" region="textRegion" />
+      </par>
+      <par id="span_000108" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000108" region="textRegion" />
+      </par>
+      <par id="p33" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p33" region="textRegion" />
+      </par>
+      <par id="span_000109" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000109" region="textRegion" />
+      </par>
+      <par id="p_000069" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000069" region="textRegion" />
+      </par>
+      <par id="c02-c2-s4" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c02-c2-s4" region="textRegion" />
+      </par>
+      <par id="span_000110" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000110" region="textRegion" />
+      </par>
+      <a href="#c02-fig2-2" external="false">
+        <par id="c02-fig2-2a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c02-fig2-2a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000111" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000111" region="textRegion" />
+      </par>
+      <par id="img_000007" class="img">
+        <img src="images/34_1.jpg" />
+      </par>
+      <par id="strong_000007" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000007" region="textRegion" />
+      </par>
+      <par id="span_000113" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000113" region="textRegion" />
+      </par>
+      <par id="p34" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p34" region="textRegion" />
+      </par>
+      <par id="p_000072" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000072" region="textRegion" />
+      </par>
+      <par id="span_000114" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000114" region="textRegion" />
+      </par>
+      <par id="p35" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p35" region="textRegion" />
+      </par>
+      <par id="span_000115" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000115" region="textRegion" />
+      </par>
+      <par id="span_000116" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000116" region="textRegion" />
+      </par>
+      <par id="p36" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p36" region="textRegion" />
+      </par>
+      <par id="span_000117" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000117" region="textRegion" />
+      </par>
+      <par id="span_000118" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000118" region="textRegion" />
+      </par>
+      <par id="p37" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p37" region="textRegion" />
+      </par>
+      <par id="span_000119" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000119" region="textRegion" />
+      </par>
+      <par id="p_000076" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000076" region="textRegion" />
+      </par>
+      <par id="span_000120" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000120" region="textRegion" />
+      </par>
+      <par id="p38" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p38" region="textRegion" />
+      </par>
+      <par id="span_000121" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000121" region="textRegion" />
+      </par>
+      <par id="c02-c2-s5" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c02-c2-s5" region="textRegion" />
+      </par>
+      <par id="p_000078" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000078" region="textRegion" />
+      </par>
+      <par id="span_000122" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000122" region="textRegion" />
+      </par>
+      <par id="p39" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p39" region="textRegion" />
+      </par>
+      <par id="span_000123" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000123" region="textRegion" />
+      </par>
+      <par id="span_000124" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000124" region="textRegion" />
+      </par>
+      <par id="p40" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p40" region="textRegion" />
+      </par>
+      <par id="span_000125" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000125" region="textRegion" />
+      </par>
+      <par id="c02-c2-s6" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c02-c2-s6" region="textRegion" />
+      </par>
+      <par id="p_000081" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000081" region="textRegion" />
+      </par>
+      <par id="span_000126" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000126" region="textRegion" />
+      </par>
+      <par id="p41" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p41" region="textRegion" />
+      </par>
+      <par id="span_000127" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000127" region="textRegion" />
+      </par>
+      <par id="span_000128" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000128" region="textRegion" />
+      </par>
+      <par id="p42" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p42" region="textRegion" />
+      </par>
+      <par id="span_000129" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000129" region="textRegion" />
+      </par>
+      <par id="span_000130" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000130" region="textRegion" />
+      </par>
+      <par id="p43" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p43" region="textRegion" />
+      </par>
+      <par id="span_000131" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000131" region="textRegion" />
+      </par>
+      <par id="c02-c2-s7" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c02-c2-s7" region="textRegion" />
+      </par>
+      <par id="p_000085" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000085" region="textRegion" />
+      </par>
+      <par id="span_000132" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000132" region="textRegion" />
+      </par>
+      <par id="p44" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p44" region="textRegion" />
+      </par>
+      <par id="span_000133" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000133" region="textRegion" />
+      </par>
+      <par id="span_000134" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000134" region="textRegion" />
+      </par>
+      <a href="#c02-fig2-3" external="false">
+        <par id="c02-fig2-3a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c02-fig2-3a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000135" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000135" region="textRegion" />
+      </par>
+      <par id="img_000008" class="img">
+        <img src="images/45_1.jpg" />
+      </par>
+      <par id="strong_000008" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000008" region="textRegion" />
+      </par>
+      <par id="span_000137" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000137" region="textRegion" />
+      </par>
+      <par id="span_000138" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000138" region="textRegion" />
+      </par>
+      <par id="p45" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p45" region="textRegion" />
+      </par>
+      <par id="span_000139" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000139" region="textRegion" />
+      </par>
+      <par id="p46" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p46" region="textRegion" />
+      </par>
+      <par id="span_000140" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000140" region="textRegion" />
+      </par>
+      <par id="span_000141" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000141" region="textRegion" />
+      </par>
+      <a href="#c02-fig2-4" external="false">
+        <par id="c02-fig2-4a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c02-fig2-4a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000142" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000142" region="textRegion" />
+      </par>
+      <par id="img_000009" class="img">
+        <img src="images/46_1.jpg" />
+      </par>
+      <par id="strong_000009" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000009" region="textRegion" />
+      </par>
+      <par id="span_000144" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000144" region="textRegion" />
+      </par>
+      <par id="c02-c2-s8" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c02-c2-s8" region="textRegion" />
+      </par>
+      <par id="p_000092" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000092" region="textRegion" />
+      </par>
+      <par id="span_000145" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000145" region="textRegion" />
+      </par>
+      <par id="p47" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p47" region="textRegion" />
+      </par>
+      <par id="span_000146" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000146" region="textRegion" />
+      </par>
+      <par id="p_000094" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000094" region="textRegion" />
+      </par>
+      <par id="p_000095" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000095" region="textRegion" />
+      </par>
+      <par id="span_000147" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000147" region="textRegion" />
+      </par>
+      <a href="http://www.daihatsu.com" external="true">
+        <par id="a_000009" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#a_000009" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000148" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000148" region="textRegion" />
+      </par>
+      <par id="p_000097" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000097" region="textRegion" />
+      </par>
+      <par id="p_000098" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000098" region="textRegion" />
+      </par>
+      <par id="span_000149" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000149" region="textRegion" />
+      </par>
+      <a href="http://www.deltahawkengines.com" external="true">
+        <par id="a_000010" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#a_000010" region="textRegion" />
+        </par>
+      </a>
+      <par id="p48" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p48" region="textRegion" />
+      </par>
+      <par id="p49" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p49" region="textRegion" />
+      </par>
+      <par id="c03-start" class="h1">
+        <text src="Combustion_Engines__An_Intro.xml#c03-start" region="textRegion" />
+      </par>
+      <par id="c03-c3-s1" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c03-c3-s1" region="textRegion" />
+      </par>
+      <par id="span_000150" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000150" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-1" external="false">
+        <par id="c03-fig3-1a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c03-fig3-1a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000151" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000151" region="textRegion" />
+      </par>
+      <par id="p50" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p50" region="textRegion" />
+      </par>
+      <par id="span_000152" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000152" region="textRegion" />
+      </par>
+      <par id="img_000010" class="img">
+        <img src="images/50_1.jpg" />
+      </par>
+      <par id="strong_000010" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000010" region="textRegion" />
+      </par>
+      <par id="span_000154" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000154" region="textRegion" />
+      </par>
+      <par id="span_000155" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000155" region="textRegion" />
+      </par>
+      <par id="em_000026" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000026" region="textRegion" />
+      </par>
+      <par id="sub_000000" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000000" region="textRegion" />
+      </par>
+      <par id="span_000156" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000156" region="textRegion" />
+      </par>
+      <par id="em_000027" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000027" region="textRegion" />
+      </par>
+      <par id="sub_000001" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000001" region="textRegion" />
+      </par>
+      <par id="span_000157" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000157" region="textRegion" />
+      </par>
+      <par id="span_000158" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000158" region="textRegion" />
+      </par>
+      <par id="sub_000002" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000002" region="textRegion" />
+      </par>
+      <par id="span_000159" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000159" region="textRegion" />
+      </par>
+      <par id="span_000160" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000160" region="textRegion" />
+      </par>
+      <par id="sub_000003" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000003" region="textRegion" />
+      </par>
+      <par id="span_000161" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000161" region="textRegion" />
+      </par>
+      <par id="span_000162" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000162" region="textRegion" />
+      </par>
+      <par id="p51" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p51" region="textRegion" />
+      </par>
+      <par id="span_000163" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000163" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-2" external="false">
+        <par id="c03-fig3-2a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c03-fig3-2a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000164" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000164" region="textRegion" />
+      </par>
+      <par id="span_000165" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000165" region="textRegion" />
+      </par>
+      <par id="sub_000004" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000004" region="textRegion" />
+      </par>
+      <par id="span_000166" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000166" region="textRegion" />
+      </par>
+      <par id="span_000167" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000167" region="textRegion" />
+      </par>
+      <par id="sub_000005" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000005" region="textRegion" />
+      </par>
+      <par id="span_000168" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000168" region="textRegion" />
+      </par>
+      <par id="span_000169" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000169" region="textRegion" />
+      </par>
+      <par id="span_000170" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000170" region="textRegion" />
+      </par>
+      <par id="sub_000006" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000006" region="textRegion" />
+      </par>
+      <par id="span_000171" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000171" region="textRegion" />
+      </par>
+      <par id="span_000172" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000172" region="textRegion" />
+      </par>
+      <par id="sub_000007" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000007" region="textRegion" />
+      </par>
+      <par id="span_000173" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000173" region="textRegion" />
+      </par>
+      <par id="span_000174" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000174" region="textRegion" />
+      </par>
+      <par id="p52" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p52" region="textRegion" />
+      </par>
+      <par id="span_000175" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000175" region="textRegion" />
+      </par>
+      <par id="span_000176" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000176" region="textRegion" />
+      </par>
+      <par id="sub_000008" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000008" region="textRegion" />
+      </par>
+      <par id="span_000177" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000177" region="textRegion" />
+      </par>
+      <par id="span_000178" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000178" region="textRegion" />
+      </par>
+      <par id="span_000179" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000179" region="textRegion" />
+      </par>
+      <par id="sub_000009" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000009" region="textRegion" />
+      </par>
+      <par id="span_000180" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000180" region="textRegion" />
+      </par>
+      <par id="span_000181" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000181" region="textRegion" />
+      </par>
+      <par id="sub_000010" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000010" region="textRegion" />
+      </par>
+      <par id="span_000182" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000182" region="textRegion" />
+      </par>
+      <par id="span_000183" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000183" region="textRegion" />
+      </par>
+      <par id="sub_000011" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000011" region="textRegion" />
+      </par>
+      <par id="span_000184" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000184" region="textRegion" />
+      </par>
+      <par id="span_000185" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000185" region="textRegion" />
+      </par>
+      <par id="sub_000012" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000012" region="textRegion" />
+      </par>
+      <par id="span_000186" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000186" region="textRegion" />
+      </par>
+      <par id="span_000187" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000187" region="textRegion" />
+      </par>
+      <par id="sub_000013" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000013" region="textRegion" />
+      </par>
+      <par id="span_000188" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000188" region="textRegion" />
+      </par>
+      <par id="span_000189" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000189" region="textRegion" />
+      </par>
+      <par id="span_000190" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000190" region="textRegion" />
+      </par>
+      <par id="sub_000014" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000014" region="textRegion" />
+      </par>
+      <par id="span_000191" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000191" region="textRegion" />
+      </par>
+      <par id="img_000011" class="img">
+        <img src="images/51_1.jpg" />
+      </par>
+      <par id="strong_000011" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000011" region="textRegion" />
+      </par>
+      <par id="span_000193" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000193" region="textRegion" />
+      </par>
+      <par id="span_000194" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000194" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-2" external="false">
+        <par id="a_000013" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#a_000013" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000195" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000195" region="textRegion" />
+      </par>
+      <par id="span_000196" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000196" region="textRegion" />
+      </par>
+      <par id="sub_000015" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000015" region="textRegion" />
+      </par>
+      <par id="span_000197" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000197" region="textRegion" />
+      </par>
+      <par id="span_000198" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000198" region="textRegion" />
+      </par>
+      <par id="sub_000016" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000016" region="textRegion" />
+      </par>
+      <par id="span_000199" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000199" region="textRegion" />
+      </par>
+      <par id="span_000200" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000200" region="textRegion" />
+      </par>
+      <par id="sub_000017" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000017" region="textRegion" />
+      </par>
+      <par id="span_000201" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000201" region="textRegion" />
+      </par>
+      <par id="span_000202" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000202" region="textRegion" />
+      </par>
+      <par id="span_000203" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000203" region="textRegion" />
+      </par>
+      <par id="sub_000018" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000018" region="textRegion" />
+      </par>
+      <par id="span_000204" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000204" region="textRegion" />
+      </par>
+      <par id="span_000205" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000205" region="textRegion" />
+      </par>
+      <par id="sub_000019" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000019" region="textRegion" />
+      </par>
+      <par id="span_000206" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000206" region="textRegion" />
+      </par>
+      <par id="span_000207" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000207" region="textRegion" />
+      </par>
+      <par id="span_000208" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000208" region="textRegion" />
+      </par>
+      <par id="sub_000020" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000020" region="textRegion" />
+      </par>
+      <par id="span_000209" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000209" region="textRegion" />
+      </par>
+      <par id="span_000210" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000210" region="textRegion" />
+      </par>
+      <par id="p_000106" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000106" region="textRegion" />
+      </par>
+      <par id="span_000211" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000211" region="textRegion" />
+      </par>
+      <par id="p53" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p53" region="textRegion" />
+      </par>
+      <par id="span_000212" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000212" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-3" external="false">
+        <par id="c03-fig3-3a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c03-fig3-3a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000213" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000213" region="textRegion" />
+      </par>
+      <par id="img_000012" class="img">
+        <img src="images/53_1.jpg" />
+      </par>
+      <par id="strong_000012" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000012" region="textRegion" />
+      </par>
+      <par id="span_000215" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000215" region="textRegion" />
+      </par>
+      <par id="p54" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p54" region="textRegion" />
+      </par>
+      <par id="span_000216" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000216" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-4" external="false">
+        <par id="c03-fig3-4a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c03-fig3-4a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000217" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000217" region="textRegion" />
+      </par>
+      <par id="p55" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p55" region="textRegion" />
+      </par>
+      <par id="span_000218" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000218" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-5" external="false">
+        <par id="c03-fig3-5a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c03-fig3-5a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000219" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000219" region="textRegion" />
+      </par>
+      <par id="img_000013" class="img">
+        <img src="images/54_1.jpg" />
+      </par>
+      <par id="strong_000013" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000013" region="textRegion" />
+      </par>
+      <par id="span_000221" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000221" region="textRegion" />
+      </par>
+      <par id="img_000014" class="img">
+        <img src="images/55_1.jpg" />
+      </par>
+      <par id="strong_000014" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000014" region="textRegion" />
+      </par>
+      <par id="span_000223" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000223" region="textRegion" />
+      </par>
+      <par id="span_000224" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000224" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-6" external="false">
+        <par id="c03-fig3-6a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c03-fig3-6a" region="textRegion" />
+        </par>
+      </a> 
+      <par id="span_000225" class="span"> 
+        <text src="Combustion_Engines__An_Intro.xml#span_000225" region="textRegion" />
+      </par> 
+      <par id="img_000015" class="img">  
+        <img src="images/56_1.jpg" />   
+      </par>  
+      <par id="strong_000015" class="strong">   
+        <text src="Combustion_Engines__An_Intro.xml#strong_000015" region="textRegion" />
+      </par>   
+      <par id="span_000227" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000227" region="textRegion" />
+      </par> 
+      <par id="li_000032" class="li"> 
+        <text src="Combustion_Engines__An_Intro.xml#li_000032" region="textRegion" />
+      </par> 
+      <par id="li_000033" class="li">   
+        <text src="Combustion_Engines__An_Intro.xml#li_000033" region="textRegion" />
+      </par> 
+      <par id="p56" class="pagenum" customTest="pagenumCustomTest">   
+        <text src="Combustion_Engines__An_Intro.xml#p56" region="textRegion" />
+      </par>  
+      <par id="li_000034" class="li">   
+        <text src="Combustion_Engines__An_Intro.xml#li_000034" region="textRegion" />
+      </par>
+      <par id="li_000035" class="li">  
+        <text src="Combustion_Engines__An_Intro.xml#li_000035" region="textRegion" />
+      </par> 
+      <par id="li_000036" class="li">   
+        <text src="Combustion_Engines__An_Intro.xml#li_000036" region="textRegion" />
+      </par>   
+      <par id="li_000037" class="li">   
+        <text src="Combustion_Engines__An_Intro.xml#li_000037" region="textRegion" />
+      </par>   
+      <par id="span_000228" class="span">  
+        <text src="Combustion_Engines__An_Intro.xml#span_000228" region="textRegion" />
+      </par>  
+      <a href="#c03-fig3-7" external="false">
+        <par id="c03-fig3-7a" class="a">    
+          <text src="Combustion_Engines__An_Intro.xml#c03-fig3-7a" region="textRegion" />
+        </par> 
+      </a>   
+      <par id="span_000229" class="span">    
+        <text src="Combustion_Engines__An_Intro.xml#span_000229" region="textRegion" />
+      </par>  
+      <par id="p57" class="pagenum" customTest="pagenumCustomTest">  
+        <text src="Combustion_Engines__An_Intro.xml#p57" region="textRegion" />
+      </par>    
+      <par id="img_000016" class="img">   
+        <img src="images/57_1.jpg" />
+      </par>
+      <par id="strong_000016" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000016" region="textRegion" />
+      </par>
+      <par id="span_000231" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000231" region="textRegion" />
+      </par>
+      <par id="c03-c3-s2" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c03-c3-s2" region="textRegion" />
+      </par>
+      <par id="p_000116" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000116" region="textRegion" />
+      </par>
+      <par id="li_000038" class="li">
+        <text src="Combustion_Engines__An_Intro.xml#li_000038" region="textRegion" />
+      </par>
+      <par id="li_000039" class="li">
+        <text src="Combustion_Engines__An_Intro.xml#li_000039" region="textRegion" />
+      </par>
+      <par id="li_000040" class="li">
+        <text src="Combustion_Engines__An_Intro.xml#li_000040" region="textRegion" />
+      </par>
+      <par id="li_000041" class="li">
+        <text src="Combustion_Engines__An_Intro.xml#li_000041" region="textRegion" />
+      </par>
+      <par id="span_000232" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000232" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-2" external="false">
+        <par id="a_000019" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#a_000019" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000233" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000233" region="textRegion" />
+      </par>
+      <par id="p58" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p58" region="textRegion" />
+      </par>
+      <par id="span_000234" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000234" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-8" external="false">
+        <par id="c03-fig3-8a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c03-fig3-8a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000235" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000235" region="textRegion" />
+      </par>
+      <par id="img_000017" class="img">
+        <img src="images/58_1.jpg" />
+      </par>
+      <par id="strong_000017" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000017" region="textRegion" />
+      </par>
+      <par id="span_000237" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000237" region="textRegion" />
+      </par>
+      <par id="p59" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p59" region="textRegion" />
+      </par>
+      <par id="p_000119" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000119" region="textRegion" />
+      </par>
+      <par id="span_000238" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000238" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-9" external="false">
+        <par id="c03-fig3-9a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c03-fig3-9a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000239" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000239" region="textRegion" />
+      </par>
+      <par id="p60" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p60" region="textRegion" />
+      </par>
+      <par id="span_000240" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000240" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-9" external="false">
+        <par id="a_000021" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#a_000021" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000241" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000241" region="textRegion" />
+      </par>
+      <par id="img_000018" class="img">
+        <img src="images/59_1.jpg" />
+      </par>
+      <par id="strong_000018" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000018" region="textRegion" />
+      </par>
+      <par id="span_000243" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000243" region="textRegion" />
+      </par>
+      <par id="span_000244" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000244" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-10" external="false">
+        <par id="c03-fig3-10a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c03-fig3-10a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000245" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000245" region="textRegion" />
+      </par>
+      <par id="img_000019" class="img">
+        <img src="images/61_1.jpg" />
+      </par>
+      <par id="strong_000019" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000019" region="textRegion" />
+      </par>
+      <par id="span_000247" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000247" region="textRegion" />
+      </par>
+      <par id="span_000248" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000248" region="textRegion" />
+      </par>
+      <par id="p61" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p61" region="textRegion" />
+      </par>
+      <par id="span_000249" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000249" region="textRegion" />
+      </par>
+      <par id="span_000250" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000250" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-11" external="false">
+        <par id="c03-fig3-11a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c03-fig3-11a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000251" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000251" region="textRegion" />
+      </par>
+      <par id="p62" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p62" region="textRegion" />
+      </par>
+      <par id="span_000252" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000252" region="textRegion" />
+      </par>
+      <par id="img_000020" class="img">
+        <img src="images/62_1.jpg" />
+      </par>
+      <par id="strong_000020" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000020" region="textRegion" />
+      </par>
+      <par id="span_000254" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000254" region="textRegion" />
+      </par>
+      <par id="p63" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p63" region="textRegion" />
+      </par>
+      <par id="span_000255" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000255" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-12" external="false">
+        <par id="c03-fig3-12a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c03-fig3-12a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000256" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000256" region="textRegion" />
+      </par>
+      <par id="img_000021" class="img">
+        <img src="images/62_2.jpg" />
+      </par>
+      <par id="strong_000021" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000021" region="textRegion" />
+      </par>
+      <par id="span_000258" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000258" region="textRegion" />
+      </par>
+      <par id="li_000042" class="li">
+        <text src="Combustion_Engines__An_Intro.xml#li_000042" region="textRegion" />
+      </par>
+      <par id="li_000043" class="li">
+        <text src="Combustion_Engines__An_Intro.xml#li_000043" region="textRegion" />
+      </par>
+      <par id="li_000044" class="li">
+        <text src="Combustion_Engines__An_Intro.xml#li_000044" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-13" external="false">
+        <par id="c03-fig3-13a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c03-fig3-13a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000259" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000259" region="textRegion" />
+      </par>
+      <par id="p64" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p64" region="textRegion" />
+      </par>
+      <par id="span_000260" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000260" region="textRegion" />
+      </par>
+      <a href="#c03-fig3-14" external="false">
+        <par id="c03-fig3-14a" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#c03-fig3-14a" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000261" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000261" region="textRegion" />
+      </par>
+      <par id="img_000022" class="img">
+        <img src="images/63_1.jpg" />
+      </par>
+      <par id="strong_000022" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000022" region="textRegion" />
+      </par>
+      <par id="span_000263" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000263" region="textRegion" />
+      </par>
+      <par id="img_000023" class="img">
+        <img src="images/64_1.jpg" />
+      </par>
+      <par id="strong_000023" class="strong">
+        <text src="Combustion_Engines__An_Intro.xml#strong_000023" region="textRegion" />
+      </par>
+      <par id="span_000265" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000265" region="textRegion" />
+      </par>
+      <par id="p_000132" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000132" region="textRegion" />
+      </par>
+      <par id="p65" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p65" region="textRegion" />
+      </par>
+      <par id="p_000133" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000133" region="textRegion" />
+      </par>
+      <par id="c03-c3-s3" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c03-c3-s3" region="textRegion" />
+      </par>
+      <par id="span_000266" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000266" region="textRegion" />
+      </par>
+      <par id="em_000047" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000047" region="textRegion" />
+      </par>
+      <par id="span_000267" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000267" region="textRegion" />
+      </par>
+      <par id="span_000268" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000268" region="textRegion" />
+      </par>
+      <par id="p66" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p66" region="textRegion" />
+      </par>
+      <par id="span_000269" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000269" region="textRegion" />
+      </par>
+      <par id="em_000048" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000048" region="textRegion" />
+      </par>
+      <par id="span_000270" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000270" region="textRegion" />
+      </par>
+      <par id="span_000271" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000271" region="textRegion" />
+      </par>
+      <par id="em_000049" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000049" region="textRegion" />
+      </par>
+      <par id="span_000272" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000272" region="textRegion" />
+      </par>
+      <par id="span_000273" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000273" region="textRegion" />
+      </par>
+      <par id="em_000050" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000050" region="textRegion" />
+      </par>
+      <par id="span_000274" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000274" region="textRegion" />
+      </par>
+      <par id="span_000275" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000275" region="textRegion" />
+      </par>
+      <par id="em_000051" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000051" region="textRegion" />
+      </par>
+      <par id="span_000276" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000276" region="textRegion" />
+      </par>
+      <par id="span_000277" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000277" region="textRegion" />
+      </par>
+      <par id="em_000052" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000052" region="textRegion" />
+      </par>
+      <par id="span_000278" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000278" region="textRegion" />
+      </par>
+      <par id="p_000140" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000140" region="textRegion" />
+      </par>
+      <par id="span_000279" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000279" region="textRegion" />
+      </par>
+      <par id="em_000053" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000053" region="textRegion" />
+      </par>
+      <par id="span_000280" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000280" region="textRegion" />
+      </par>
+      <par id="p_000142" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000142" region="textRegion" />
+      </par>
+      <par id="span_000281" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000281" region="textRegion" />
+      </par>
+      <par id="em_000054" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000054" region="textRegion" />
+      </par>
+      <par id="span_000282" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000282" region="textRegion" />
+      </par>
+      <par id="span_000283" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000283" region="textRegion" />
+      </par>
+      <par id="p67" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p67" region="textRegion" />
+      </par>
+      <par id="span_000284" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000284" region="textRegion" />
+      </par>
+      <par id="em_000055" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000055" region="textRegion" />
+      </par>
+      <par id="span_000285" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000285" region="textRegion" />
+      </par>
+      <par id="span_000286" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000286" region="textRegion" />
+      </par>
+      <par id="em_000056" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000056" region="textRegion" />
+      </par>
+      <par id="span_000287" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000287" region="textRegion" />
+      </par>
+      <par id="span_000288" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000288" region="textRegion" />
+      </par>
+      <par id="em_000057" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000057" region="textRegion" />
+      </par>
+      <par id="span_000289" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000289" region="textRegion" />
+      </par>
+      <par id="span_000290" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000290" region="textRegion" />
+      </par>
+      <par id="em_000058" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000058" region="textRegion" />
+      </par>
+      <par id="span_000291" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000291" region="textRegion" />
+      </par>
+      <par id="span_000292" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000292" region="textRegion" />
+      </par>
+      <par id="em_000059" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000059" region="textRegion" />
+      </par>
+      <par id="span_000293" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000293" region="textRegion" />
+      </par>
+      <par id="p_000149" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000149" region="textRegion" />
+      </par>
+      <par id="span_000294" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000294" region="textRegion" />
+      </par>
+      <par id="em_000060" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000060" region="textRegion" />
+      </par>
+      <par id="span_000295" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000295" region="textRegion" />
+      </par>
+      <par id="p_000151" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000151" region="textRegion" />
+      </par>
+      <par id="p_000152" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000152" region="textRegion" />
+      </par>
+      <par id="span_000296" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000296" region="textRegion" />
+      </par>
+      <par id="em_000061" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000061" region="textRegion" />
+      </par>
+      <par id="span_000297" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000297" region="textRegion" />
+      </par>
+      <par id="span_000298" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000298" region="textRegion" />
+      </par>
+      <par id="em_000062" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000062" region="textRegion" />
+      </par>
+      <par id="span_000299" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000299" region="textRegion" />
+      </par>
+      <par id="p68" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p68" region="textRegion" />
+      </par>
+      <par id="span_000300" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000300" region="textRegion" />
+      </par>
+      <par id="em_000063" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000063" region="textRegion" />
+      </par>
+      <par id="span_000301" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000301" region="textRegion" />
+      </par>
+      <par id="span_000302" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000302" region="textRegion" />
+      </par>
+      <par id="em_000064" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000064" region="textRegion" />
+      </par>
+      <par id="span_000303" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000303" region="textRegion" />
+      </par>
+      <par id="p_000157" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000157" region="textRegion" />
+      </par>
+      <par id="p69" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p69" region="textRegion" />
+      </par>
+      <par id="c04-start" class="h1">
+        <text src="Combustion_Engines__An_Intro.xml#c04-start" region="textRegion" />
+      </par>
+      <par id="c04-c4-s1" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c04-c4-s1" region="textRegion" />
+      </par>
+      <par id="p_000158" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000158" region="textRegion" />
+      </par>
+      <par id="p70" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p70" region="textRegion" />
+      </par>
+      <par id="c04-c4-s2" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c04-c4-s2" region="textRegion" />
+      </par>
+      <par id="p_000159" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000159" region="textRegion" />
+      </par>
+      <par id="span_000304" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000304" region="textRegion" />
+      </par>
+      <par id="p71" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p71" region="textRegion" />
+      </par>
+      <par id="span_000305" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000305" region="textRegion" />
+      </par>
+      <par id="p_000161" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000161" region="textRegion" />
+      </par>
+      <par id="p_000162" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000162" region="textRegion" />
+      </par>
+      <par id="p_000163" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000163" region="textRegion" />
+      </par>
+      <par id="p_000164" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000164" region="textRegion" />
+      </par>
+      <par id="p72" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p72" region="textRegion" />
+      </par>
+      <par id="p_000165" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000165" region="textRegion" />
+      </par>
+      <par id="p_000166" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000166" region="textRegion" />
+      </par>
+      <par id="span_000306" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000306" region="textRegion" />
+      </par>
+      <par id="p73" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p73" region="textRegion" />
+      </par>
+      <par id="span_000307" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000307" region="textRegion" />
+      </par>
+      <par id="p_000168" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000168" region="textRegion" />
+      </par>
+      <par id="p_000169" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000169" region="textRegion" />
+      </par>
+      <par id="p74" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p74" region="textRegion" />
+      </par>
+      <par id="p_000170" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000170" region="textRegion" />
+      </par>
+      <par id="p_000171" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000171" region="textRegion" />
+      </par>
+      <par id="p_000172" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000172" region="textRegion" />
+      </par>
+      <par id="p75" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p75" region="textRegion" />
+      </par>
+      <par id="c04-c4-s3" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c04-c4-s3" region="textRegion" />
+      </par>
+      <par id="p_000173" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000173" region="textRegion" />
+      </par>
+      <par id="p_000174" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000174" region="textRegion" />
+      </par>
+      <par id="span_000308" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000308" region="textRegion" />
+      </par>
+      <par id="p76" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p76" region="textRegion" />
+      </par>
+      <par id="span_000309" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000309" region="textRegion" />
+      </par>
+      <par id="c04-c4-s4" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c04-c4-s4" region="textRegion" />
+      </par>
+      <par id="span_000310" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000310" region="textRegion" />
+      </par>
+      <par id="em_000065" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000065" region="textRegion" />
+      </par>
+      <par id="span_000311" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000311" region="textRegion" />
+      </par>
+      <par id="span_000312" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000312" region="textRegion" />
+      </par>
+      <par id="em_000066" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000066" region="textRegion" />
+      </par>
+      <par id="span_000313" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000313" region="textRegion" />
+      </par>
+      <par id="span_000314" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000314" region="textRegion" />
+      </par>
+      <a href="http://www.holset.co.uk/mainsite/files/2_1_2_2-Holset%20HE300.php" external="true">
+        <par id="a_000028" class="a">
+          <text src="Combustion_Engines__An_Intro.xml#a_000028" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000315" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000315" region="textRegion" />
+      </par>
+      <par id="p_000179" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000179" region="textRegion" />
+      </par>
+      <par id="span_000316" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000316" region="textRegion" />
+      </par>
+      <par id="em_000067" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000067" region="textRegion" />
+      </par>
+      <par id="span_000317" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000317" region="textRegion" />
+      </par>
+      <par id="span_000318" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000318" region="textRegion" />
+      </par>
+      <par id="em_000068" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000068" region="textRegion" />
+      </par>
+      <par id="span_000319" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000319" region="textRegion" />
+      </par>
+      <par id="p77" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p77" region="textRegion" />
+      </par>
+      <par id="c05-start" class="h1">
+        <text src="Combustion_Engines__An_Intro.xml#c05-start" region="textRegion" />
+      </par>
+      <par id="c05-c5-s1" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c05-c5-s1" region="textRegion" />
+      </par>
+      <par id="span_000320" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000320" region="textRegion" />
+      </par>
+      <par id="p78" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p78" region="textRegion" />
+      </par>
+      <par id="span_000321" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000321" region="textRegion" />
+      </par>
+      <par id="sub_000021" class="sub">
+        <text src="Combustion_Engines__An_Intro.xml#sub_000021" region="textRegion" />
+      </par>
+      <par id="span_000322" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000322" region="textRegion" />
+      </par>
+      <par id="c05-c5-s2" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c05-c5-s2" region="textRegion" />
+      </par>
+      <par id="span_000323" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000323" region="textRegion" />
+      </par>
+      <par id="p79" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p79" region="textRegion" />
+      </par>
+      <par id="span_000324" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000324" region="textRegion" />
+      </par>
+      <par id="span_000325" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000325" region="textRegion" />
+      </par>
+      <par id="em_000069" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000069" region="textRegion" />
+      </par>
+      <par id="span_000326" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000326" region="textRegion" />
+      </par>
+      <par id="p80" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p80" region="textRegion" />
+      </par>
+      <par id="span_000327" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000327" region="textRegion" />
+      </par>
+      <par id="p_000185" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000185" region="textRegion" />
+      </par>
+      <par id="c05-c5-s3" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c05-c5-s3" region="textRegion" />
+      </par>
+      <par id="span_000328" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000328" region="textRegion" />
+      </par>
+      <par id="p81" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p81" region="textRegion" />
+      </par>
+      <par id="span_000329" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000329" region="textRegion" />
+      </par>
+      <par id="span_000330" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000330" region="textRegion" />
+      </par>
+      <par id="p82" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p82" region="textRegion" />
+      </par>
+      <par id="span_000331" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000331" region="textRegion" />
+      </par>
+      <par id="span_000332" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000332" region="textRegion" />
+      </par>
+      <par id="em_000070" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000070" region="textRegion" />
+      </par>
+      <par id="span_000333" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000333" region="textRegion" />
+      </par>
+      <par id="p83" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Combustion_Engines__An_Intro.xml#p83" region="textRegion" />
+      </par>
+      <par id="span_000334" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000334" region="textRegion" />
+      </par>
+      <par id="p_000189" class="p">
+        <text src="Combustion_Engines__An_Intro.xml#p_000189" region="textRegion" />
+      </par>
+      <par id="c05-c5-s4" class="h2">
+        <text src="Combustion_Engines__An_Intro.xml#c05-c5-s4" region="textRegion" />
+      </par>
+      <par id="span_000335" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000335" region="textRegion" />
+      </par>
+      <par id="em_000071" class="em">
+        <text src="Combustion_Engines__An_Intro.xml#em_000071" region="textRegion" />
+      </par>
+      <par id="span_000336" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000336" region="textRegion" />
+      </par>
+      <par id="span_000337" class="span">
+        <text src="Combustion_Engines__An_Intro.xml#span_000337" region="textRegion" />
+      </par>
+    </seq>
+  </body>
+</smil>

@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smil PUBLIC "-//NISO//DTD dtbsmil 2005-2//EN" "http://www.daisy.org/z3986/2005/dtbsmil-2005-2.dtd">
+
+<smil xmlns="http://www.w3.org/2001/SMIL20/">
+  <head>
+    <meta name="dtb:uid" content="9780201835953" />
+    <meta name="dtb:generator" content="Bookshare.org" />
+    <meta name="dtb:totalElapsedTime" content="0" />
+    <layout>
+      <region id="textRegion" height="auto" width="auto" bottom="auto" top="auto" left="auto" right="auto" fit="hidden" showBackground="always" />
+    </layout>
+    <customAttributes>
+      <customTest id="pagenumCustomTest" defaultState="false" override="visible" />
+    </customAttributes>
+  </head>
+  <body>
+    <seq id="baseseq" class="book" fill="remove">
+      <par id="em_000527" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000527" region="textRegion" />
+      </par>
+      <par id="p_001767" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001767" region="textRegion" />
+      </par>
+      <par id="em_000528" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000528" region="textRegion" />
+      </par>
+      <par id="span_001118" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001118" region="textRegion" />
+      </par>
+      <par id="em_000529" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000529" region="textRegion" />
+      </par>
+      <par id="span_001119" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001119" region="textRegion" />
+      </par>
+      <par id="em_000530" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000530" region="textRegion" />
+      </par>
+      <par id="p_001769" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001769" region="textRegion" />
+      </par>
+      <par id="strong_000621" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000621" region="textRegion" />
+      </par>
+      <par id="span_001120" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001120" region="textRegion" />
+      </par>
+      <par id="em_000531" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000531" region="textRegion" />
+      </par>
+      <par id="span_001121" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001121" region="textRegion" />
+      </par>
+      <par id="strong_000622" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000622" region="textRegion" />
+      </par>
+      <par id="span_001122" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001122" region="textRegion" />
+      </par>
+      <par id="em_000532" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000532" region="textRegion" />
+      </par>
+      <par id="em_000533" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000533" region="textRegion" />
+      </par>
+      <par id="p280" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p280" region="textRegion" />
+      </par>
+      <par id="em_000534" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000534" region="textRegion" />
+      </par>
+      <par id="em_000535" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000535" region="textRegion" />
+      </par>
+      <par id="em_000536" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000536" region="textRegion" />
+      </par>
+      <par id="span_001123" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001123" region="textRegion" />
+      </par>
+      <par id="em_000537" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000537" region="textRegion" />
+      </par>
+      <par id="sup_000141" class="sup">
+        <text src="The_Mythical_Man_Month_Essay.xml#sup_000141" region="textRegion" />
+      </par>
+      <par id="p_001778" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001778" region="textRegion" />
+      </par>
+      <par id="span_001124" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001124" region="textRegion" />
+      </par>
+      <par id="sup_000142" class="sup">
+        <text src="The_Mythical_Man_Month_Essay.xml#sup_000142" region="textRegion" />
+      </par>
+      <par id="p_001780" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001780" region="textRegion" />
+      </par>
+      <par id="p_001781" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001781" region="textRegion" />
+      </par>
+      <par id="p281" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p281" region="textRegion" />
+      </par>
+      <par id="p_001782" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001782" region="textRegion" />
+      </par>
+      <par id="p_001783" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001783" region="textRegion" />
+      </par>
+      <par id="p_001784" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001784" region="textRegion" />
+      </par>
+      <par id="span_001125" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001125" region="textRegion" />
+      </par>
+      <par id="sup_000143" class="sup">
+        <text src="The_Mythical_Man_Month_Essay.xml#sup_000143" region="textRegion" />
+      </par>
+      <par id="span_001126" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001126" region="textRegion" />
+      </par>
+      <par id="strong_000623" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000623" region="textRegion" />
+      </par>
+      <par id="span_001127" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001127" region="textRegion" />
+      </par>
+      <par id="p282" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p282" region="textRegion" />
+      </par>
+      <par id="p_001787" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001787" region="textRegion" />
+      </par>
+      <par id="p_001788" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001788" region="textRegion" />
+      </par>
+      <par id="p_001789" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001789" region="textRegion" />
+      </par>
+      <par id="strong_000624" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000624" region="textRegion" />
+      </par>
+      <par id="p_001791" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001791" region="textRegion" />
+      </par>
+      <par id="strong_000625" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000625" region="textRegion" />
+      </par>
+      <par id="span_001128" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001128" region="textRegion" />
+      </par>
+      <par id="p_001793" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001793" region="textRegion" />
+      </par>
+      <par id="p283" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p283" region="textRegion" />
+      </par>
+      <par id="p_001794" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001794" region="textRegion" />
+      </par>
+      <par id="p_001795" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001795" region="textRegion" />
+      </par>
+      <par id="p_001796" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001796" region="textRegion" />
+      </par>
+      <par id="p_001797" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001797" region="textRegion" />
+      </par>
+      <par id="p_001798" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001798" region="textRegion" />
+      </par>
+      <par id="em_000538" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000538" region="textRegion" />
+      </par>
+      <par id="p_001800" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001800" region="textRegion" />
+      </par>
+      <par id="strong_000626" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000626" region="textRegion" />
+      </par>
+      <par id="span_001129" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001129" region="textRegion" />
+      </par>
+      <par id="p284" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p284" region="textRegion" />
+      </par>
+      <par id="p_001802" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001802" region="textRegion" />
+      </par>
+      <par id="p_001803" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001803" region="textRegion" />
+      </par>
+      <par id="p_001804" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001804" region="textRegion" />
+      </par>
+      <par id="p_001805" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001805" region="textRegion" />
+      </par>
+      <par id="p_001806" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001806" region="textRegion" />
+      </par>
+      <par id="p_001807" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001807" region="textRegion" />
+      </par>
+      <par id="strong_000627" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000627" region="textRegion" />
+      </par>
+      <par id="span_001130" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001130" region="textRegion" />
+      </par>
+      <par id="p_001809" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001809" region="textRegion" />
+      </par>
+      <par id="strong_000628" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000628" region="textRegion" />
+      </par>
+      <par id="em_000539" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000539" region="textRegion" />
+      </par>
+      <par id="span_001131" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001131" region="textRegion" />
+      </par>
+      <par id="p_001811" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001811" region="textRegion" />
+      </par>
+      <par id="p285" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p285" region="textRegion" />
+      </par>
+      <par id="p_001812" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001812" region="textRegion" />
+      </par>
+      <par id="strong_000629" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000629" region="textRegion" />
+      </par>
+      <par id="span_001132" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001132" region="textRegion" />
+      </par>
+      <par id="em_000540" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000540" region="textRegion" />
+      </par>
+      <par id="span_001133" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001133" region="textRegion" />
+      </par>
+      <par id="strong_000630" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000630" region="textRegion" />
+      </par>
+      <par id="span_001134" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001134" region="textRegion" />
+      </par>
+      <par id="p286" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p286" region="textRegion" />
+      </par>
+      <par id="p_001815" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001815" region="textRegion" />
+      </par>
+      <par id="p_001816" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001816" region="textRegion" />
+      </par>
+      <par id="strong_000631" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000631" region="textRegion" />
+      </par>
+      <par id="span_001135" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001135" region="textRegion" />
+      </par>
+      <par id="p_001818" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001818" region="textRegion" />
+      </par>
+      <par id="p_001819" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001819" region="textRegion" />
+      </par>
+      <par id="p_001820" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001820" region="textRegion" />
+      </par>
+      <par id="p_001821" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001821" region="textRegion" />
+      </par>
+      <par id="p287" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p287" region="textRegion" />
+      </par>
+      <par id="p_001822" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001822" region="textRegion" />
+      </par>
+      <par id="span_001136" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001136" region="textRegion" />
+      </par>
+      <par id="em_000541" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000541" region="textRegion" />
+      </par>
+      <par id="span_001137" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001137" region="textRegion" />
+      </par>
+      <par id="p_001824" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001824" region="textRegion" />
+      </par>
+      <par id="strong_000632" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000632" region="textRegion" />
+      </par>
+      <par id="p_001826" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001826" region="textRegion" />
+      </par>
+      <par id="p288" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p288" region="textRegion" />
+      </par>
+      <par id="p_001827" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001827" region="textRegion" />
+      </par>
+      <par id="span_001138" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001138" region="textRegion" />
+      </par>
+      <par id="em_000542" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000542" region="textRegion" />
+      </par>
+      <par id="span_001139" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001139" region="textRegion" />
+      </par>
+      <par id="p_001829" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001829" region="textRegion" />
+      </par>
+      <par id="p_001830" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001830" region="textRegion" />
+      </par>
+      <par id="span_001140" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001140" region="textRegion" />
+      </par>
+      <par id="em_000543" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000543" region="textRegion" />
+      </par>
+      <par id="span_001141" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001141" region="textRegion" />
+      </par>
+      <par id="em_000544" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000544" region="textRegion" />
+      </par>
+      <par id="span_001142" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001142" region="textRegion" />
+      </par>
+      <par id="em_000545" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000545" region="textRegion" />
+      </par>
+      <par id="span_001143" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001143" region="textRegion" />
+      </par>
+      <par id="p_001834" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001834" region="textRegion" />
+      </par>
+      <par id="p289" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p289" region="textRegion" />
+      </par>
+      <par id="p_001835" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001835" region="textRegion" />
+      </par>
+      <par id="p290" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p290" region="textRegion" />
+      </par>
+      <par id="p_001836" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001836" region="textRegion" />
+      </par>
+      <par id="p291" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p291" region="textRegion" />
+      </par>
+      <par id="em_000546" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000546" region="textRegion" />
+      </par>
+      <par id="span_001144" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001144" region="textRegion" />
+      </par>
+      <par id="em_000547" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000547" region="textRegion" />
+      </par>
+      <par id="span_001145" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001145" region="textRegion" />
+      </par>
+      <par id="p_001838" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001838" region="textRegion" />
+      </par>
+      <par id="p_001839" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001839" region="textRegion" />
+      </par>
+      <par id="strong_000634" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000634" region="textRegion" />
+      </par>
+      <par id="p292" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p292" region="textRegion" />
+      </par>
+      <par id="span_001146" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001146" region="textRegion" />
+      </par>
+      <par id="em_000548" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000548" region="textRegion" />
+      </par>
+      <par id="span_001147" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001147" region="textRegion" />
+      </par>
+      <par id="span_001148" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001148" region="textRegion" />
+      </par>
+      <par id="em_000549" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000549" region="textRegion" />
+      </par>
+      <par id="span_001149" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001149" region="textRegion" />
+      </par>
+      <par id="em_000550" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000550" region="textRegion" />
+      </par>
+      <par id="span_001150" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001150" region="textRegion" />
+      </par>
+      <par id="p293" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p293" region="textRegion" />
+      </par>
+      <par id="em_000551" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000551" region="textRegion" />
+      </par>
+      <par id="p_001843" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001843" region="textRegion" />
+      </par>
+      <par id="span_001151" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001151" region="textRegion" />
+      </par>
+      <par id="em_000552" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000552" region="textRegion" />
+      </par>
+      <par id="span_001152" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001152" region="textRegion" />
+      </par>
+      <par id="p_001845" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001845" region="textRegion" />
+      </par>
+      <par id="p_001846" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001846" region="textRegion" />
+      </par>
+      <par id="p_001847" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001847" region="textRegion" />
+      </par>
+      <par id="span_001153" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001153" region="textRegion" />
+      </par>
+      <par id="em_000553" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000553" region="textRegion" />
+      </par>
+      <par id="span_001154" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001154" region="textRegion" />
+      </par>
+      <par id="em_000554" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000554" region="textRegion" />
+      </par>
+      <par id="span_001155" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001155" region="textRegion" />
+      </par>
+      <par id="span_001156" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001156" region="textRegion" />
+      </par>
+      <par id="em_000555" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000555" region="textRegion" />
+      </par>
+      <par id="span_001157" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001157" region="textRegion" />
+      </par>
+      <par id="strong_000636" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000636" region="textRegion" />
+      </par>
+      <par id="p294" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p294" region="textRegion" />
+      </par>
+      <par id="strong_000637" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000637" region="textRegion" />
+      </par>
+      <par id="strong_000638" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000638" region="textRegion" />
+      </par>
+      <par id="span_001158" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001158" region="textRegion" />
+      </par>
+      <par id="em_000556" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000556" region="textRegion" />
+      </par>
+      <par id="span_001159" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001159" region="textRegion" />
+      </par>
+      <par id="p_001853" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001853" region="textRegion" />
+      </par>
+      <par id="span_001160" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001160" region="textRegion" />
+      </par>
+      <par id="em_000557" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000557" region="textRegion" />
+      </par>
+      <par id="span_001161" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001161" region="textRegion" />
+      </par>
+      <par id="strong_000639" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000639" region="textRegion" />
+      </par>
+      <par id="strong_000640" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000640" region="textRegion" />
+      </par>
+      <par id="span_001162" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001162" region="textRegion" />
+      </par>
+      <par id="em_000558" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000558" region="textRegion" />
+      </par>
+      <par id="span_001163" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001163" region="textRegion" />
+      </par>
+      <par id="span_001164" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001164" region="textRegion" />
+      </par>
+      <par id="em_000559" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000559" region="textRegion" />
+      </par>
+      <par id="span_001165" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001165" region="textRegion" />
+      </par>
+      <par id="span_001166" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001166" region="textRegion" />
+      </par>
+      <par id="em_000560" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000560" region="textRegion" />
+      </par>
+      <par id="span_001167" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001167" region="textRegion" />
+      </par>
+      <par id="span_001168" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001168" region="textRegion" />
+      </par>
+      <par id="em_000561" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000561" region="textRegion" />
+      </par>
+      <par id="span_001169" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001169" region="textRegion" />
+      </par>
+      <par id="span_001170" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001170" region="textRegion" />
+      </par>
+      <par id="em_000562" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000562" region="textRegion" />
+      </par>
+      <par id="span_001171" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001171" region="textRegion" />
+      </par>
+      <par id="em_000563" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000563" region="textRegion" />
+      </par>
+      <par id="span_001172" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001172" region="textRegion" />
+      </par>
+      <par id="em_000564" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000564" region="textRegion" />
+      </par>
+      <par id="span_001173" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001173" region="textRegion" />
+      </par>
+      <par id="p_001862" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001862" region="textRegion" />
+      </par>
+      <par id="p295" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p295" region="textRegion" />
+      </par>
+      <par id="span_001174" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001174" region="textRegion" />
+      </par>
+      <par id="em_000565" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000565" region="textRegion" />
+      </par>
+      <par id="span_001175" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001175" region="textRegion" />
+      </par>
+      <par id="strong_000641" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000641" region="textRegion" />
+      </par>
+      <par id="span_001176" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001176" region="textRegion" />
+      </par>
+      <par id="em_000566" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000566" region="textRegion" />
+      </par>
+      <par id="span_001177" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001177" region="textRegion" />
+      </par>
+      <par id="p_001866" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001866" region="textRegion" />
+      </par>
+      <par id="span_001178" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001178" region="textRegion" />
+      </par>
+      <par id="em_000567" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000567" region="textRegion" />
+      </par>
+      <par id="span_001179" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001179" region="textRegion" />
+      </par>
+      <par id="strong_000642" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000642" region="textRegion" />
+      </par>
+      <par id="span_001180" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001180" region="textRegion" />
+      </par>
+      <par id="em_000568" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000568" region="textRegion" />
+      </par>
+      <par id="span_001181" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001181" region="textRegion" />
+      </par>
+      <par id="span_001182" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001182" region="textRegion" />
+      </par>
+      <par id="em_000569" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000569" region="textRegion" />
+      </par>
+      <par id="span_001183" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001183" region="textRegion" />
+      </par>
+      <par id="em_000570" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000570" region="textRegion" />
+      </par>
+      <par id="span_001184" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001184" region="textRegion" />
+      </par>
+      <par id="span_001185" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001185" region="textRegion" />
+      </par>
+      <par id="em_000571" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000571" region="textRegion" />
+      </par>
+      <par id="span_001186" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001186" region="textRegion" />
+      </par>
+      <par id="span_001187" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001187" region="textRegion" />
+      </par>
+      <par id="em_000572" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000572" region="textRegion" />
+      </par>
+      <par id="span_001188" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001188" region="textRegion" />
+      </par>
+      <par id="p296" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p296" region="textRegion" />
+      </par>
+      <par id="span_001189" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001189" region="textRegion" />
+      </par>
+      <par id="em_000573" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000573" region="textRegion" />
+      </par>
+      <par id="span_001190" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001190" region="textRegion" />
+      </par>
+      <par id="span_001191" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001191" region="textRegion" />
+      </par>
+      <par id="em_000574" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000574" region="textRegion" />
+      </par>
+      <par id="span_001192" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001192" region="textRegion" />
+      </par>
+      <par id="p_001875" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001875" region="textRegion" />
+      </par>
+      <par id="strong_000643" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000643" region="textRegion" />
+      </par>
+      <par id="p_001877" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001877" region="textRegion" />
+      </par>
+      <par id="p_001878" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001878" region="textRegion" />
+      </par>
+      <par id="strong_000644" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000644" region="textRegion" />
+      </par>
+      <par id="span_001193" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001193" region="textRegion" />
+      </par>
+      <par id="em_000575" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000575" region="textRegion" />
+      </par>
+      <par id="span_001194" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001194" region="textRegion" />
+      </par>
+      <par id="span_001195" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001195" region="textRegion" />
+      </par>
+      <par id="em_000576" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000576" region="textRegion" />
+      </par>
+      <par id="span_001196" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001196" region="textRegion" />
+      </par>
+      <par id="p_001882" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001882" region="textRegion" />
+      </par>
+      <par id="p_001883" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001883" region="textRegion" />
+      </par>
+      <par id="p_001884" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001884" region="textRegion" />
+      </par>
+      <par id="p_001885" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001885" region="textRegion" />
+      </par>
+      <par id="p297" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p297" region="textRegion" />
+      </par>
+      <par id="span_001197" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001197" region="textRegion" />
+      </par>
+      <par id="em_000577" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000577" region="textRegion" />
+      </par>
+      <par id="span_001198" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001198" region="textRegion" />
+      </par>
+      <par id="p_001887" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001887" region="textRegion" />
+      </par>
+      <par id="span_001199" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001199" region="textRegion" />
+      </par>
+      <par id="em_000578" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000578" region="textRegion" />
+      </par>
+      <par id="span_001200" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001200" region="textRegion" />
+      </par>
+      <par id="em_000579" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000579" region="textRegion" />
+      </par>
+      <par id="span_001201" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001201" region="textRegion" />
+      </par>
+      <par id="p_001890" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001890" region="textRegion" />
+      </par>
+      <par id="span_001202" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001202" region="textRegion" />
+      </par>
+      <par id="em_000580" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000580" region="textRegion" />
+      </par>
+      <par id="span_001203" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001203" region="textRegion" />
+      </par>
+      <par id="span_001204" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001204" region="textRegion" />
+      </par>
+      <par id="em_000581" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000581" region="textRegion" />
+      </par>
+      <par id="span_001205" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001205" region="textRegion" />
+      </par>
+      <par id="p_001893" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001893" region="textRegion" />
+      </par>
+      <par id="span_001206" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001206" region="textRegion" />
+      </par>
+      <par id="em_000582" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000582" region="textRegion" />
+      </par>
+      <par id="span_001207" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001207" region="textRegion" />
+      </par>
+      <par id="span_001208" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001208" region="textRegion" />
+      </par>
+      <par id="em_000583" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000583" region="textRegion" />
+      </par>
+      <par id="span_001209" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001209" region="textRegion" />
+      </par>
+      <par id="p_001896" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001896" region="textRegion" />
+      </par>
+      <par id="span_001210" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001210" region="textRegion" />
+      </par>
+      <par id="em_000584" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000584" region="textRegion" />
+      </par>
+      <par id="span_001211" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001211" region="textRegion" />
+      </par>
+      <par id="p298" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p298" region="textRegion" />
+      </par>
+      <par id="strong_000645" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000645" region="textRegion" />
+      </par>
+      <par id="p_001899" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001899" region="textRegion" />
+      </par>
+      <par id="span_001212" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001212" region="textRegion" />
+      </par>
+      <par id="em_000585" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000585" region="textRegion" />
+      </par>
+      <par id="span_001213" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001213" region="textRegion" />
+      </par>
+      <par id="span_001214" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001214" region="textRegion" />
+      </par>
+      <par id="em_000586" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000586" region="textRegion" />
+      </par>
+      <par id="span_001215" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001215" region="textRegion" />
+      </par>
+      <par id="span_001216" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001216" region="textRegion" />
+      </par>
+      <par id="em_000587" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000587" region="textRegion" />
+      </par>
+      <par id="span_001217" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001217" region="textRegion" />
+      </par>
+      <par id="span_001218" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001218" region="textRegion" />
+      </par>
+      <par id="em_000588" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000588" region="textRegion" />
+      </par>
+      <par id="span_001219" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001219" region="textRegion" />
+      </par>
+      <par id="p_001904" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001904" region="textRegion" />
+      </par>
+      <par id="span_001220" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001220" region="textRegion" />
+      </par>
+      <par id="em_000589" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000589" region="textRegion" />
+      </par>
+      <par id="span_001221" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001221" region="textRegion" />
+      </par>
+      <par id="strong_000646" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000646" region="textRegion" />
+      </par>
+      <par id="span_001222" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001222" region="textRegion" />
+      </par>
+      <par id="em_000590" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000590" region="textRegion" />
+      </par>
+      <par id="span_001223" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001223" region="textRegion" />
+      </par>
+      <par id="em_000591" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000591" region="textRegion" />
+      </par>
+      <par id="span_001224" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001224" region="textRegion" />
+      </par>
+      <par id="span_001225" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001225" region="textRegion" />
+      </par>
+      <par id="em_000592" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000592" region="textRegion" />
+      </par>
+      <par id="span_001226" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001226" region="textRegion" />
+      </par> 
+      <par id="p299" class="pagenum" customTest="pagenumCustomTest"> 
+        <text src="The_Mythical_Man_Month_Essay.xml#p299" region="textRegion" />
+      </par> 
+      <par id="span_001227" class="span">  
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001227" region="textRegion" />
+      </par>   
+      <par id="em_000593" class="em">  
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000593" region="textRegion" />
+      </par>   
+      <par id="span_001228" class="span">   
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001228" region="textRegion" />
+      </par>
+      <par id="p_001910" class="p"> 
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001910" region="textRegion" />
+      </par> 
+      <par id="span_001229" class="span"> 
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001229" region="textRegion" />
+      </par>   
+      <par id="em_000594" class="em"> 
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000594" region="textRegion" />
+      </par>   
+      <par id="span_001230" class="span">  
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001230" region="textRegion" />
+      </par>   
+      <par id="em_000595" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000595" region="textRegion" />
+      </par>  
+      <par id="span_001231" class="span"> 
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001231" region="textRegion" />
+      </par>   
+      <par id="em_000596" class="em">   
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000596" region="textRegion" />
+      </par>   
+      <par id="span_001232" class="span">   
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001232" region="textRegion" />
+      </par>  
+      <par id="em_000597" class="em">  
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000597" region="textRegion" />
+      </par>
+      <par id="span_001233" class="span">    
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001233" region="textRegion" />
+      </par> 
+      <par id="span_001234" class="span">   
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001234" region="textRegion" />
+      </par>    
+      <par id="em_000598" class="em">  
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000598" region="textRegion" />
+      </par>  
+      <par id="p_001914" class="p">    
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001914" region="textRegion" />
+      </par>   
+      <par id="strong_000647" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000647" region="textRegion" />
+      </par>
+      <par id="span_001235" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001235" region="textRegion" />
+      </par>
+      <par id="em_000599" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000599" region="textRegion" />
+      </par>
+      <par id="span_001236" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001236" region="textRegion" />
+      </par>
+      <par id="span_001237" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001237" region="textRegion" />
+      </par>
+      <par id="em_000600" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000600" region="textRegion" />
+      </par>
+      <par id="span_001238" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001238" region="textRegion" />
+      </par>
+      <par id="p300" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p300" region="textRegion" />
+      </par>
+      <par id="span_001239" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001239" region="textRegion" />
+      </par>
+      <par id="em_000601" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000601" region="textRegion" />
+      </par>
+      <par id="span_001240" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001240" region="textRegion" />
+      </par>
+      <par id="em_000602" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000602" region="textRegion" />
+      </par>
+      <par id="span_001241" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001241" region="textRegion" />
+      </par>
+      <par id="span_001242" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001242" region="textRegion" />
+      </par>
+      <par id="em_000603" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000603" region="textRegion" />
+      </par>
+      <par id="span_001243" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001243" region="textRegion" />
+      </par>
+      <par id="em_000604" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000604" region="textRegion" />
+      </par>
+      <par id="span_001244" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001244" region="textRegion" />
+      </par>
+      <par id="span_001245" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001245" region="textRegion" />
+      </par>
+      <par id="em_000605" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000605" region="textRegion" />
+      </par>
+      <par id="span_001246" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001246" region="textRegion" />
+      </par>
+      <par id="span_001247" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001247" region="textRegion" />
+      </par>
+      <par id="em_000606" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000606" region="textRegion" />
+      </par>
+      <par id="span_001248" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001248" region="textRegion" />
+      </par>
+      <par id="span_001249" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001249" region="textRegion" />
+      </par>
+      <par id="em_000607" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000607" region="textRegion" />
+      </par>
+      <par id="span_001250" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001250" region="textRegion" />
+      </par>
+      <par id="span_001251" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001251" region="textRegion" />
+      </par>
+      <par id="em_000608" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000608" region="textRegion" />
+      </par>
+      <par id="span_001252" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001252" region="textRegion" />
+      </par>
+      <par id="em_000609" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000609" region="textRegion" />
+      </par>
+      <par id="span_001253" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001253" region="textRegion" />
+      </par>
+      <par id="p_001924" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001924" region="textRegion" />
+      </par>
+      <par id="span_001254" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001254" region="textRegion" />
+      </par>
+      <par id="em_000610" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000610" region="textRegion" />
+      </par>
+      <par id="span_001255" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001255" region="textRegion" />
+      </par>
+      <par id="span_001256" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001256" region="textRegion" />
+      </par>
+      <par id="em_000611" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000611" region="textRegion" />
+      </par>
+      <par id="span_001257" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001257" region="textRegion" />
+      </par>
+      <par id="span_001258" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001258" region="textRegion" />
+      </par>
+      <par id="em_000612" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000612" region="textRegion" />
+      </par>
+      <par id="span_001259" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001259" region="textRegion" />
+      </par>
+      <par id="p301" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p301" region="textRegion" />
+      </par>
+      <par id="span_001260" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001260" region="textRegion" />
+      </par>
+      <par id="em_000613" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000613" region="textRegion" />
+      </par>
+      <par id="span_001261" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001261" region="textRegion" />
+      </par>
+      <par id="span_001262" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001262" region="textRegion" />
+      </par>
+      <par id="em_000614" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000614" region="textRegion" />
+      </par>
+      <par id="span_001263" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001263" region="textRegion" />
+      </par>
+      <par id="p_001930" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001930" region="textRegion" />
+      </par>
+      <par id="strong_000648" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000648" region="textRegion" />
+      </par>
+      <par id="span_001264" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001264" region="textRegion" />
+      </par>
+      <par id="em_000615" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000615" region="textRegion" />
+      </par>
+      <par id="span_001265" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001265" region="textRegion" />
+      </par>
+      <par id="span_001266" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001266" region="textRegion" />
+      </par>
+      <par id="em_000616" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000616" region="textRegion" />
+      </par>
+      <par id="span_001267" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001267" region="textRegion" />
+      </par>
+      <par id="em_000617" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000617" region="textRegion" />
+      </par>
+      <par id="span_001268" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001268" region="textRegion" />
+      </par>
+      <par id="span_001269" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001269" region="textRegion" />
+      </par>
+      <par id="em_000618" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000618" region="textRegion" />
+      </par>
+      <par id="span_001270" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001270" region="textRegion" />
+      </par>
+      <par id="p_001935" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001935" region="textRegion" />
+      </par>
+      <par id="strong_000649" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000649" region="textRegion" />
+      </par>
+      <par id="span_001271" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001271" region="textRegion" />
+      </par>
+      <par id="em_000619" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000619" region="textRegion" />
+      </par>
+      <par id="span_001272" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001272" region="textRegion" />
+      </par>
+      <par id="p302" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p302" region="textRegion" />
+      </par>
+      <par id="p_001938" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001938" region="textRegion" />
+      </par>
+      <par id="span_001273" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001273" region="textRegion" />
+      </par>
+      <par id="em_000620" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000620" region="textRegion" />
+      </par>
+      <par id="span_001274" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001274" region="textRegion" />
+      </par>
+      <par id="span_001275" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001275" region="textRegion" />
+      </par>
+      <par id="em_000621" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000621" region="textRegion" />
+      </par>
+      <par id="span_001276" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001276" region="textRegion" />
+      </par>
+      <par id="strong_000650" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000650" region="textRegion" />
+      </par>
+      <par id="strong_000651" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000651" region="textRegion" />
+      </par>
+      <par id="span_001277" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001277" region="textRegion" />
+      </par>
+      <par id="span_001278" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001278" region="textRegion" />
+      </par>
+      <par id="em_000622" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000622" region="textRegion" />
+      </par>
+      <par id="span_001279" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001279" region="textRegion" />
+      </par>
+      <par id="span_001280" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001280" region="textRegion" />
+      </par>
+      <par id="em_000623" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000623" region="textRegion" />
+      </par>
+      <par id="span_001281" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001281" region="textRegion" />
+      </par>
+      <par id="span_001282" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001282" region="textRegion" />
+      </par>
+      <par id="em_000624" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000624" region="textRegion" />
+      </par>
+      <par id="span_001283" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001283" region="textRegion" />
+      </par>
+      <par id="span_001284" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001284" region="textRegion" />
+      </par>
+      <par id="em_000625" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000625" region="textRegion" />
+      </par>
+      <par id="span_001285" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001285" region="textRegion" />
+      </par>
+      <par id="em_000626" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000626" region="textRegion" />
+      </par>
+      <par id="span_001286" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001286" region="textRegion" />
+      </par>
+      <par id="span_001287" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001287" region="textRegion" />
+      </par>
+      <par id="em_000627" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000627" region="textRegion" />
+      </par>
+      <par id="span_001288" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001288" region="textRegion" />
+      </par>
+      <par id="em_000628" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000628" region="textRegion" />
+      </par>
+      <par id="em_000629" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000629" region="textRegion" />
+      </par>
+      <par id="span_001289" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001289" region="textRegion" />
+      </par>
+      <par id="p_001949" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001949" region="textRegion" />
+      </par>
+      <par id="p303" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p303" region="textRegion" />
+      </par>
+      <par id="span_001290" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001290" region="textRegion" />
+      </par>
+      <par id="em_000630" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000630" region="textRegion" />
+      </par>
+      <par id="span_001291" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001291" region="textRegion" />
+      </par>
+      <par id="p_001951" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001951" region="textRegion" />
+      </par>
+      <par id="span_001292" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001292" region="textRegion" />
+      </par>
+      <par id="em_000631" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000631" region="textRegion" />
+      </par>
+      <par id="span_001293" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001293" region="textRegion" />
+      </par>
+      <par id="span_001294" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001294" region="textRegion" />
+      </par>
+      <par id="em_000632" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000632" region="textRegion" />
+      </par>
+      <par id="span_001295" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001295" region="textRegion" />
+      </par>
+      <par id="strong_000652" class="strong">
+        <text src="The_Mythical_Man_Month_Essay.xml#strong_000652" region="textRegion" />
+      </par>
+      <par id="span_001296" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001296" region="textRegion" />
+      </par>
+      <par id="p_001955" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001955" region="textRegion" />
+      </par>
+      <par id="span_001297" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001297" region="textRegion" />
+      </par>
+      <par id="em_000633" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000633" region="textRegion" />
+      </par>
+      <par id="span_001298" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001298" region="textRegion" />
+      </par>
+      <par id="span_001299" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001299" region="textRegion" />
+      </par>
+      <par id="em_000634" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000634" region="textRegion" />
+      </par>
+      <par id="span_001300" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001300" region="textRegion" />
+      </par>
+      <par id="span_001301" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001301" region="textRegion" />
+      </par>
+      <par id="em_000635" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000635" region="textRegion" />
+      </par>
+      <par id="span_001302" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001302" region="textRegion" />
+      </par>
+      <par id="em_000636" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000636" region="textRegion" />
+      </par>
+      <par id="span_001303" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001303" region="textRegion" />
+      </par>
+      <par id="em_000637" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000637" region="textRegion" />
+      </par>
+      <par id="span_001304" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001304" region="textRegion" />
+      </par>
+      <par id="sup_000144" class="sup">
+        <text src="The_Mythical_Man_Month_Essay.xml#sup_000144" region="textRegion" />
+      </par>
+      <par id="span_001305" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001305" region="textRegion" />
+      </par>
+      <par id="span_001306" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001306" region="textRegion" />
+      </par>
+      <par id="em_000638" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000638" region="textRegion" />
+      </par>
+      <par id="span_001307" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001307" region="textRegion" />
+      </par>
+      <par id="p304" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p304" region="textRegion" />
+      </par>
+      <par id="span_001308" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001308" region="textRegion" />
+      </par>
+      <par id="em_000639" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000639" region="textRegion" />
+      </par>
+      <par id="span_001309" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001309" region="textRegion" />
+      </par>
+      <par id="span_001310" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001310" region="textRegion" />
+      </par>
+      <par id="em_000640" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000640" region="textRegion" />
+      </par>
+      <par id="span_001311" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001311" region="textRegion" />
+      </par>
+      <par id="span_001312" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001312" region="textRegion" />
+      </par>
+      <par id="em_000641" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000641" region="textRegion" />
+      </par>
+      <par id="span_001313" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001313" region="textRegion" />
+      </par>
+      <par id="span_001314" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001314" region="textRegion" />
+      </par>
+      <par id="em_000642" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000642" region="textRegion" />
+      </par>
+      <par id="span_001315" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001315" region="textRegion" />
+      </par>
+      <par id="span_001316" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001316" region="textRegion" />
+      </par>
+      <par id="em_000643" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000643" region="textRegion" />
+      </par>
+      <par id="span_001317" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001317" region="textRegion" />
+      </par>
+      <par id="span_001318" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001318" region="textRegion" />
+      </par>
+      <par id="em_000644" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000644" region="textRegion" />
+      </par>
+      <par id="span_001319" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001319" region="textRegion" />
+      </par>
+      <par id="span_001320" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001320" region="textRegion" />
+      </par>
+      <par id="em_000645" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000645" region="textRegion" />
+      </par>
+      <par id="span_001321" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001321" region="textRegion" />
+      </par>
+      <par id="span_001322" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001322" region="textRegion" />
+      </par>
+      <par id="em_000646" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000646" region="textRegion" />
+      </par>
+      <par id="span_001323" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001323" region="textRegion" />
+      </par>
+      <par id="span_001324" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001324" region="textRegion" />
+      </par>
+      <par id="em_000647" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000647" region="textRegion" />
+      </par>
+      <par id="span_001325" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001325" region="textRegion" />
+      </par>
+      <par id="span_001326" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001326" region="textRegion" />
+      </par>
+      <par id="em_000648" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000648" region="textRegion" />
+      </par>
+      <par id="span_001327" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001327" region="textRegion" />
+      </par>
+      <par id="span_001328" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001328" region="textRegion" />
+      </par>
+      <par id="em_000649" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000649" region="textRegion" />
+      </par>
+      <par id="span_001329" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001329" region="textRegion" />
+      </par>
+      <par id="span_001330" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001330" region="textRegion" />
+      </par>
+      <par id="em_000650" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000650" region="textRegion" />
+      </par>
+      <par id="span_001331" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001331" region="textRegion" />
+      </par>
+      <par id="p305" class="pagenum" customTest="pagenumCustomTest">
+        <text src="The_Mythical_Man_Month_Essay.xml#p305" region="textRegion" />
+      </par>
+      <par id="p_001973" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001973" region="textRegion" />
+      </par>
+      <par id="span_001332" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001332" region="textRegion" />
+      </par>
+      <par id="em_000651" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000651" region="textRegion" />
+      </par>
+      <par id="span_001333" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001333" region="textRegion" />
+      </par>
+      <par id="span_001334" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001334" region="textRegion" />
+      </par>
+      <par id="em_000652" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000652" region="textRegion" />
+      </par>
+      <par id="span_001335" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001335" region="textRegion" />
+      </par>
+      <par id="span_001336" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001336" region="textRegion" />
+      </par>
+      <par id="em_000653" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000653" region="textRegion" />
+      </par>
+      <par id="span_001337" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001337" region="textRegion" />
+      </par>
+      <par id="span_001338" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001338" region="textRegion" />
+      </par>
+      <par id="em_000654" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000654" region="textRegion" />
+      </par>
+      <par id="span_001339" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001339" region="textRegion" />
+      </par>
+      <par id="span_001340" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001340" region="textRegion" />
+      </par>
+      <par id="em_000655" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000655" region="textRegion" />
+      </par>
+      <par id="span_001341" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001341" region="textRegion" />
+      </par>
+      <par id="p_001979" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001979" region="textRegion" />
+      </par>
+      <par id="p_001980" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001980" region="textRegion" />
+      </par>
+      <par id="span_001342" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001342" region="textRegion" />
+      </par>
+      <par id="em_000656" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000656" region="textRegion" />
+      </par>
+      <par id="span_001343" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001343" region="textRegion" />
+      </par>
+      <par id="span_001344" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001344" region="textRegion" />
+      </par>
+      <par id="em_000657" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000657" region="textRegion" />
+      </par>
+      <par id="span_001345" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001345" region="textRegion" />
+      </par>
+      <par id="p_001983" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001983" region="textRegion" />
+      </par>
+      <par id="p_001984" class="p">
+        <text src="The_Mythical_Man_Month_Essay.xml#p_001984" region="textRegion" />
+      </par>
+      <par id="span_001346" class="span">
+        <text src="The_Mythical_Man_Month_Essay.xml#span_001346" region="textRegion" />
+      </par>
+      <par id="em_000658" class="em">
+        <text src="The_Mythical_Man_Month_Essay.xml#em_000658" region="textRegion" />
+      </par>
+    </seq>
+  </body>
+</smil>
+

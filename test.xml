@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<dtbook version="2005-3" xml:lang="en" xmlns="http://www.daisy.org/z3986/2005/dtbook/">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="default-style"/>
+        <meta content="9781119284512" name="dtb:uid"/>
+        <meta content="9781119284512" name="dc:Identifier"/>
+        <meta content="Combustion Engines: An Introduction to Their Design, Performance, and Selection"
+              name="dc:Title"/>
+        <meta content="Aman Gupta, Shubham Sharma, Sunny Narayan" name="dc:Creator"/>
+        <meta content="Vehicle noise, vibration, and emissions are only a few of the factors that can have a detrimental effects on overall performance of an engine.  These aspects are benchmarks for choice of customers while choosing a vehicle or for engineers while choosing an engine for industrial applications.  It is important that mechanical and automotive engineers have some knowledge in this area, as a part of their well-rounded training for designing and selecting various types of engines.   This volume is a valuable introductory text and a handy reference for any engineer, manager, or technician working in this area.  The automotive industry, and other industries that make use of engines in their industrial applications, account for billions, or even trillions, of dollars of revenue worldwide and are important in the daily lives of many, if not most, of the people living on this planet.   This is an area that affects a staggering number of people, and the information needed by engineers and technicians concerning the performance of various types of engines is of paramount importance in designing and selecting engines and the processes into which they are introduced."
+              name="dc:Description"/>
+        <meta content="ANSI/NISO Z39.86-2005" name="dc:Format"/>
+        <meta content="Bookshare" name="dc:Publisher"/>
+        <meta content="en" name="dc:Language"/>
+    </head>
+    <book epub:type="frontmatter" id="book_73036475070" xmlns:epub="http://www.idpf.org/2007/ops"/>
+</dtbook>

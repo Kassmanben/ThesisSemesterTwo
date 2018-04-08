@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE package PUBLIC "+//ISBN 0-9673008-1-9//DTD OEB 1.2 Package//EN" "http://openebook.org/dtds/oeb-1.2/oebpkg12.dtd">
+<package xmlns="http://openebook.org/namespaces/oeb-package/1.0/" unique-identifier="ID-9780201835953">
+  <metadata>
+    <dc-metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+      <dc:Publisher>Bookshare</dc:Publisher>
+      <dc:Identifier scheme="ISBN" id="ID-9780201835953">9780201835953</dc:Identifier>
+      <dc:Title>The Mythical Man-Month Essays on Software Engineering Anniversary Edition</dc:Title>
+      <dc:Creator file-as="Brooks, Frederick P.">Frederick P. Brooks</dc:Creator>
+      <dc:Language>en-US</dc:Language>
+      <dc:Format>ANSI/NISO Z39.86-2005</dc:Format>
+      <dc:Date>2017-06-07</dc:Date>
+      <dc:Identifier scheme="BKSH" id="bksh-id">Bookshare-1632666_18972371</dc:Identifier>
+    </dc-metadata>
+    <x-metadata>
+      <meta name="dtb:sourcePublisher" content="Addison-Wesley Publishing Company" />
+      <meta name="DCTERMS.date.dateCopyrighted" content="1995" />
+      <meta name="Copyright" content="Addison-Wesley Publishing Company, Inc." />
+      <meta name="Synopsis" content="Few books on software project management have been as influential and timeless as The Mythical Man-Month.  With a blend of software engineering facts and thought-provoking opinions, Fred Brooks offers insight for anyone managing complex projects.  These essays draw from his experience as project manager for the IBM System/360 computer family and then for OS/360, its massive software system.  Now, 20 years after the initial publication of his book, Brooks has revisited his original ideas and added new thoughts and advice, both for readers already familiar with his work and for readers discovering it for the first time.    The added chapters contain (1) a crisp condensation of all the propositions asserted in the original book, including Brooks&amp;apos; central argument in The Mythical Man-Month: that large programming projects suffer management problems different from small ones due to the division of labor that the conceptual integrity of the product is therefore critical; and that it is difficult but possible to achieve this unity; (2) Brooks&amp;apos; view of these propositions a generation later; (3) a reprint of his classic 1986 paper &amp;quot;No Silver Bullet&amp;quot;; and (4) today&amp;apos;s thoughts on the 1986 assertion, &amp;quot;There will be no silver bullet within ten years. &amp;quot;" />
+      <meta name="dtb:multimediaType" content="textNCX" />
+      <meta name="dtb:multimediaContent" content="text" />
+      <meta name="dtb:sourceRights" content="Addison-Wesley Publishing Company, Inc." />
+    </x-metadata>
+  </metadata>
+  <manifest>
+    <item id="xml" href="The_Mythical_Man_Month_Essay.xml" media-type="application/x-dtbook+xml" />
+    <item id="ncx" href="The_Mythical_Man_Month_Essay.ncx" media-type="application/x-dtbncx+xml" />
+    <item id="opf" href="The_Mythical_Man_Month_Essay.opf" media-type="text/xml" />
+    <item id="SMIL1" href="The_Mythical_Man_Month_Essay00001.smil" media-type="application/smil" />
+    <item id="SMIL2" href="The_Mythical_Man_Month_Essay00002.smil" media-type="application/smil" />
+    <item id="SMIL3" href="The_Mythical_Man_Month_Essay00003.smil" media-type="application/smil" />
+    <item id="SMIL4" href="The_Mythical_Man_Month_Essay00004.smil" media-type="application/smil" />
+    <item id="SMIL5" href="The_Mythical_Man_Month_Essay00005.smil" media-type="application/smil" />
+    <item id="SMIL6" href="The_Mythical_Man_Month_Essay00006.smil" media-type="application/smil" />
+    <item id="SMIL7" href="The_Mythical_Man_Month_Essay00007.smil" media-type="application/smil" />
+    <item id="SMIL8" href="The_Mythical_Man_Month_Essay00008.smil" media-type="application/smil" />
+    <item id="SMIL9" href="The_Mythical_Man_Month_Essay00009.smil" media-type="application/smil" />
+    <item id="SMIL10" href="The_Mythical_Man_Month_Essay00010.smil" media-type="application/smil" />
+    <item id="daisyTransform" href="daisyTransform.xsl" media-type="application/xslt+xml" />
+    <item id="daisyCss" href="daisy.css" media-type="text/css" />
+    <item id="htmlCss" href="html.css" media-type="text/css" />
+  </manifest>
+  <spine>
+    <itemref idref="SMIL1" />
+    <itemref idref="SMIL2" />
+    <itemref idref="SMIL3" />
+    <itemref idref="SMIL4" />
+    <itemref idref="SMIL5" />
+    <itemref idref="SMIL6" />
+    <itemref idref="SMIL7" />
+    <itemref idref="SMIL8" />
+    <itemref idref="SMIL9" />
+    <itemref idref="SMIL10" />
+  </spine>
+</package>

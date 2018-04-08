@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smil PUBLIC "-//NISO//DTD dtbsmil 2005-2//EN" "http://www.daisy.org/z3986/2005/dtbsmil-2005-2.dtd">
+
+<smil xmlns="http://www.w3.org/2001/SMIL20/">
+  <head>
+    <meta name="dtb:uid" content="9781118889497" />
+    <meta name="dtb:generator" content="Bookshare.org" />
+    <meta name="dtb:totalElapsedTime" content="0" />
+    <layout>
+      <region id="textRegion" height="auto" width="auto" bottom="auto" top="auto" left="auto" right="auto" fit="hidden" showBackground="always" />
+    </layout>
+    <customAttributes>
+      <customTest id="pagenumCustomTest" defaultState="false" override="visible" />
+    </customAttributes>
+  </head>
+  <body>
+    <seq id="baseseq" class="book" fill="remove">
+      <par id="img_000075" class="img">
+        <img src="images/c07f003.jpg" />
+      </par>
+      <par id="strong_000288" class="strong">
+        <text src="Machine_Learning.xml#strong_000288" region="textRegion" />
+      </par>
+      <par id="span_000803" class="span">
+        <text src="Machine_Learning.xml#span_000803" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0018" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0018" region="textRegion" />
+      </par>
+      <par id="img_000076" class="img">
+        <img src="images/c07_math_001.png" />
+      </par>
+      <par id="span_000804" class="span">
+        <text src="Machine_Learning.xml#span_000804" region="textRegion" />
+      </par>
+      <par id="p143" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p143" region="textRegion" />
+      </par>
+      <par id="span_000805" class="span">
+        <text src="Machine_Learning.xml#span_000805" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0020" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0020" region="textRegion" />
+      </par>
+      <par id="h3_000124" class="h3">
+        <text src="Machine_Learning.xml#h3_000124" region="textRegion" />
+      </par>
+      <par id="p_000403" class="p">
+        <text src="Machine_Learning.xml#p_000403" region="textRegion" />
+      </par>
+      <par id="img_000077" class="img">
+        <img src="images/c07_math_002.png" />
+      </par>
+      <par id="c07-c07-para-0022" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0022" region="textRegion" />
+      </par>
+      <par id="img_000078" class="img">
+        <img src="images/c07_math_003.png" />
+      </par>
+      <par id="c07-c07-para-0023" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0023" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0024" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0024" region="textRegion" />
+      </par>
+      <par id="h3_000125" class="h3">
+        <text src="Machine_Learning.xml#h3_000125" region="textRegion" />
+      </par>
+      <par id="p_000406" class="p">
+        <text src="Machine_Learning.xml#p_000406" region="textRegion" />
+      </par>
+      <par id="img_000079" class="img">
+        <img src="images/c07_math_004.png" />
+      </par>
+      <par id="p144" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p144" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0026" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0026" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0027" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0027" region="textRegion" />
+      </par>
+      <par id="c07-c07_level1_4" class="h2">
+        <text src="Machine_Learning.xml#c07-c07_level1_4" region="textRegion" />
+      </par>
+      <par id="p_000408" class="p">
+        <text src="Machine_Learning.xml#p_000408" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0029" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0029" region="textRegion" />
+      </par>
+      <par id="h3_000126" class="h3">
+        <text src="Machine_Learning.xml#h3_000126" region="textRegion" />
+      </par>
+      <par id="p_000409" class="p">
+        <text src="Machine_Learning.xml#p_000409" region="textRegion" />
+      </par>
+      <par id="span_000806" class="span">
+        <text src="Machine_Learning.xml#span_000806" region="textRegion" />
+      </par>
+      <a href="#c07-c07-fig-0004" external="false">
+        <par id="c07-c07-fig-anc-0004" class="a">
+          <text src="Machine_Learning.xml#c07-c07-fig-anc-0004" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000807" class="span">
+        <text src="Machine_Learning.xml#span_000807" region="textRegion" />
+      </par>
+      <par id="img_000080" class="img">
+        <img src="images/c07_math_005.png" />
+      </par>
+      <par id="img_000081" class="img">
+        <img src="images/c07f004.jpg" />
+      </par>
+      <par id="strong_000289" class="strong">
+        <text src="Machine_Learning.xml#strong_000289" region="textRegion" />
+      </par>
+      <par id="p145" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p145" region="textRegion" />
+      </par>
+      <par id="span_000809" class="span">
+        <text src="Machine_Learning.xml#span_000809" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0032" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0032" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0033" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0033" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0034" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0034" region="textRegion" />
+      </par>
+      <par id="img_000082" class="img">
+        <img src="images/c07_math_006.png" />
+      </par>
+      <par id="c07-c07-para-0035" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0035" region="textRegion" />
+      </par>
+      <par id="img_000083" class="img">
+        <img src="images/c07_math_007.png" />
+      </par>
+      <par id="span_000810" class="span">
+        <text src="Machine_Learning.xml#span_000810" region="textRegion" />
+      </par>
+      <a href="#c07-c07-fig-0005" external="false">
+        <par id="c07-c07-fig-anc-0005" class="a">
+          <text src="Machine_Learning.xml#c07-c07-fig-anc-0005" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000811" class="span">
+        <text src="Machine_Learning.xml#span_000811" region="textRegion" />
+      </par>
+      <par id="img_000084" class="img">
+        <img src="images/c07f005.jpg" />
+      </par>
+      <par id="strong_000290" class="strong">
+        <text src="Machine_Learning.xml#strong_000290" region="textRegion" />
+      </par>
+      <par id="span_000813" class="span">
+        <text src="Machine_Learning.xml#span_000813" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0037" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0037" region="textRegion" />
+      </par>
+      <par id="p146" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p146" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0038" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0038" region="textRegion" />
+      </par>
+      <par id="span_000814" class="span">
+        <text src="Machine_Learning.xml#span_000814" region="textRegion" />
+      </par>
+      <par id="em_000173" class="em">
+        <text src="Machine_Learning.xml#em_000173" region="textRegion" />
+      </par>
+      <par id="span_000815" class="span">
+        <text src="Machine_Learning.xml#span_000815" region="textRegion" />
+      </par>
+      <par id="em_000174" class="em">
+        <text src="Machine_Learning.xml#em_000174" region="textRegion" />
+      </par>
+      <par id="span_000816" class="span">
+        <text src="Machine_Learning.xml#span_000816" region="textRegion" />
+      </par>
+      <par id="img_000085" class="img">
+        <img src="images/c07_math_008.png" />
+      </par>
+      <par id="c07-c07-para-0040" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0040" region="textRegion" />
+      </par>
+      <seq id="sidebar_000008-seq" class="sidebar" fill="remove">
+        <par id="h2_000012" class="h2">
+          <text src="Machine_Learning.xml#h2_000012" region="textRegion" />
+        </par>
+        <par id="span_000817" class="span">
+          <text src="Machine_Learning.xml#span_000817" region="textRegion" />
+        </par>
+        <a href="http://wikipedia.org/wiki/Saddle_point" external="true">
+          <par id="a_000293" class="a">
+            <text src="Machine_Learning.xml#a_000293" region="textRegion" />
+          </par>
+        </a>
+        <par id="span_000818" class="span">
+          <text src="Machine_Learning.xml#span_000818" region="textRegion" />
+        </par>
+      </seq>
+      <par id="c07-c07-para-0042" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0042" region="textRegion" />
+      </par>
+      <par id="img_000086" class="img">
+        <img src="images/c07_math_009.png" />
+      </par>
+      <par id="c07-c07-para-0043" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0043" region="textRegion" />
+      </par>
+      <par id="h3_000127" class="h3">
+        <text src="Machine_Learning.xml#h3_000127" region="textRegion" />
+      </par>
+      <par id="span_000819" class="span">
+        <text src="Machine_Learning.xml#span_000819" region="textRegion" />
+      </par>
+      <a href="#c07-c07-fig-0006" external="false">
+        <par id="c07-c07-fig-anc-0006" class="a">
+          <text src="Machine_Learning.xml#c07-c07-fig-anc-0006" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000820" class="span">
+        <text src="Machine_Learning.xml#span_000820" region="textRegion" />
+      </par>
+      <par id="img_000087" class="img">
+        <img src="images/c07f006.jpg" />
+      </par>
+      <par id="strong_000291" class="strong">
+        <text src="Machine_Learning.xml#strong_000291" region="textRegion" />
+      </par>
+      <par id="span_000822" class="span">
+        <text src="Machine_Learning.xml#span_000822" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0045" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0045" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0046" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0046" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0047" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0047" region="textRegion" />
+      </par>
+      <par id="p147" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p147" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0048" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0048" region="textRegion" />
+      </par>
+      <par id="c07-c07_level1_5" class="h2">
+        <text src="Machine_Learning.xml#c07-c07_level1_5" region="textRegion" />
+      </par>
+      <par id="p_000420" class="p">
+        <text src="Machine_Learning.xml#p_000420" region="textRegion" />
+      </par>
+      <par id="h3_000128" class="h3">
+        <text src="Machine_Learning.xml#h3_000128" region="textRegion" />
+      </par>
+      <par id="p_000421" class="p">
+        <text src="Machine_Learning.xml#p_000421" region="textRegion" />
+      </par>
+      <par id="h4_000036" class="h4">
+        <text src="Machine_Learning.xml#h4_000036" region="textRegion" />
+      </par>
+      <par id="p_000422" class="p">
+        <text src="Machine_Learning.xml#p_000422" region="textRegion" />
+      </par>
+      <par id="code_000200" class="code">
+        <text src="Machine_Learning.xml#code_000200" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0052" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0052" region="textRegion" />
+      </par>
+      <par id="p148" class="pagenum" customTest="pagenumCustomTest"> 
+        <text src="Machine_Learning.xml#p148" region="textRegion" /> 
+      </par> 
+      <par id="span_000823" class="span">  
+        <text src="Machine_Learning.xml#span_000823" region="textRegion" />   
+      </par>  
+      <par id="code_000201" class="code">   
+        <text src="Machine_Learning.xml#code_000201" region="textRegion" />   
+      </par>
+      <par id="span_000824" class="span"> 
+        <text src="Machine_Learning.xml#span_000824" region="textRegion" /> 
+      </par> 
+      <par id="code_000202" class="code">   
+        <text src="Machine_Learning.xml#code_000202" region="textRegion" /> 
+      </par>   
+      <par id="span_000825" class="span">  
+        <text src="Machine_Learning.xml#span_000825" region="textRegion" />   
+      </par>
+      <par id="code_000203" class="code">  
+        <text src="Machine_Learning.xml#code_000203" region="textRegion" /> 
+      </par>   
+      <par id="c07-c07-para-0054" class="p">   
+        <text src="Machine_Learning.xml#c07-c07-para-0054" region="textRegion" />
+      </par>   
+      <par id="code_000204" class="code">   
+        <text src="Machine_Learning.xml#code_000204" region="textRegion" />  
+      </par>  
+      <par id="c07-c07-para-0055" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0055" region="textRegion" />
+      </par>    
+      <par id="h3_000129" class="h3"> 
+        <text src="Machine_Learning.xml#h3_000129" region="textRegion" />   
+      </par>    
+      <par id="span_000826" class="span">  
+        <text src="Machine_Learning.xml#span_000826" region="textRegion" />  
+      </par>    
+      <a href="#c07-c07-fig-0007" external="false">   
+        <par id="c07-c07-fig-anc-0007" class="a">
+          <text src="Machine_Learning.xml#c07-c07-fig-anc-0007" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000827" class="span">
+        <text src="Machine_Learning.xml#span_000827" region="textRegion" />
+      </par>
+      <par id="img_000088" class="img">
+        <img src="images/c07f007.jpg" />
+      </par>
+      <par id="strong_000292" class="strong">
+        <text src="Machine_Learning.xml#strong_000292" region="textRegion" />
+      </par>
+      <par id="span_000829" class="span">
+        <text src="Machine_Learning.xml#span_000829" region="textRegion" />
+      </par>
+      <par id="span_000830" class="span">
+        <text src="Machine_Learning.xml#span_000830" region="textRegion" />
+      </par>
+      <par id="code_000205" class="code">
+        <text src="Machine_Learning.xml#code_000205" region="textRegion" />
+      </par>
+      <par id="span_000831" class="span">
+        <text src="Machine_Learning.xml#span_000831" region="textRegion" />
+      </par>
+      <a href="#c07-c07-fig-0008" external="false">
+        <par id="c07-c07-fig-anc-0008" class="a">
+          <text src="Machine_Learning.xml#c07-c07-fig-anc-0008" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000832" class="span">
+        <text src="Machine_Learning.xml#span_000832" region="textRegion" />
+      </par>
+      <par id="code_000206" class="code">
+        <text src="Machine_Learning.xml#code_000206" region="textRegion" />
+      </par>
+      <par id="span_000833" class="span">
+        <text src="Machine_Learning.xml#span_000833" region="textRegion" />
+      </par>
+      <par id="code_000207" class="code">
+        <text src="Machine_Learning.xml#code_000207" region="textRegion" />
+      </par>
+      <par id="span_000834" class="span">
+        <text src="Machine_Learning.xml#span_000834" region="textRegion" />
+      </par>
+      <par id="img_000089" class="img">
+        <img src="images/c07f008.jpg" />
+      </par>
+      <par id="strong_000293" class="strong">
+        <text src="Machine_Learning.xml#strong_000293" region="textRegion" />
+      </par>
+      <par id="p149" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p149" region="textRegion" />
+      </par>
+      <par id="span_000836" class="span">
+        <text src="Machine_Learning.xml#span_000836" region="textRegion" />
+      </par>
+      <par id="h4_000037" class="h4">
+        <text src="Machine_Learning.xml#h4_000037" region="textRegion" />
+      </par>
+      <par id="span_000837" class="span">
+        <text src="Machine_Learning.xml#span_000837" region="textRegion" />
+      </par>
+      <a href="#c07-c07-fig-0009" external="false">
+        <par id="c07-c07-fig-anc-0009" class="a">
+          <text src="Machine_Learning.xml#c07-c07-fig-anc-0009" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000838" class="span">
+        <text src="Machine_Learning.xml#span_000838" region="textRegion" />
+      </par>
+      <par id="img_000090" class="img">
+        <img src="images/c07f009.jpg" />
+      </par>
+      <par id="strong_000294" class="strong">
+        <text src="Machine_Learning.xml#strong_000294" region="textRegion" />
+      </par>
+      <par id="span_000840" class="span">
+        <text src="Machine_Learning.xml#span_000840" region="textRegion" />
+      </par>
+      <par id="p150" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p150" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0059" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0059" region="textRegion" />
+      </par>
+      <par id="span_000841" class="span">
+        <text src="Machine_Learning.xml#span_000841" region="textRegion" />
+      </par>
+      <a href="#c07-c07-fig-0010" external="false">
+        <par id="c07-c07-fig-anc-0010" class="a">
+          <text src="Machine_Learning.xml#c07-c07-fig-anc-0010" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000842" class="span">
+        <text src="Machine_Learning.xml#span_000842" region="textRegion" />
+      </par>
+      <par id="img_000091" class="img">
+        <img src="images/c07f010.jpg" />
+      </par>
+      <par id="strong_000295" class="strong">
+        <text src="Machine_Learning.xml#strong_000295" region="textRegion" />
+      </par>
+      <par id="span_000844" class="span">
+        <text src="Machine_Learning.xml#span_000844" region="textRegion" />
+      </par>
+      <par id="span_000845" class="span">
+        <text src="Machine_Learning.xml#span_000845" region="textRegion" />
+      </par>
+      <a href="#c07-c07-fig-0011" external="false">
+        <par id="c07-c07-fig-anc-0011" class="a">
+          <text src="Machine_Learning.xml#c07-c07-fig-anc-0011" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000846" class="span">
+        <text src="Machine_Learning.xml#span_000846" region="textRegion" />
+      </par>
+      <par id="img_000092" class="img">
+        <img src="images/c07f011.jpg" />
+      </par>
+      <par id="strong_000296" class="strong">
+        <text src="Machine_Learning.xml#strong_000296" region="textRegion" />
+      </par>
+      <par id="p151" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p151" region="textRegion" />
+      </par>
+      <par id="span_000848" class="span">
+        <text src="Machine_Learning.xml#span_000848" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0062" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0062" region="textRegion" />
+      </par>
+      <par id="span_000849" class="span">
+        <text src="Machine_Learning.xml#span_000849" region="textRegion" />
+      </par>
+      <a href="#c07-c07-fig-0012" external="false">
+        <par id="c07-c07-fig-anc-0012" class="a">
+          <text src="Machine_Learning.xml#c07-c07-fig-anc-0012" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000850" class="span">
+        <text src="Machine_Learning.xml#span_000850" region="textRegion" />
+      </par>
+      <par id="img_000093" class="img">
+        <img src="images/c07f012.jpg" />
+      </par>
+      <par id="strong_000297" class="strong">
+        <text src="Machine_Learning.xml#strong_000297" region="textRegion" />
+      </par>
+      <par id="span_000852" class="span">
+        <text src="Machine_Learning.xml#span_000852" region="textRegion" />
+      </par>
+      <par id="h4_000038" class="h4">
+        <text src="Machine_Learning.xml#h4_000038" region="textRegion" />
+      </par>
+      <par id="p152" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p152" region="textRegion" />
+      </par>
+      <par id="p_000434" class="p">
+        <text src="Machine_Learning.xml#p_000434" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0065" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0065" region="textRegion" />
+      </par>
+      <par id="code_000208" class="code">
+        <text src="Machine_Learning.xml#code_000208" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0066" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0066" region="textRegion" />
+      </par>
+      <par id="code_000209" class="code">
+        <text src="Machine_Learning.xml#code_000209" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0067" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0067" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0068" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0068" region="textRegion" />
+      </par>
+      <par id="code_000210" class="code">
+        <text src="Machine_Learning.xml#code_000210" region="textRegion" />
+      </par>
+      <par id="p153" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p153" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0069" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0069" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0070" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0070" region="textRegion" />
+      </par>
+      <par id="code_000211" class="code">
+        <text src="Machine_Learning.xml#code_000211" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0071" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0071" region="textRegion" />
+      </par>
+      <par id="code_000212" class="code">
+        <text src="Machine_Learning.xml#code_000212" region="textRegion" />
+      </par>
+      <par id="h4_000039" class="h4">
+        <text src="Machine_Learning.xml#h4_000039" region="textRegion" />
+      </par>
+      <par id="p_000440" class="p">
+        <text src="Machine_Learning.xml#p_000440" region="textRegion" />
+      </par>
+      <par id="code_000213" class="code">
+        <text src="Machine_Learning.xml#code_000213" region="textRegion" />
+      </par>
+      <par id="p154" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p154" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0073" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0073" region="textRegion" />
+      </par>
+      <par id="h4_000040" class="h4">
+        <text src="Machine_Learning.xml#h4_000040" region="textRegion" />
+      </par>
+      <par id="p_000442" class="p">
+        <text src="Machine_Learning.xml#p_000442" region="textRegion" />
+      </par>
+      <par id="h3_000130" class="h3">
+        <text src="Machine_Learning.xml#h3_000130" region="textRegion" />
+      </par>
+      <par id="p_000443" class="p">
+        <text src="Machine_Learning.xml#p_000443" region="textRegion" />
+      </par>
+      <par id="h4_000041" class="h4">
+        <text src="Machine_Learning.xml#h4_000041" region="textRegion" />
+      </par>
+      <par id="code_000214" class="code">
+        <text src="Machine_Learning.xml#code_000214" region="textRegion" />
+      </par>
+      <par id="span_000853" class="span">
+        <text src="Machine_Learning.xml#span_000853" region="textRegion" />
+      </par>
+      <par id="code_000215" class="code">
+        <text src="Machine_Learning.xml#code_000215" region="textRegion" />
+      </par>
+      <par id="span_000854" class="span">
+        <text src="Machine_Learning.xml#span_000854" region="textRegion" />
+      </par>
+      <par id="code_000216" class="code">
+        <text src="Machine_Learning.xml#code_000216" region="textRegion" />
+      </par>
+      <par id="span_000855" class="span">
+        <text src="Machine_Learning.xml#span_000855" region="textRegion" />
+      </par>
+      <par id="span_000856" class="span">
+        <text src="Machine_Learning.xml#span_000856" region="textRegion" />
+      </par>
+      <par id="code_000217" class="code">
+        <text src="Machine_Learning.xml#code_000217" region="textRegion" />
+      </par>
+      <par id="span_000857" class="span">
+        <text src="Machine_Learning.xml#span_000857" region="textRegion" />
+      </par>
+      <par id="code_000218" class="code">
+        <text src="Machine_Learning.xml#code_000218" region="textRegion" />
+      </par>
+      <par id="span_000858" class="span">
+        <text src="Machine_Learning.xml#span_000858" region="textRegion" />
+      </par>
+      <par id="code_000219" class="code">
+        <text src="Machine_Learning.xml#code_000219" region="textRegion" />
+      </par>
+      <par id="span_000859" class="span">
+        <text src="Machine_Learning.xml#span_000859" region="textRegion" />
+      </par>
+      <par id="code_000220" class="code">
+        <text src="Machine_Learning.xml#code_000220" region="textRegion" />
+      </par>
+      <par id="span_000860" class="span">
+        <text src="Machine_Learning.xml#span_000860" region="textRegion" />
+      </par>
+      <par id="code_000221" class="code">
+        <text src="Machine_Learning.xml#code_000221" region="textRegion" />
+      </par>
+      <par id="p155" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p155" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0079" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0079" region="textRegion" />
+      </par>
+      <par id="h4_000042" class="h4">
+        <text src="Machine_Learning.xml#h4_000042" region="textRegion" />
+      </par>
+      <par id="span_000861" class="span">
+        <text src="Machine_Learning.xml#span_000861" region="textRegion" />
+      </par>
+      <par id="code_000222" class="code">
+        <text src="Machine_Learning.xml#code_000222" region="textRegion" />
+      </par>
+      <par id="span_000862" class="span">
+        <text src="Machine_Learning.xml#span_000862" region="textRegion" />
+      </par>
+      <a href="#c07-c07-fig-0013" external="false">
+        <par id="c07-c07-fig-anc-0013" class="a">
+          <text src="Machine_Learning.xml#c07-c07-fig-anc-0013" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000863" class="span">
+        <text src="Machine_Learning.xml#span_000863" region="textRegion" />
+      </par>
+      <par id="img_000094" class="img">
+        <img src="images/c07f013.jpg" />
+      </par>
+      <par id="strong_000298" class="strong">
+        <text src="Machine_Learning.xml#strong_000298" region="textRegion" />
+      </par>
+      <par id="span_000865" class="span">
+        <text src="Machine_Learning.xml#span_000865" region="textRegion" />
+      </par>
+      <par id="span_000866" class="span">
+        <text src="Machine_Learning.xml#span_000866" region="textRegion" />
+      </par>
+      <par id="code_000223" class="code">
+        <text src="Machine_Learning.xml#code_000223" region="textRegion" />
+      </par>
+      <par id="span_000867" class="span">
+        <text src="Machine_Learning.xml#span_000867" region="textRegion" />
+      </par>
+      <par id="code_000224" class="code">
+        <text src="Machine_Learning.xml#code_000224" region="textRegion" />
+      </par>
+      <par id="span_000868" class="span">
+        <text src="Machine_Learning.xml#span_000868" region="textRegion" />
+      </par>
+      <a href="#c07-c07-fig-0014" external="false">
+        <par id="c07-c07-fig-anc-0014" class="a">
+          <text src="Machine_Learning.xml#c07-c07-fig-anc-0014" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000869" class="span">
+        <text src="Machine_Learning.xml#span_000869" region="textRegion" />
+      </par>
+      <par id="img_000095" class="img">
+        <img src="images/c07f014.jpg" />
+      </par>
+      <par id="strong_000299" class="strong">
+        <text src="Machine_Learning.xml#strong_000299" region="textRegion" />
+      </par>
+      <par id="p156" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p156" region="textRegion" />
+      </par>
+      <par id="span_000871" class="span">
+        <text src="Machine_Learning.xml#span_000871" region="textRegion" />
+      </par>
+      <par id="span_000872" class="span">
+        <text src="Machine_Learning.xml#span_000872" region="textRegion" />
+      </par>
+      <par id="code_000225" class="code">
+        <text src="Machine_Learning.xml#code_000225" region="textRegion" />
+      </par>
+      <par id="span_000873" class="span">
+        <text src="Machine_Learning.xml#span_000873" region="textRegion" />
+      </par>
+      <a href="#c07-c07-fig-0015" external="false">
+        <par id="c07-c07-fig-anc-0015" class="a">
+          <text src="Machine_Learning.xml#c07-c07-fig-anc-0015" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000874" class="span">
+        <text src="Machine_Learning.xml#span_000874" region="textRegion" />
+      </par>
+      <par id="img_000096" class="img">
+        <img src="images/c07f015.jpg" />
+      </par>
+      <par id="strong_000300" class="strong">
+        <text src="Machine_Learning.xml#strong_000300" region="textRegion" />
+      </par>
+      <par id="span_000876" class="span">
+        <text src="Machine_Learning.xml#span_000876" region="textRegion" />
+      </par>
+      <par id="p157" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p157" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0083" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0083" region="textRegion" />
+      </par>
+      <par id="strong_000301" class="strong">
+        <text src="Machine_Learning.xml#strong_000301" region="textRegion" />
+      </par>
+      <par id="span_000877" class="span">
+        <text src="Machine_Learning.xml#span_000877" region="textRegion" />
+      </par>
+      <par id="strong_000302" class="strong">
+        <text src="Machine_Learning.xml#strong_000302" region="textRegion" />
+      </par>
+      <par id="span_000878" class="span">
+        <text src="Machine_Learning.xml#span_000878" region="textRegion" />
+      </par>
+      <par id="strong_000303" class="strong">
+        <text src="Machine_Learning.xml#strong_000303" region="textRegion" />
+      </par>
+      <par id="span_000879" class="span">
+        <text src="Machine_Learning.xml#span_000879" region="textRegion" />
+      </par>
+      <par id="em_000175" class="em">
+        <text src="Machine_Learning.xml#em_000175" region="textRegion" />
+      </par>
+      <par id="span_000880" class="span">
+        <text src="Machine_Learning.xml#span_000880" region="textRegion" />
+      </par>
+      <par id="strong_000304" class="strong">
+        <text src="Machine_Learning.xml#strong_000304" region="textRegion" />
+      </par>
+      <par id="span_000881" class="span">
+        <text src="Machine_Learning.xml#span_000881" region="textRegion" />
+      </par>
+      <par id="em_000176" class="em">
+        <text src="Machine_Learning.xml#em_000176" region="textRegion" />
+      </par>
+      <par id="span_000882" class="span">
+        <text src="Machine_Learning.xml#span_000882" region="textRegion" />
+      </par>
+      <par id="strong_000305" class="strong">
+        <text src="Machine_Learning.xml#strong_000305" region="textRegion" />
+      </par>
+      <par id="span_000883" class="span">
+        <text src="Machine_Learning.xml#span_000883" region="textRegion" />
+      </par>
+      <par id="strong_000306" class="strong">
+        <text src="Machine_Learning.xml#strong_000306" region="textRegion" />
+      </par>
+      <par id="span_000884" class="span">
+        <text src="Machine_Learning.xml#span_000884" region="textRegion" />
+      </par>
+      <par id="strong_000307" class="strong">
+        <text src="Machine_Learning.xml#strong_000307" region="textRegion" />
+      </par>
+      <par id="span_000885" class="span">
+        <text src="Machine_Learning.xml#span_000885" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0084" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0084" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0085" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0085" region="textRegion" />
+      </par>
+      <par id="code_000227" class="code">
+        <text src="Machine_Learning.xml#code_000227" region="textRegion" />
+      </par>
+      <par id="p158" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p158" region="textRegion" />
+      </par>
+      <par id="span_000886" class="span">
+        <text src="Machine_Learning.xml#span_000886" region="textRegion" />
+      </par>
+      <par id="code_000228" class="code">
+        <text src="Machine_Learning.xml#code_000228" region="textRegion" />
+      </par>
+      <par id="span_000887" class="span">
+        <text src="Machine_Learning.xml#span_000887" region="textRegion" />
+      </par>
+      <par id="code_000229" class="code">
+        <text src="Machine_Learning.xml#code_000229" region="textRegion" />
+      </par>
+      <par id="span_000888" class="span">
+        <text src="Machine_Learning.xml#span_000888" region="textRegion" />
+      </par>
+      <par id="code_000230" class="code">
+        <text src="Machine_Learning.xml#code_000230" region="textRegion" />
+      </par>
+      <par id="span_000889" class="span">
+        <text src="Machine_Learning.xml#span_000889" region="textRegion" />
+      </par>
+      <par id="h4_000043" class="h4">
+        <text src="Machine_Learning.xml#h4_000043" region="textRegion" />
+      </par>
+      <par id="span_000890" class="span">
+        <text src="Machine_Learning.xml#span_000890" region="textRegion" />
+      </par>
+      <par id="code_000231" class="code">
+        <text src="Machine_Learning.xml#code_000231" region="textRegion" />
+      </par>
+      <par id="span_000891" class="span">
+        <text src="Machine_Learning.xml#span_000891" region="textRegion" />
+      </par>
+      <par id="p_000454" class="p">
+        <text src="Machine_Learning.xml#p_000454" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0089" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0089" region="textRegion" />
+      </par>
+      <par id="span_000892" class="span">
+        <text src="Machine_Learning.xml#span_000892" region="textRegion" />
+      </par>
+      <par id="em_000177" class="em">
+        <text src="Machine_Learning.xml#em_000177" region="textRegion" />
+      </par>
+      <par id="span_000893" class="span">
+        <text src="Machine_Learning.xml#span_000893" region="textRegion" />
+      </par>
+      <par id="p_000456" class="p">
+        <text src="Machine_Learning.xml#p_000456" region="textRegion" />
+      </par>
+      <par id="span_000894" class="span">
+        <text src="Machine_Learning.xml#span_000894" region="textRegion" />
+      </par>
+      <par id="em_000178" class="em">
+        <text src="Machine_Learning.xml#em_000178" region="textRegion" />
+      </par>
+      <par id="span_000895" class="span">
+        <text src="Machine_Learning.xml#span_000895" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0090" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0090" region="textRegion" />
+      </par>
+      <par id="code_000234" class="code">
+        <text src="Machine_Learning.xml#code_000234" region="textRegion" />
+      </par>
+      <par id="p159" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p159" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0091" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0091" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0092" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0092" region="textRegion" />
+      </par>
+      <par id="code_000235" class="code">
+        <text src="Machine_Learning.xml#code_000235" region="textRegion" />
+      </par>
+      <par id="c07-c07_level1_6" class="h2">
+        <text src="Machine_Learning.xml#c07-c07_level1_6" region="textRegion" />
+      </par>
+      <par id="p_000460" class="p">
+        <text src="Machine_Learning.xml#p_000460" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0094" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0094" region="textRegion" />
+      </par>
+      <par id="c07-c07-para-0095" class="p">
+        <text src="Machine_Learning.xml#c07-c07-para-0095" region="textRegion" />
+      </par>
+      <par id="c08-c8" class="h1">
+        <text src="Machine_Learning.xml#c08-c8" region="textRegion" />
+      </par>
+      <par id="p161" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p161" region="textRegion" />
+      </par>
+      <par id="p_000461" class="p">
+        <text src="Machine_Learning.xml#p_000461" region="textRegion" />
+      </par>
+      <seq id="sidebar_000009-seq" class="sidebar" fill="remove">
+        <par id="h2_000013" class="h2">
+          <text src="Machine_Learning.xml#h2_000013" region="textRegion" />
+        </par>
+        <par id="p_000462" class="p">
+          <text src="Machine_Learning.xml#p_000462" region="textRegion" />
+        </par>
+      </seq>
+      <par id="c08-c08_level1_1" class="h2">
+        <text src="Machine_Learning.xml#c08-c08_level1_1" region="textRegion" />
+      </par>
+      <par id="span_000896" class="span">
+        <text src="Machine_Learning.xml#span_000896" region="textRegion" />
+      </par>
+      <a href="#c08-c08-fig-0001" external="false">
+        <par id="c08-c08-fig-anc-0001" class="a">
+          <text src="Machine_Learning.xml#c08-c08-fig-anc-0001" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000897" class="span">
+        <text src="Machine_Learning.xml#span_000897" region="textRegion" />
+      </par>
+      <par id="img_000097" class="img">
+        <img src="images/c08f001.jpg" />
+      </par>
+      <par id="strong_000308" class="strong">
+        <text src="Machine_Learning.xml#strong_000308" region="textRegion" />
+      </par>
+      <par id="span_000899" class="span">
+        <text src="Machine_Learning.xml#span_000899" region="textRegion" />
+      </par>
+      <par id="p162" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p162" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0004" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0004" region="textRegion" />
+      </par>
+      <par id="c08-c08_level1_2" class="h2">
+        <text src="Machine_Learning.xml#c08-c08_level1_2" region="textRegion" />
+      </par>
+      <par id="p_000465" class="p">
+        <text src="Machine_Learning.xml#p_000465" region="textRegion" />
+      </par>
+      <par id="h3_000131" class="h3">
+        <text src="Machine_Learning.xml#h3_000131" region="textRegion" />
+      </par>
+      <par id="p_000466" class="p">
+        <text src="Machine_Learning.xml#p_000466" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0007" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0007" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0008" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0008" region="textRegion" />
+      </par>
+      <par id="h3_000132" class="h3">
+        <text src="Machine_Learning.xml#h3_000132" region="textRegion" />
+      </par>
+      <par id="p163" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p163" region="textRegion" />
+      </par>
+      <par id="p_000467" class="p">
+        <text src="Machine_Learning.xml#p_000467" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0010" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0010" region="textRegion" />
+      </par>
+      <par id="h3_000133" class="h3">
+        <text src="Machine_Learning.xml#h3_000133" region="textRegion" />
+      </par>
+      <par id="p_000468" class="p">
+        <text src="Machine_Learning.xml#p_000468" region="textRegion" />
+      </par>
+      <par id="h3_000134" class="h3">
+        <text src="Machine_Learning.xml#h3_000134" region="textRegion" />
+      </par>
+      <par id="p_000469" class="p">
+        <text src="Machine_Learning.xml#p_000469" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0013" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0013" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0014" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0014" region="textRegion" />
+      </par>
+      <par id="c08-c08_level1_3" class="h2">
+        <text src="Machine_Learning.xml#c08-c08_level1_3" region="textRegion" />
+      </par>
+      <par id="p164" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p164" region="textRegion" />
+      </par>
+      <par id="p_000470" class="p">
+        <text src="Machine_Learning.xml#p_000470" region="textRegion" />
+      </par>
+      <par id="span_000900" class="span">
+        <text src="Machine_Learning.xml#span_000900" region="textRegion" />
+      </par>
+      <a href="#c08-c08-fig-0002" external="false">
+        <par id="c08-c08-fig-anc-0002" class="a">
+          <text src="Machine_Learning.xml#c08-c08-fig-anc-0002" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000901" class="span">
+        <text src="Machine_Learning.xml#span_000901" region="textRegion" />
+      </par>
+      <par id="img_000098" class="img">
+        <img src="images/c08f002.jpg" />
+      </par>
+      <par id="strong_000309" class="strong">
+        <text src="Machine_Learning.xml#strong_000309" region="textRegion" />
+      </par>
+      <par id="span_000903" class="span">
+        <text src="Machine_Learning.xml#span_000903" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0017" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0017" region="textRegion" />
+      </par>
+      <par id="span_000904" class="span">
+        <text src="Machine_Learning.xml#span_000904" region="textRegion" />
+      </par>
+      <par id="em_000179" class="em">
+        <text src="Machine_Learning.xml#em_000179" region="textRegion" />
+      </par>
+      <par id="span_000905" class="span">
+        <text src="Machine_Learning.xml#span_000905" region="textRegion" />
+      </par>
+      <par id="h3_000135" class="h3">
+        <text src="Machine_Learning.xml#h3_000135" region="textRegion" />
+      </par>
+      <par id="p_000472" class="p">
+        <text src="Machine_Learning.xml#p_000472" region="textRegion" />
+      </par>
+      <par id="img_000099" class="img">
+        <img src="images/c08_math_001.png" />
+      </par>
+      <par id="span_000906" class="span">
+        <text src="Machine_Learning.xml#span_000906" region="textRegion" />
+      </par>
+      <par id="p165" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p165" region="textRegion" />
+      </par>
+      <par id="span_000907" class="span">
+        <text src="Machine_Learning.xml#span_000907" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0021" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0021" region="textRegion" />
+      </par>
+      <par id="code_000236" class="code">
+        <text src="Machine_Learning.xml#code_000236" region="textRegion" />
+      </par>
+      <par id="h4_000044" class="h4">
+        <text src="Machine_Learning.xml#h4_000044" region="textRegion" />
+      </par>
+      <par id="span_000908" class="span">
+        <text src="Machine_Learning.xml#span_000908" region="textRegion" />
+      </par>
+      <par id="em_000180" class="em">
+        <text src="Machine_Learning.xml#em_000180" region="textRegion" />
+      </par>
+      <par id="span_000909" class="span">
+        <text src="Machine_Learning.xml#span_000909" region="textRegion" />
+      </par>
+      <par id="em_000181" class="em">
+        <text src="Machine_Learning.xml#em_000181" region="textRegion" />
+      </par>
+      <par id="span_000910" class="span">
+        <text src="Machine_Learning.xml#span_000910" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0023" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0023" region="textRegion" />
+      </par>
+      <par id="h4_000045" class="h4">
+        <text src="Machine_Learning.xml#h4_000045" region="textRegion" />
+      </par>
+      <par id="p_000476" class="p">
+        <text src="Machine_Learning.xml#p_000476" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0025" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0025" region="textRegion" />
+      </par>
+      <par id="span_000911" class="span">
+        <text src="Machine_Learning.xml#span_000911" region="textRegion" />
+      </par>
+      <a href="#c08-c08-fig-0003" external="false">
+        <par id="c08-c08-fig-anc-0003" class="a">
+          <text src="Machine_Learning.xml#c08-c08-fig-anc-0003" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000912" class="span">
+        <text src="Machine_Learning.xml#span_000912" region="textRegion" />
+      </par>
+      <par id="img_000100" class="img">
+        <img src="images/c08f003.jpg" />
+      </par>
+      <par id="strong_000310" class="strong">
+        <text src="Machine_Learning.xml#strong_000310" region="textRegion" />
+      </par>
+      <par id="span_000914" class="span">
+        <text src="Machine_Learning.xml#span_000914" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0027" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0027" region="textRegion" />
+      </par>
+      <par id="img_000101" class="img">
+        <img src="images/c08_math_002.png" />
+      </par>
+      <par id="c08-c08-para-0028" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0028" region="textRegion" />
+      </par>
+      <par id="h4_000046" class="h4">
+        <text src="Machine_Learning.xml#h4_000046" region="textRegion" />
+      </par>
+      <par id="p166" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p166" region="textRegion" />
+      </par>
+      <par id="p_000479" class="p">
+        <text src="Machine_Learning.xml#p_000479" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0030" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0030" region="textRegion" />
+      </par>
+      <par id="h3_000136" class="h3">
+        <text src="Machine_Learning.xml#h3_000136" region="textRegion" />
+      </par>
+      <par id="p_000480" class="p">
+        <text src="Machine_Learning.xml#p_000480" region="textRegion" />
+      </par>
+      <par id="li_000349" class="li">
+        <text src="Machine_Learning.xml#li_000349" region="textRegion" />
+      </par>
+      <par id="li_000350" class="li">
+        <text src="Machine_Learning.xml#li_000350" region="textRegion" />
+      </par>
+      <par id="li_000351" class="li">
+        <text src="Machine_Learning.xml#li_000351" region="textRegion" />
+      </par>
+      <par id="li_000352" class="li">
+        <text src="Machine_Learning.xml#li_000352" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0032" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0032" region="textRegion" />
+      </par>
+      <par id="h4_000047" class="h4">
+        <text src="Machine_Learning.xml#h4_000047" region="textRegion" />
+      </par>
+      <par id="p167" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p167" region="textRegion" />
+      </par>
+      <par id="p_000481" class="p">
+        <text src="Machine_Learning.xml#p_000481" region="textRegion" />
+      </par>
+      <par id="img_000102" class="img">
+        <img src="images/c08_math_003.png" />
+      </par>
+      <par id="c08-c08-para-0034" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0034" region="textRegion" />
+      </par>
+      <par id="h4_000048" class="h4">
+        <text src="Machine_Learning.xml#h4_000048" region="textRegion" />
+      </par>
+      <par id="span_000915" class="span">
+        <text src="Machine_Learning.xml#span_000915" region="textRegion" />
+      </par>
+      <a href="#c08-c08-fig-0004" external="false">
+        <par id="c08-c08-fig-anc-0004" class="a">
+          <text src="Machine_Learning.xml#c08-c08-fig-anc-0004" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000916" class="span">
+        <text src="Machine_Learning.xml#span_000916" region="textRegion" />
+      </par>
+      <par id="img_000103" class="img">
+        <img src="images/c08f004.jpg" />
+      </par>
+      <par id="strong_000311" class="strong">
+        <text src="Machine_Learning.xml#strong_000311" region="textRegion" />
+      </par>
+      <par id="span_000918" class="span">
+        <text src="Machine_Learning.xml#span_000918" region="textRegion" />
+      </par>
+      <par id="h4_000049" class="h4">
+        <text src="Machine_Learning.xml#h4_000049" region="textRegion" />
+      </par>
+      <par id="p168" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p168" region="textRegion" />
+      </par>
+      <par id="p_000485" class="p">
+        <text src="Machine_Learning.xml#p_000485" region="textRegion" />
+      </par>
+      <par id="span_000919" class="span">
+        <text src="Machine_Learning.xml#span_000919" region="textRegion" />
+      </par>
+      <par id="code_000237" class="code">
+        <text src="Machine_Learning.xml#code_000237" region="textRegion" />
+      </par>
+      <par id="span_000920" class="span">
+        <text src="Machine_Learning.xml#span_000920" region="textRegion" />
+      </par>
+      <par id="h4_000050" class="h4">
+        <text src="Machine_Learning.xml#h4_000050" region="textRegion" />
+      </par>
+      <par id="span_000921" class="span">
+        <text src="Machine_Learning.xml#span_000921" region="textRegion" />
+      </par>
+      <par id="em_000182" class="em">
+        <text src="Machine_Learning.xml#em_000182" region="textRegion" />
+      </par>
+      <par id="span_000922" class="span">
+        <text src="Machine_Learning.xml#span_000922" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0039" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0039" region="textRegion" />
+      </par>
+      <par id="c08-c08_level1_4" class="h2">
+        <text src="Machine_Learning.xml#c08-c08_level1_4" region="textRegion" />
+      </par>
+      <par id="span_000923" class="span">
+        <text src="Machine_Learning.xml#span_000923" region="textRegion" />
+      </par>
+      <par id="code_000238" class="code">
+        <text src="Machine_Learning.xml#code_000238" region="textRegion" />
+      </par>
+      <par id="span_000924" class="span">
+        <text src="Machine_Learning.xml#span_000924" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0041" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0041" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0042" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0042" region="textRegion" />
+      </par>
+      <par id="h3_000137" class="h3">
+        <text src="Machine_Learning.xml#h3_000137" region="textRegion" />
+      </par>
+      <par id="span_000925" class="span">
+        <text src="Machine_Learning.xml#span_000925" region="textRegion" />
+      </par>
+      <par id="code_000239" class="code">
+        <text src="Machine_Learning.xml#code_000239" region="textRegion" />
+      </par>
+      <par id="span_000926" class="span">
+        <text src="Machine_Learning.xml#span_000926" region="textRegion" />
+      </par>
+      <par id="code_000240" class="code">
+        <text src="Machine_Learning.xml#code_000240" region="textRegion" />
+      </par>
+      <par id="p169" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p169" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0044" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0044" region="textRegion" />
+      </par>
+      <par id="code_000241" class="code">
+        <text src="Machine_Learning.xml#code_000241" region="textRegion" />
+      </par>
+      <par id="span_000927" class="span">
+        <text src="Machine_Learning.xml#span_000927" region="textRegion" />
+      </par>
+      <par id="code_000242" class="code">
+        <text src="Machine_Learning.xml#code_000242" region="textRegion" />
+      </par>
+      <par id="span_000928" class="span">
+        <text src="Machine_Learning.xml#span_000928" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0046" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0046" region="textRegion" />
+      </par>
+      <par id="h3_000138" class="h3">
+        <text src="Machine_Learning.xml#h3_000138" region="textRegion" />
+      </par>
+      <par id="span_000929" class="span">
+        <text src="Machine_Learning.xml#span_000929" region="textRegion" />
+      </par>
+      <par id="em_000183" class="em">
+        <text src="Machine_Learning.xml#em_000183" region="textRegion" />
+      </par>
+      <par id="span_000930" class="span">
+        <text src="Machine_Learning.xml#span_000930" region="textRegion" />
+      </par>
+      <par id="h4_000051" class="h4">
+        <text src="Machine_Learning.xml#h4_000051" region="textRegion" />
+      </par>
+      <par id="p170" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p170" region="textRegion" />
+      </par>
+      <par id="p_000492" class="p">
+        <text src="Machine_Learning.xml#p_000492" region="textRegion" />
+      </par>
+      <par id="span_000931" class="span">
+        <text src="Machine_Learning.xml#span_000931" region="textRegion" />
+      </par>
+      <par id="code_000243" class="code">
+        <text src="Machine_Learning.xml#code_000243" region="textRegion" />
+      </par>
+      <par id="span_000932" class="span">
+        <text src="Machine_Learning.xml#span_000932" region="textRegion" />
+      </par>
+      <a href="#c08-c08-fig-0005" external="false">
+        <par id="c08-c08-fig-anc-0005" class="a">
+          <text src="Machine_Learning.xml#c08-c08-fig-anc-0005" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000933" class="span">
+        <text src="Machine_Learning.xml#span_000933" region="textRegion" />
+      </par>
+      <par id="img_000104" class="img">
+        <img src="images/c08f005.jpg" />
+      </par>
+      <par id="strong_000312" class="strong">
+        <text src="Machine_Learning.xml#strong_000312" region="textRegion" />
+      </par>
+      <par id="span_000935" class="span">
+        <text src="Machine_Learning.xml#span_000935" region="textRegion" />
+      </par>
+      <par id="span_000936" class="span">
+        <text src="Machine_Learning.xml#span_000936" region="textRegion" />
+      </par>
+      <a href="#c08-c08-fig-0006" external="false">
+        <par id="c08-c08-fig-anc-0006" class="a">
+          <text src="Machine_Learning.xml#c08-c08-fig-anc-0006" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000937" class="span">
+        <text src="Machine_Learning.xml#span_000937" region="textRegion" />
+      </par>
+      <par id="code_000244" class="code">
+        <text src="Machine_Learning.xml#code_000244" region="textRegion" />
+      </par>
+      <par id="span_000938" class="span">
+        <text src="Machine_Learning.xml#span_000938" region="textRegion" />
+      </par>
+      <par id="code_000245" class="code">
+        <text src="Machine_Learning.xml#code_000245" region="textRegion" />
+      </par>
+      <par id="span_000939" class="span">
+        <text src="Machine_Learning.xml#span_000939" region="textRegion" />
+      </par>
+      <par id="img_000105" class="img">
+        <img src="images/c08f006.jpg" />
+      </par>
+      <par id="strong_000313" class="strong">
+        <text src="Machine_Learning.xml#strong_000313" region="textRegion" />
+      </par>
+      <par id="span_000941" class="span">
+        <text src="Machine_Learning.xml#span_000941" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0051" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0051" region="textRegion" />
+      </par>
+      <par id="h4_000052" class="h4">
+        <text src="Machine_Learning.xml#h4_000052" region="textRegion" />
+      </par>
+      <par id="span_000942" class="span">
+        <text src="Machine_Learning.xml#span_000942" region="textRegion" />
+      </par>
+      <par id="p171" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p171" region="textRegion" />
+      </par>
+      <par id="span_000943" class="span">
+        <text src="Machine_Learning.xml#span_000943" region="textRegion" />
+      </par>
+      <a href="#c08-c08-fig-0007" external="false">
+        <par id="c08-c08-fig-anc-0007" class="a">
+          <text src="Machine_Learning.xml#c08-c08-fig-anc-0007" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000944" class="span">
+        <text src="Machine_Learning.xml#span_000944" region="textRegion" />
+      </par>
+      <par id="img_000106" class="img">
+        <img src="images/c08f007.jpg" />
+      </par>
+      <par id="strong_000314" class="strong">
+        <text src="Machine_Learning.xml#strong_000314" region="textRegion" />
+      </par>
+      <par id="span_000946" class="span">
+        <text src="Machine_Learning.xml#span_000946" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0053" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0053" region="textRegion" />
+      </par>
+      <par id="code_000246" class="code">
+        <text src="Machine_Learning.xml#code_000246" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0054" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0054" region="textRegion" />
+      </par>
+      <par id="code_000247" class="code">
+        <text src="Machine_Learning.xml#code_000247" region="textRegion" />
+      </par>
+      <par id="span_000947" class="span">
+        <text src="Machine_Learning.xml#span_000947" region="textRegion" />
+      </par>
+      <par id="code_000248" class="code">
+        <text src="Machine_Learning.xml#code_000248" region="textRegion" />
+      </par>
+      <par id="span_000948" class="span">
+        <text src="Machine_Learning.xml#span_000948" region="textRegion" />
+      </par>
+      <par id="code_000249" class="code">
+        <text src="Machine_Learning.xml#code_000249" region="textRegion" />
+      </par>
+      <par id="span_000949" class="span">
+        <text src="Machine_Learning.xml#span_000949" region="textRegion" />
+      </par>
+      <par id="span_000950" class="span">
+        <text src="Machine_Learning.xml#span_000950" region="textRegion" />
+      </par>
+      <par id="code_000250" class="code">
+        <text src="Machine_Learning.xml#code_000250" region="textRegion" />
+      </par>
+      <par id="span_000951" class="span">
+        <text src="Machine_Learning.xml#span_000951" region="textRegion" />
+      </par>
+      <par id="code_000251" class="code">
+        <text src="Machine_Learning.xml#code_000251" region="textRegion" />
+      </par>
+      <par id="span_000952" class="span">
+        <text src="Machine_Learning.xml#span_000952" region="textRegion" />
+      </par>
+      <par id="p172" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p172" region="textRegion" />
+      </par>
+      <par id="span_000953" class="span">
+        <text src="Machine_Learning.xml#span_000953" region="textRegion" />
+      </par>
+      <par id="code_000252" class="code">
+        <text src="Machine_Learning.xml#code_000252" region="textRegion" />
+      </par>
+      <par id="span_000954" class="span">
+        <text src="Machine_Learning.xml#span_000954" region="textRegion" />
+      </par>
+      <par id="code_000253" class="code">
+        <text src="Machine_Learning.xml#code_000253" region="textRegion" />
+      </par>
+      <par id="span_000955" class="span">
+        <text src="Machine_Learning.xml#span_000955" region="textRegion" />
+      </par>
+      <a href="#c08-c08-fig-0008" external="false">
+        <par id="c08-c08-fig-anc-0008" class="a">
+          <text src="Machine_Learning.xml#c08-c08-fig-anc-0008" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000956" class="span">
+        <text src="Machine_Learning.xml#span_000956" region="textRegion" />
+      </par>
+      <par id="img_000107" class="img">
+        <img src="images/c08f008.jpg" />
+      </par>
+      <par id="strong_000315" class="strong">
+        <text src="Machine_Learning.xml#strong_000315" region="textRegion" />
+      </par>
+      <par id="span_000958" class="span">
+        <text src="Machine_Learning.xml#span_000958" region="textRegion" />
+      </par>
+      <par id="p173" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p173" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0056" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0056" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0057" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0057" region="textRegion" />
+      </par>
+      <par id="h5_000001" class="h5">
+        <text src="Machine_Learning.xml#h5_000001" region="textRegion" />
+      </par>
+      <par id="p_000499" class="p">
+        <text src="Machine_Learning.xml#p_000499" region="textRegion" />
+      </par>
+      <par id="code_000254" class="code">
+        <text src="Machine_Learning.xml#code_000254" region="textRegion" />
+      </par>
+      <par id="h5_000002" class="h5">
+        <text src="Machine_Learning.xml#h5_000002" region="textRegion" />
+      </par>
+      <par id="p_000501" class="p">
+        <text src="Machine_Learning.xml#p_000501" region="textRegion" />
+      </par>
+      <par id="code_000255" class="code">
+        <text src="Machine_Learning.xml#code_000255" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0060" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0060" region="textRegion" />
+      </par>
+      <par id="h5_000003" class="h5">
+        <text src="Machine_Learning.xml#h5_000003" region="textRegion" />
+      </par>
+      <par id="p_000503" class="p">
+        <text src="Machine_Learning.xml#p_000503" region="textRegion" />
+      </par>
+      <par id="code_000256" class="code">
+        <text src="Machine_Learning.xml#code_000256" region="textRegion" />
+      </par>
+      <par id="h4_000053" class="h4">
+        <text src="Machine_Learning.xml#h4_000053" region="textRegion" />
+      </par>
+      <par id="p174" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p174" region="textRegion" />
+      </par>
+      <par id="span_000959" class="span">
+        <text src="Machine_Learning.xml#span_000959" region="textRegion" />
+      </par>
+      <a href="#c08-c08-fig-0009" external="false">
+        <par id="c08-c08-fig-anc-0009" class="a">
+          <text src="Machine_Learning.xml#c08-c08-fig-anc-0009" region="textRegion" />
+        </par>
+      </a>
+      <par id="span_000960" class="span">
+        <text src="Machine_Learning.xml#span_000960" region="textRegion" />
+      </par>
+      <par id="img_000108" class="img">
+        <img src="images/c08f009.jpg" />
+      </par>
+      <par id="strong_000316" class="strong">
+        <text src="Machine_Learning.xml#strong_000316" region="textRegion" />
+      </par>
+      <par id="span_000962" class="span">
+        <text src="Machine_Learning.xml#span_000962" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0063" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0063" region="textRegion" />
+      </par>
+      <par id="c08-c08-para-0064" class="p">
+        <text src="Machine_Learning.xml#c08-c08-para-0064" region="textRegion" />
+      </par>
+      <par id="h3_000139" class="h3">
+        <text src="Machine_Learning.xml#h3_000139" region="textRegion" />
+      </par>
+      <par id="span_000963" class="span">
+        <text src="Machine_Learning.xml#span_000963" region="textRegion" />
+      </par>
+      <par id="em_000184" class="em">
+        <text src="Machine_Learning.xml#em_000184" region="textRegion" />
+      </par>
+      <par id="span_000964" class="span">
+        <text src="Machine_Learning.xml#span_000964" region="textRegion" />
+      </par>
+      <par id="code_000257" class="code">
+        <text src="Machine_Learning.xml#code_000257" region="textRegion" />
+      </par>
+      <par id="span_000965" class="span">
+        <text src="Machine_Learning.xml#span_000965" region="textRegion" />
+      </par>
+      <par id="h4_000054" class="h4">
+        <text src="Machine_Learning.xml#h4_000054" region="textRegion" />
+      </par>
+      <par id="span_000966" class="span">
+        <text src="Machine_Learning.xml#span_000966" region="textRegion" />
+      </par>
+      <par id="code_000258" class="code">
+        <text src="Machine_Learning.xml#code_000258" region="textRegion" />
+      </par>
+      <par id="span_000967" class="span">
+        <text src="Machine_Learning.xml#span_000967" region="textRegion" />
+      </par>
+      <par id="code_000259" class="code">
+        <text src="Machine_Learning.xml#code_000259" region="textRegion" />
+      </par>
+      <par id="span_000968" class="span">
+        <text src="Machine_Learning.xml#span_000968" region="textRegion" />
+      </par>
+      <par id="span_000969" class="span">
+        <text src="Machine_Learning.xml#span_000969" region="textRegion" />
+      </par>
+      <par id="code_000260" class="code">
+        <text src="Machine_Learning.xml#code_000260" region="textRegion" />
+      </par>
+      <par id="span_000970" class="span">
+        <text src="Machine_Learning.xml#span_000970" region="textRegion" />
+      </par>
+      <par id="code_000261" class="code">
+        <text src="Machine_Learning.xml#code_000261" region="textRegion" />
+      </par>
+      <par id="span_000971" class="span">
+        <text src="Machine_Learning.xml#span_000971" region="textRegion" />
+      </par>
+      <par id="code_000262" class="code">
+        <text src="Machine_Learning.xml#code_000262" region="textRegion" />
+      </par>
+      <par id="span_000972" class="span">
+        <text src="Machine_Learning.xml#span_000972" region="textRegion" />
+      </par>
+      <par id="code_000263" class="code">
+        <text src="Machine_Learning.xml#code_000263" region="textRegion" />
+      </par>
+      <par id="span_000973" class="span">
+        <text src="Machine_Learning.xml#span_000973" region="textRegion" />
+      </par>
+      <par id="p175" class="pagenum" customTest="pagenumCustomTest">
+        <text src="Machine_Learning.xml#p175" region="textRegion" />
+      </par>
+      <par id="span_000974" class="span">
+        <text src="Machine_Learning.xml#span_000974" region="textRegion" />
+      </par>
+      <par id="code_000264" class="code">
+        <text src="Machine_Learning.xml#code_000264" region="textRegion" />
+      </par>
+      <par id="span_000975" class="span">
+        <text src="Machine_Learning.xml#span_000975" region="textRegion" />
+      </par>
+      <par id="code_000265" class="code">
+        <text src="Machine_Learning.xml#code_000265" region="textRegion" />
+      </par>
+      <seq id="sidebar_000010-seq" class="sidebar" fill="remove">
+        <par id="h2_000014" class="h2">
+          <text src="Machine_Learning.xml#h2_000014" region="textRegion" />
+        </par>
+        <par id="span_000976" class="span">
+          <text src="Machine_Learning.xml#span_000976" region="textRegion" />
+        </par>
+        <par id="code_000266" class="code">
+          <text src="Machine_Learning.xml#code_000266" region="textRegion" />
+        </par>
+        <par id="span_000977" class="span">
+          <text src="Machine_Learning.xml#span_000977" region="textRegion" />
+        </par>
+        <par id="code_000267" class="code">
+          <text src="Machine_Learning.xml#code_000267" region="textRegion" />
+        </par>
+        <par id="span_000978" class="span">
+          <text src="Machine_Learning.xml#span_000978" region="textRegion" />
+        </par>
+      </seq>
+      <par id="span_000979" class="span">
+        <text src="Machine_Learning.xml#span_000979" region="textRegion" />
+      </par>
+      <par id="code_000268" class="code">
+        <text src="Machine_Learning.xml#code_000268" region="textRegion" />
+      </par>
+      <par id="span_000980" class="span">
+        <text src="Machine_Learning.xml#span_000980" region="textRegion" />
+      </par>
+    </seq>
+  </body>
+</smil>
+
