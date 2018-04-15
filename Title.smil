@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?<!DOCTYPE html PUBLIC<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?<!DOCTYPE smil PUBLIC<?xml version="1.0" ?>
 <smil xmlns="http://www.w3.org/2001/SMIL20/">
      <head>
           <meta content="12341234" name="dtb:uid"/>
@@ -10,4 +10,7 @@
                <customTest defaultState="false" id="pagenumCustomTest" override="visible"/>
           </customAttributes>
      </head>
+     <body>
+          <seq/>
+     </body>
 </smil>

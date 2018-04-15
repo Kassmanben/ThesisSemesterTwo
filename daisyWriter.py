@@ -117,11 +117,13 @@ def make_smil_files(attribs=None):
     customTest = SubElement(customAttributes, "customTest", id="pagenumCustomTest", defaultState="false",
                             override="visible")
 
+    body = SubElement(smil,"body")
+    seq = SubElement(body,"seq")
     xmlstr = minidom.parseString(tostring(smil)).toprettyxml(indent="     ")
 
     with open(filename, "w") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?')
-        f.write('<!DOCTYPE html PUBLIC')
+        f.write('<!DOCTYPE smil PUBLIC')
         f.write(xmlstr)
 
 
