@@ -1,83 +1,90 @@
-import xml
-import xml.etree.cElementTree as ET
+import datetime
+import inspect
 from xml.dom import minidom
+from xml.etree.cElementTree import *
 
 filename = "test.xml"
 
-
-def write_meta_tag(content=None, name=None, httpequiv=None):
-    meta_str = "<meta"
-    if content:
-        meta_str += "\tcontent=\"" + str(content) + "\""
-    if name:
-        meta_str += "\tname=\"" + str(name) + "\""
-    if httpequiv:
-        meta_str += "\thttp-equiv=\"" + str(httpequiv) + "\""
-
-    meta_str += "/>"
-    return meta_str
-
-
-def fill_in_non_ET_Things(file, ol=[], mt=[]):
-    f = open(file, "r")
-    f_str = ""
-    for l in ol:
-        f_str += l + "\n"
-    for fl in f.readlines():
-        print(fl)
-        if fl.__contains__("<head/>"):
-            f_str += "<head>"
-            for m in mt:
-                f_str += m + "\n"
-            f_str += "</head>"
-        else:
-            if fl.__contains__('<?xml version="1.0" ?>'):
-                continue
-            f_str += fl
-
-    f.close()
-    f = open(file, "w")
-    f.write(f_str)
-    f.close()
+dc_metadata = {"Title": "REQUIRED", "Creator": "Unknown", "Subject": "Unknown", "Description": "Unknown",
+               "Publisher": "REQUIRED", "Contributor": "Unknown", "Date": "REQUIRED", "Type": "Unknown",
+               "Format": "REQUIRED", "Identifier": "REQUIRED", "Source": "Unknown", "Language": "REQUIRED",
+               "Relation": "Unknown", "Coverage": "Unknown", "Rights": "Unknown"}
+dtb_metadata = {"sourceDate": "Unknown", "sourceEdition": "Unknown", "sourcePublisher": "Unknown",
+                "sourceTitle": "Unknown", "multimediaType": "REQUIRED", "multimediaContent": "REQUIRED",
+                "narrator": "Unknown", "producer": "Unknown", "producedDate": "Unknown", "revision": "Unknown",
+                "revisionDate": "Unknown", "revisionDescription": "Unknown", "totalTime": "REQUIRED",
+                "audioFormat": "Unknown", "uid": "REQUIRED"}
+nav_metadata = {"uid": "REQUIRED", "depth": "REQUIRED", "generator": "Unknown", "totalPageCount": "REQUIRED",
+                "maxPageNumber": "REQUIRED"}
+smil_metadata = {"id": "REQUIRED", "defaultState": 'false', "override": 'hidden', "bookStruct": "PAGENUMBER"}
 
 
-dtbook = ET.Element("dtbook", xmlns="http://www.daisy.org/z3986/2005/dtbook/", attrib={"xml:lang": "en"},
-                    version="2005-3")
-head = ET.SubElement(dtbook, "head")
-meta1 = ET.SubElement(head, "meta", content="text/html; charset=utf-8", attrib={'http-equiv':"default-style"})
-meta2 = ET.SubElement(head, "meta", name="dtb:uid", content="9781119284512")
-meta3 = ET.SubElement(head, "meta", name="dc:Identifier", content="9781119284512")
-meta4 = ET.SubElement(head, "meta", name="dc:Title",
-                     content="Combustion Engines: An Introduction to Their Design, Performance, and Selection")
-meta5 = ET.SubElement(head, "meta", name="dc:Creator", content="Aman Gupta, Shubham Sharma, Sunny Narayan")
-meta6 = ET.SubElement(head, "meta", name="dc:Description",
-                      content="Vehicle noise, vibration, and emissions are only a few of the factors that can have a detrimental"
-                              " effects on overall performance of an engine.  These aspects are benchmarks for choice of customers "
-                              "while choosing a vehicle or for engineers while choosing an engine for industrial applications.  "
-                              "It is important that mechanical and automotive engineers have some knowledge in this area, "
-                              "as a part of their well-rounded training for designing and selecting various types of engines.   "
-                              "This volume is a valuable introductory text and a handy reference for any engineer, manager, or "
-                              "technician working in this area.  The automotive industry, and other industries that make use of "
-                              "engines in their industrial applications, account for billions, or even trillions, of dollars of "
-                              "revenue worldwide and are important in the daily lives of many, if not most, of the people living "
-                              "on this planet.   This is an area that affects a staggering number of people, and the information "
-                              "needed by engineers and technicians concerning the performance of various types of engines is of "
-                              "paramount importance in designing and selecting engines and the processes into which they are introduced.")
-meta7 = ET.SubElement(head, "meta", name="dc:Format", content="ANSI/NISO Z39.86-2005")
-meta8 = ET.SubElement(head, "meta", name="dc:Publisher", content="Bookshare")
-meta9 = ET.SubElement(head, "meta", name="dc:Language", content="en")
+def make_ncx_meta_tags(head_elem, l):
+    for e in l.keys():
+        if l[e] is not None and e in nav_metadata.keys():
+            prefix_e = "dtb:" + e
+            meta_elem = SubElement(head_elem, "meta", name=prefix_e, content=str(l[e]))
 
 
-book = ET.SubElement(dtbook, "book", id="book_73036475070",
-                     attrib={'xmlns:epub': "http://www.idpf.org/2007/ops", 'epub:type': "frontmatter"})
+def required_attribs(dc=False, dtb=False, smil=False, nav=False):
+    global dc_metadata, dtb_metadata, smil_metadata
+    required_args = set()
+    if dc:
+        for e in dc_metadata.keys():
+            if dc_metadata[e] == "REQUIRED":
+                required_args.add(e)
+    if dtb:
+        for e in dtb_metadata.keys():
+            if dtb_metadata[e] == "REQUIRED":
+                required_args.add(e)
+    if nav:
+        for e in nav_metadata.keys():
+            if nav_metadata[e] == "REQUIRED":
+                required_args.add(e)
+    if smil:
+        for e in smil_metadata.keys():
+            if smil_metadata[e] == "REQUIRED":
+                required_args.add(e)
+    return required_args
 
-xmlstr = minidom.parseString(ET.tostring(dtbook)).toprettyxml(indent="   ")
-with open(filename, "w") as f:
-    f.write(xmlstr)
 
-# DO LAST, SINCE ELEMENTTREE WORKS ONLY ON XML
-opening_lines = ['<?xml version="1.0" encoding="UTF-8"?>',
-                 '<?xml-stylesheet type="text/css" href="daisy.css" media="screen" ?>',
-                 '<?xml-stylesheet type="text/xsl" href="daisyTransform.xsl" media="screen" ?>',
-                 '<!DOCTYPE dtbook SYSTEM "dtbook-2005-3.dtd">']
-# fill_in_non_ET_Things(filename, ol=opening_lines, mt=meta_tags)
+def make_ncx_file(**attribs):
+    global dc_metadata, dtb_metadata, smil_metadata
+    req = required_attribs(dc=True, dtb=True, nav=True, smil=True)
+    print(req)
+    for r in req:
+        if r not in attribs.keys():
+            print(r)
+            raise ValueError("Missing required arguments for ncx file. \nRequired arguments are:" + str(req))
+
+    filename = attribs["Title"] + ".ncx"
+
+    ncx = Element("ncx", xmlns="http://www.daisy.org/z3986/2005/ncx/", version="2005-1", attrib={"xml:lang": "eng"})
+    head = SubElement(ncx, "head")
+
+    smilCustomTest = SubElement(head, "smilCustomTest")
+    for s in smil_metadata.keys():
+        try:
+            smilCustomTest.set(s, attribs[s])
+        except KeyError:
+            smilCustomTest.set(s, smil_metadata[s])
+
+    make_ncx_meta_tags(head, attribs)
+
+    xmlstr = minidom.parseString(tostring(ncx)).toprettyxml(indent="     ")
+
+    with open(filename, "w") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?')
+        f.write('<!DOCTYPE html PUBLIC')
+        f.write(xmlstr)
+
+
+make_ncx_file(Title="Title", Publisher="Publisher", Date="2018", depth=0, Identifier="12341234", Format="Default",
+              Language="EN", maxPageNumber=0, multimediaType="text", multimediaContent="text", totalPageCount=0,
+              totalTime="00:00:00", uid="12341234", id="12341234")
+# 
+# opening_lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+#                  '<?xml-stylesheet type="text/css" href="daisy.css" media="screen" ?>',
+#                  '<?xml-stylesheet type="text/xsl" href="daisyTransform.xsl" media="screen" ?>',
+#                  '<!DOCTYPE dtbook SYSTEM "dtbook-2005-3.dtd">']
+# # fill_in_non_ET_Things(filename, ol=opening_lines, mt=meta_tags)
