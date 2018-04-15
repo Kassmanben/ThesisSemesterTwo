@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?><?xml-stylesheet type = "text/css" href = "daisy.css" media = "screen" ?><?xml-stylesheet type = "text/xsl" href = "daisyTransform.xsl" media = "screen" ?><!DOCTYPE dtbook SYSTEM "dtbook-2005-3.dtd"><?xml version="1.0" ?>
+<xml xmlns="http://www.w3.org/2001/SMIL20/">
+     <head>
+          <meta content="Title" name="dc:Title"/>
+          <meta content="Jane Doe, Arnold, Karen" name="dc:TitleCreator"/>
+          <meta content="Publisher" name="dc:TitleCreatorPublisher"/>
+          <meta content="2018" name="dc:TitleCreatorPublisherDate"/>
+          <meta content="12341234" name="dc:TitleCreatorPublisherDateIdentifier"/>
+          <meta content="Default" name="dc:TitleCreatorPublisherDateIdentifierFormat"/>
+          <meta content="EN" name="dc:TitleCreatorPublisherDateIdentifierFormatLanguage"/>
+          <meta content="text" name="dtb:multimediaType"/>
+          <meta content="text" name="dtb:multimediaTypemultimediaContent"/>
+          <meta content="00:00:00" name="dtb:multimediaTypemultimediaContenttotalTime"/>
+          <meta content="12341234" name="dtb:multimediaTypemultimediaContenttotalTimeuid"/>
+     </head>
+     <book id="12341234">
+          <frontmatter id="frontmatter_00000">
+               <doctitle id="doctitle_00000">Title</doctitle>
+               <docauthor id="docauthor_00000">Jane Doe</docauthor>
+               <docauthor id="docauthor_00001">Arnold</docauthor>
+               <docauthor id="docauthor_00002">Karen</docauthor>
+          </frontmatter>
+     </book>
+</xml>

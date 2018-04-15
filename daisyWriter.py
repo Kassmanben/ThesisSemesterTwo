@@ -1,8 +1,6 @@
 from xml.dom import minidom
 from xml.etree.cElementTree import *
 
-filename = "test.xml"
-
 dc_metadata = {"Title": "REQUIRED", "Creator": "Unknown", "Subject": "Unknown", "Description": "Unknown",
                "Publisher": "REQUIRED", "Contributor": "Unknown", "Date": "REQUIRED", "Type": "Unknown",
                "Format": "REQUIRED", "Identifier": "REQUIRED", "Source": "Unknown", "Language": "REQUIRED",
@@ -18,19 +16,61 @@ ncx_smil_metadata = {"id": "REQUIRED", "defaultState": 'false', "override": 'hid
 
 smil_metadata = {"uid": "REQUIRED", "generator": "Unknown", "totalElapsedTime": "REQUIRED"}
 
+element_count = {}
+
+
+# Returns the number of this elementtag already present in the file.
+# By default, returns as a string "_ddddd" where ddddd is the count, preceded by 0s
+def get_element_count(elem_name, update=False, return_format=str):
+    global element_count
+    try:
+        e = element_count[elem_name]
+    except KeyError:
+        element_count[elem_name] = 0
+    if return_format is not str:
+        if update:
+            element_count[elem_name] += 1
+            return element_count[elem_name] - 1
+        else:
+            return element_count[elem_name]
+    else:
+        if update:
+            element_count[elem_name] += 1
+            return "_" + ("0" * (5 - len(str(element_count[elem_name] - 1))) + str(element_count[elem_name] - 1))
+        else:
+            return "_" + ("0" * (5 - len(str(element_count[elem_name]))) + str(element_count[elem_name]))
+
+
+# QuickElementCount Get element count id quickly, returns tag as usually desired: "TAG_ddddd"
+def qec(elem_name):
+    return elem_name + get_element_count(elem_name, update=True)
+
 
 def make_meta_tags(head_elem, l, mode=None):
     if not mode:
         return
     meta_dict = {}
+    meta_dict2 = {}
+    prefix_e = "dtb:"
+    prefix_e2 = ""
     if mode is "ncx":
         meta_dict = nav_metadata
     elif mode is "smil":
         meta_dict = smil_metadata
+    elif mode is 'xml':
+        meta_dict = dtb_metadata
+        meta_dict2 = dc_metadata
+        prefix_e2 = "dc:"
     for e in l.keys():
         if l[e] is not None and e in meta_dict.keys():
-            prefix_e = "dtb:" + e
+            prefix_e += e
             meta_elem = SubElement(head_elem, "meta", name=prefix_e, content=str(l[e]))
+        if mode == "xml" and l[e] is not None and e in meta_dict2.keys():
+            prefix_e2 += e
+            if e != "Creator":
+                meta_elem2 = SubElement(head_elem, "meta", name=prefix_e2, content=str(l[e]))
+            else:
+                meta_elem2 = SubElement(head_elem, "meta", name=prefix_e2, content=", ".join(l[e]))
 
 
 def required_attribs(dc=False, dtb=False, ncx_smil=False, nav=False, smil=False):
@@ -59,28 +99,28 @@ def required_attribs(dc=False, dtb=False, ncx_smil=False, nav=False, smil=False)
     return required_args
 
 
-def make_ncx_file(attribs=None):
-    filename = attribs["Title"] + ".ncx"
+def start_ncx_file(attribs=None):
+    ncx_filename = attribs["Title"] + ".ncx"
 
     ncx = Element("ncx", xmlns="http://www.daisy.org/z3986/2005/ncx/", version="2005-1", attrib={"xml:lang": "eng"})
     head = SubElement(ncx, "head")
 
-    smilCustomTest = SubElement(head, "smilCustomTest")
+    smil_custom_test = SubElement(head, "smilCustomTest")
     for s in ncx_smil_metadata.keys():
         try:
-            smilCustomTest.set(s, attribs[s])
+            smil_custom_test.set(s, attribs[s])
         except KeyError:
-            smilCustomTest.set(s, ncx_smil_metadata[s])
+            smil_custom_test.set(s, ncx_smil_metadata[s])
 
     make_meta_tags(head, attribs, mode="ncx")
 
-    doctitle = SubElement(ncx, "docTitle")
-    doctitle_text = SubElement(doctitle, "text")
-    doctitle_text.text = attribs["Title"]
+    doc_title = SubElement(ncx, "docTitle")
+    doc_title_text = SubElement(doc_title, "text")
+    doc_title_text.text = attribs["Title"]
 
     if "Creator" in attribs.keys():
-        docauthor = SubElement(ncx, "docAuthor")
-        docauthor_text = SubElement(docauthor, "text")
+        doc_author = SubElement(ncx, "docAuthor")
+        doc_author_text = SubElement(doc_author, "text")
         if type(attribs["Creator"]) is list:
             authors = attribs["Creator"][0]
             if len(attribs["Creator"]) > 2:
@@ -88,21 +128,21 @@ def make_ncx_file(attribs=None):
                 for i in range(1, len(attribs["Creator"]) - 1):
                     authors += " " + attribs["Creator"][i] + ","
             authors += " and " + attribs["Creator"][-1]
-            docauthor_text.text = authors
+            doc_author_text.text = authors
         else:
-            docauthor_text.text = str(attribs["Creator"])
+            doc_author_text.text = str(attribs["Creator"])
 
-    navMap = SubElement(ncx, "navMap")
+    nav_map = SubElement(ncx, "navMap")
     xmlstr = minidom.parseString(tostring(ncx)).toprettyxml(indent="     ")
 
-    with open(filename, "w") as f:
-        f.write('<?xml version="1.0" encoding="UTF-8"?')
-        f.write('<!DOCTYPE html PUBLIC')
+    with open(ncx_filename, "w") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>')
+        f.write('<!DOCTYPE html PUBLIC>')
         f.write(xmlstr)
 
 
-def make_smil_files(attribs=None):
-    filename = attribs["Title"] + ".smil"
+def start_smil_files(attribs=None):
+    smil_filename = attribs["Title"] + ".smil"
     smil = Element("smil", xmlns="http://www.w3.org/2001/SMIL20/")
 
     head = SubElement(smil, "head")
@@ -113,18 +153,46 @@ def make_smil_files(attribs=None):
     layout_region = SubElement(layout, "region", id="textRegion", height="auto", width="auto", bottom="auto",
                                top="auto", left="auto", right="auto", fit="hidden", showBackground="always")
 
-    customAttributes = SubElement(head, "customAttributes")
-    customTest = SubElement(customAttributes, "customTest", id="pagenumCustomTest", defaultState="false",
+    custom_attributes = SubElement(head, "customAttributes")
+    custom_test = SubElement(custom_attributes, "customTest", id="pagenumCustomTest", defaultState="false",
                             override="visible")
 
-    body = SubElement(smil,"body")
-    seq = SubElement(body,"seq")
-    xmlstr = minidom.parseString(tostring(smil)).toprettyxml(indent="     ")
+    body = SubElement(smil, "body")
+    seq = SubElement(body, "seq", id="baseseq", attrib={"class": "book"}, fill="remove")
 
-    with open(filename, "w") as f:
-        f.write('<?xml version="1.0" encoding="UTF-8"?')
-        f.write('<!DOCTYPE smil PUBLIC')
+    return smil
+
+
+def start_xml_file(attribs=None):
+    xml = Element("xml", xmlns="http://www.w3.org/2001/SMIL20/")
+
+    head = SubElement(xml, "head")
+
+    make_meta_tags(head, attribs, mode="xml")
+
+    book = SubElement(xml, "book", id=attribs["Identifier"])
+    front_matter = SubElement(book, "frontmatter", id=qec("frontmatter"))
+    doc_title = SubElement(front_matter, "doctitle", id=qec("doctitle"))
+    doc_title.text = attribs["Title"]
+    if "Creator" in attribs.keys():
+        if type(attribs["Creator"]) is list:
+            for c in attribs["Creator"]:
+                doc_author = SubElement(front_matter, "docauthor", id=qec("docauthor"))
+                doc_author.text = c
+        else:
+            doc_author = SubElement(front_matter, "docauthor", id=qec("docauthor"))
+            doc_author.text = attribs["Creator"]
+    return xml
+
+
+def write_file(title,file_type,starting_lines,element_tree):
+    filename = title + file_type
+    xmlstr = minidom.parseString(tostring(element_tree).toprettyxml(indent="     "))
+    with open(filename,"w") as f:
+        f.write('\n'.join(starting_lines))
         f.write(xmlstr)
+
+
 
 
 def run(**attribs):
@@ -135,8 +203,21 @@ def run(**attribs):
             print(r)
             raise ValueError("Missing required arguments for ncx file. \nRequired arguments are:" + str(req))
 
-    make_ncx_file(attribs=attribs)
-    make_smil_files(attribs=attribs)
+    ncx = start_ncx_file(attribs=attribs)
+    smil = start_smil_files(attribs=attribs)
+    xml = start_xml_file(attribs=attribs)
+
+
+    with open(smil_filename, "w") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>')
+        f.write('<!DOCTYPE smil PUBLIC>')
+        f.write(xmlstr)
+    smil_start
+    xml_starting_lines = ['<?xml version = "1.0" encoding = "UTF-8"?>','<?xml-stylesheet type = "text/css" href = "daisy.css" media = "screen" ?>','<?xml-stylesheet type = "text/xsl" href = "daisyTransform.xsl" media = "screen" ?>','<!DOCTYPE dtbook SYSTEM "dtbook-2005-3.dtd">']
+
+    write_file(attribs["Title"],".xml",xml_starting_lines,xml)
+
+
 
 
 run(Title="Title", Creator=["Jane Doe", "Arnold", "Karen"], Publisher="Publisher", Date="2018", depth=0,
