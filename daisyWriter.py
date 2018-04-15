@@ -51,7 +51,6 @@ def required_attribs(dc=False, dtb=False, smil=False, nav=False):
 def make_ncx_file(**attribs):
     global dc_metadata, dtb_metadata, smil_metadata
     req = required_attribs(dc=True, dtb=True, nav=True, smil=True)
-    print(req)
     for r in req:
         if r not in attribs.keys():
             print(r)
@@ -71,6 +70,25 @@ def make_ncx_file(**attribs):
 
     make_ncx_meta_tags(head, attribs)
 
+    doctitle = SubElement(ncx,"docTitle")
+    doctitle_text = SubElement(doctitle,"text")
+    doctitle_text.text = attribs["Title"]
+
+    if "Creator" in attribs.keys():
+        docauthor = SubElement(ncx, "docAuthor")
+        docauthor_text = SubElement(docauthor, "text")
+        if type(attribs["Creator"]) is list:
+            authors = attribs["Creator"][0]
+            if len(attribs["Creator"])>2:
+                authors +=","
+                for i in range(1,len(attribs["Creator"])-1):
+                    authors += " "+attribs["Creator"][i]+","
+            authors+=" and "+ attribs["Creator"][-1]
+            docauthor_text.text = authors
+        else:
+            docauthor_text.text = str(attribs["Creator"])
+
+    navMap = SubElement(ncx,"navMap")
     xmlstr = minidom.parseString(tostring(ncx)).toprettyxml(indent="     ")
 
     with open(filename, "w") as f:
@@ -79,10 +97,13 @@ def make_ncx_file(**attribs):
         f.write(xmlstr)
 
 
-make_ncx_file(Title="Title", Publisher="Publisher", Date="2018", depth=0, Identifier="12341234", Format="Default",
+make_ncx_file(Title="Title",Creator=["Jane Doe","Arnold","Karen"], Publisher="Publisher", Date="2018", depth=0, Identifier="12341234", Format="Default",
               Language="EN", maxPageNumber=0, multimediaType="text", multimediaContent="text", totalPageCount=0,
               totalTime="00:00:00", uid="12341234", id="12341234")
-# 
+
+
+
+
 # opening_lines = ['<?xml version="1.0" encoding="UTF-8"?>',
 #                  '<?xml-stylesheet type="text/css" href="daisy.css" media="screen" ?>',
 #                  '<?xml-stylesheet type="text/xsl" href="daisyTransform.xsl" media="screen" ?>',

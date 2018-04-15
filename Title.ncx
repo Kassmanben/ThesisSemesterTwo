@@ -7,4 +7,11 @@
           <meta content="0" name="dtb:totalPageCount"/>
           <meta content="12341234" name="dtb:uid"/>
      </head>
+     <docTitle>
+          <text>Title</text>
+     </docTitle>
+     <docAuthor>
+          <text>Jane Doe, Arnold, and Karen</text>
+     </docAuthor>
+     <navMap/>
 </ncx>
