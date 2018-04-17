@@ -100,8 +100,6 @@ def required_attribs(dc=False, dtb=False, ncx_smil=False, nav=False, smil=False)
 
 
 def start_ncx_file(attribs=None):
-    ncx_filename = attribs["Title"] + ".ncx"
-
     ncx = Element("ncx", xmlns="http://www.daisy.org/z3986/2005/ncx/", version="2005-1", attrib={"xml:lang": "eng"})
     head = SubElement(ncx, "head")
 
@@ -133,12 +131,8 @@ def start_ncx_file(attribs=None):
             doc_author_text.text = str(attribs["Creator"])
 
     nav_map = SubElement(ncx, "navMap")
-    xmlstr = minidom.parseString(tostring(ncx)).toprettyxml(indent="     ")
 
-    with open(ncx_filename, "w") as f:
-        f.write('<?xml version="1.0" encoding="UTF-8"?>')
-        f.write('<!DOCTYPE html PUBLIC>')
-        f.write(xmlstr)
+    return ncx
 
 
 def start_smil_files(attribs=None):
@@ -155,7 +149,7 @@ def start_smil_files(attribs=None):
 
     custom_attributes = SubElement(head, "customAttributes")
     custom_test = SubElement(custom_attributes, "customTest", id="pagenumCustomTest", defaultState="false",
-                            override="visible")
+                             override="visible")
 
     body = SubElement(smil, "body")
     seq = SubElement(body, "seq", id="baseseq", attrib={"class": "book"}, fill="remove")
@@ -164,13 +158,13 @@ def start_smil_files(attribs=None):
 
 
 def start_xml_file(attribs=None):
-    xml = Element("xml", xmlns="http://www.w3.org/2001/SMIL20/")
+    dtbook = Element("dtbook", xmlns="http://www.w3.org/2001/SMIL20/")
 
-    head = SubElement(xml, "head")
+    head = SubElement(dtbook, "head")
 
     make_meta_tags(head, attribs, mode="xml")
 
-    book = SubElement(xml, "book", id=attribs["Identifier"])
+    book = SubElement(dtbook, "book", id=attribs["Identifier"])
     front_matter = SubElement(book, "frontmatter", id=qec("frontmatter"))
     doc_title = SubElement(front_matter, "doctitle", id=qec("doctitle"))
     doc_title.text = attribs["Title"]
@@ -182,17 +176,20 @@ def start_xml_file(attribs=None):
         else:
             doc_author = SubElement(front_matter, "docauthor", id=qec("docauthor"))
             doc_author.text = attribs["Creator"]
-    return xml
+    return dtbook
+
+def text_content(ncx,smil,xml,attribs=None):
+    pass
 
 
-def write_file(title,file_type,starting_lines,element_tree):
+
+def write_file(title, file_type, starting_lines, element_tree):
     filename = title + file_type
-    xmlstr = minidom.parseString(tostring(element_tree).toprettyxml(indent="     "))
-    with open(filename,"w") as f:
+    xmlstr = minidom.parseString(tostring(element_tree)).toprettyxml(indent="     ")
+    with open(filename, "w") as f:
         f.write('\n'.join(starting_lines))
+        xmlstr = xmlstr.replace('<?xml version="1.0" ?>', "")
         f.write(xmlstr)
-
-
 
 
 def run(**attribs):
@@ -207,17 +204,18 @@ def run(**attribs):
     smil = start_smil_files(attribs=attribs)
     xml = start_xml_file(attribs=attribs)
 
+    text_content(ncx,smil,xml,attribs=attribs)
 
-    with open(smil_filename, "w") as f:
-        f.write('<?xml version="1.0" encoding="UTF-8"?>')
-        f.write('<!DOCTYPE smil PUBLIC>')
-        f.write(xmlstr)
-    smil_start
-    xml_starting_lines = ['<?xml version = "1.0" encoding = "UTF-8"?>','<?xml-stylesheet type = "text/css" href = "daisy.css" media = "screen" ?>','<?xml-stylesheet type = "text/xsl" href = "daisyTransform.xsl" media = "screen" ?>','<!DOCTYPE dtbook SYSTEM "dtbook-2005-3.dtd">']
+    ncx_starting_lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<!DOCTYPE html PUBLIC>']
+    smil_starting_lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<!DOCTYPE smil PUBLIC>']
+    xml_starting_lines = ['<?xml version = "1.0" encoding = "UTF-8"?>',
+                          '<?xml-stylesheet type = "text/css" href = "daisy.css" media = "screen" ?>',
+                          '<?xml-stylesheet type = "text/xsl" href = "daisyTransform.xsl" media = "screen" ?>',
+                          '<!DOCTYPE dtbook SYSTEM "dtbook-2005-3.dtd">']
 
-    write_file(attribs["Title"],".xml",xml_starting_lines,xml)
-
-
+    write_file(attribs["Title"], ".ncx", ncx_starting_lines, ncx)
+    write_file(attribs["Title"], ".smil", smil_starting_lines, smil)
+    write_file(attribs["Title"], ".xml", xml_starting_lines, xml)
 
 
 run(Title="Title", Creator=["Jane Doe", "Arnold", "Karen"], Publisher="Publisher", Date="2018", depth=0,

@@ -1,15 +1,8 @@
-import shutil
-
-import numpy as np
+import logging
 import re
-import scipy.misc
 import unicodedata
-from PIL import Image
-import pytesseract
-import cv2
 import os
 from subprocess import check_output
-from difflib import SequenceMatcher
 
 en_dict_file = open("Dictionary.txt", "r")
 en_dict = set([x.strip() for x in en_dict_file.readlines()])
@@ -78,20 +71,9 @@ def edit_distance(s1, s2, substitution_cost=1, transpositions=False):
     return lev[len1][len2] < .8 * (min(len1, len2))
 
 
-def process_page(page_num):
-
-    pg_text = check_output(
-        ["pdf2txt.py -p "+str(page_num)+ " /Users/Ben/PycharmProjects/Thesis/ThesisSemesterTwo/Sedgewick_ALGORITHMS_ED4_3513.pdf"],
-        shell=True).decode("utf-8")
-    text_sections = pg_text.split("\n\n")
-
-    text_sections_c = text_sections.copy()
-    text_sections = []
-
-    print("Page: " + str(pg_num) + "\nLine: " + "\n\nLine: ".join(text_sections))
-    print("\n\n\n")
-
 def deal_with_odd_characters(str_to_deal_with):
+    str_to_deal_with = str_to_deal_with.replace("(cid:81)(cid:3)", "■")
+    str_to_deal_with = str_to_deal_with.replace("(cid:81)", "■")
     for char_and_replacement in [("Ꜳ", "AA"), ("ꜳ", "aa"), ("Æ", "AE"), ("æ", "ae"), ("Ꜵ", "AO"), ("ꜵ", "ao"),
                                  ("Ꜷ", "AU"), ("ꜷ", "au"), ("Ꜹ", "AV"), ("ꜹ", "av"), ("Ꜻ", "AV"), ("ꜻ", "av"),
                                  ("Ꜽ", "AY"), ("ꜽ", "ay"), ("ﬀ", "ff"), ("ﬃ", "ffi"), ("ﬄ", "ffl"), ("ﬁ", "fi"),
@@ -131,8 +113,8 @@ def deal_with_odd_characters(str_to_deal_with):
                             fixed = True
                     except IndexError:
                         pass
-                if not fixed and new_word.replace(pc, rc) in en_dict:
-                    new_word = new_word.replace(pc, rc)
+                    if not fixed and new_word.replace(pc, rc) in en_dict:
+                        new_word = new_word.replace(pc, rc)
 
                 str_to_deal_with += new_word + " "
     return str_to_deal_with
@@ -140,116 +122,76 @@ def deal_with_odd_characters(str_to_deal_with):
 
 def clean_up(str_to_clean):
     str_to_clean = deal_with_odd_characters(str_to_clean)
-    str_to_clean = unicodedata.normalize('NFKD', str_to_clean).encode('ascii', 'ignore').decode("utf-8")
-    str_to_clean = re.sub('\s+', " ", str_to_clean)
-    while re.search('\.\s+\.', str_to_clean):
-        str_to_clean = re.sub('\.\s+\.', "..", str_to_clean)
-    while re.search('_{2,}', str_to_clean):
-        str_to_clean = re.sub('_{2,}', "", str_to_clean)
-    if re.search('^([clxvi]{1,8}[A-Z])|^([CLXVI]{1,8}[A-Z])', str_to_clean):
-        if str_to_clean.split()[0].lower() not in en_dict:
-            m = re.match('^([clxvi]{1,8}[A-Z])|^([CLXVI]{1,8}[A-Z])', str_to_clean)
-            str_to_clean = str_to_clean[:m.end(0) - 1] + " " + str_to_clean[m.end(0) - 1:]
+    if str_to_clean.__contains__("-"):
+        s = str_to_clean.split()
+        str_to_clean = ""
+        for i in range(0, len(s)):
+            try:
+                if s[i].__contains__("-") and s[i].replace("-", "") + s[i + 1] in en_dict:
+                    str_to_clean += " " + s[i].replace("-", "") + s[i + 1]
+                    s[i+1] = ""
+                else:
+                    str_to_clean += " " + s[i]
+            except IndexError:
+                str_to_clean += " " + s[i]
     split = str_to_clean.split()
     str_to_clean = ""
-    for w in split:
-        new_word = w
-        if re.search('^[0-9]+[a-zA-Z]', w) and w not in en_dict:
-            m = re.match('^[0-9]+[a-zA-Z]', w)
-            new_word = str(w[:m.end(0) - 1]) + " " + str(w[m.end(0) - 1:])
-        str_to_clean += (str(new_word) + " ")
+    for i in range(0, len(split)):
+        try:
+            if split[i] not in en_dict and split[i] + split[i + 1] in en_dict:
+                str_to_clean += " " + split[i].replace("-", "") + split[i + 1]
+                split[i+1] = ""
+            else:
+                str_to_clean += " " + split[i]
+        except IndexError:
+            str_to_clean += " " + split[i]
 
     return str_to_clean
 
 
-# Look into dna processing. Look for long, common substrings.
-# Keep doing that, use a boolean set of regions to keep track of what is accounted for
-# Use a distance metric to determine closeness of remaining regions
+def process_page(page_num):
+    pg_text = check_output(
+        ["pdf2txt.py -p " + str(page_num) + " /Users/rosie/Ben_Stuff/Sedgewick_ALGORITHMS_ED4_3513.pdf"],
+        shell=True).decode("utf-8")
+    text_sections = pg_text.split("\n\n")
+    text_sections_c = text_sections.copy()
+    text_sections = []
+    for t in text_sections_c:
+        temp = clean_up(t)
+        if temp.__contains__("■"):
+            text_sections.append(temp.split("■")[0])
+            for i in temp.split("■")[1:]:
+                text_sections.append("■" + i)
+        else:
+            text_sections.append(temp)
 
+    return text_sections
 
-def fill_final_text(page_num, ocr_text, pdf_text):
-    print("Page: ", page_num)
-    percentage = SequenceMatcher(None, ocr_text, pdf_text).ratio()
-    if percentage > .95:
-        final_text[page_num] = pdf_text
+def tag_text_elements(e):
+    global tag_dict
+    if not re.search("[a-zA-Z]",e):
+        if e.strip().isdigit():
+            tag_dict["pagenum"].append(e)
+        elif len(e.strip())>0:
+            print("WEIRD",e)
     else:
-        osplit = ocr_text.split()
-        psplit = pdf_text.split()
-        max_length = max(len(osplit), len(psplit))
+        if not re.search("^[A-Z][a-z]+\s[A-Z][a-z]+",e.strip()):
+            if "■" in e:
+                print("List item?",e)
+            else:
+                print("P: ",e)
+        else:
+            tag_dict["h2"].append(e.split()[0])
+            tag_text_elements(" ".join(e.split()[1:]))
 
-        temp = ["" for x in range(max_length)]
-        if not osplit:
-            temp = psplit
-        if not psplit:
-            temp = osplit
+tag_dict = {"pagenum":[],"p":[],"h2":[]}
+min_pg = 16
+max_pg = 40
 
-        for i in range(0, max_length):
-            try:
-                if edit_distance(osplit[i], psplit[i]):
-                    temp[i] = psplit[i]
-                    osplit[i] = ""
-                    psplit[i] = ""
-            except IndexError:
-                continue
-
-        for o in range(0, len(osplit)):
-            if osplit[o] != "":
-                for p in range(0, len(psplit)):
-                    if psplit[p] == "":
-                        continue
-                    if re.match('^[.?!\-_—)(}{\]\[;:\'\"]+$', psplit[p]):
-                        try:
-                            psplit[p + 1] = psplit[p] + psplit[p + 1]
-                            psplit[p] = ""
-                        except IndexError:
-                            psplit[p - 1] = psplit[p - 1] + psplit[p]
-                            psplit[p] = ""
-                    if edit_distance(osplit[o], psplit[p]):
-                        temp[o] = psplit[p]
-                        osplit[o] = ""
-                        psplit[p] = ""
-                        break
-                    if psplit[p].startswith(osplit[o]):
-                        try:
-                            if edit_distance(psplit[p][:len(osplit[o])], osplit[o]) and edit_distance(
-                                    psplit[p][len(osplit[o]):], osplit[o + 1]):
-                                temp[o] = psplit[p][:len(osplit[o])]
-                                temp[o + 1] = psplit[p][len(osplit[o]):]
-                                osplit[o] = ""
-                                osplit[o + 1] = ""
-                                psplit[p] = ""
-                                break
-                        except IndexError:
-                            pass
-                    if osplit[o].endswith(psplit[p]):
-                        try:
-                            if edit_distance(osplit[o], psplit[p - 1] + " " + psplit[p]):
-                                temp[o] = psplit[p - 1] + " " + psplit[p]
-                                osplit[o] = ""
-                                psplit[p - 1] = ""
-                                psplit[p] = ""
-                        except IndexError:
-                            pass
-
-        osplit = [x for x in osplit if x != '']
-        psplit = [x for x in psplit if x != '']
-
-        print("temp:", temp)
-        print("Osplit: ", osplit)
-        print("Psplit: ", psplit)
-        print()
-
-
-min_pg = 1
-max_pg = 15
+logging.propagate = False
+logging.getLogger().setLevel(logging.ERROR)
 
 for pg_num in range(min_pg, max_pg):
-    process_page(pg_num)
-    # ocr_page_text[pg_num] = clean_up(ocr_page_text[pg_num])
-    # correct_text_by_page[pg_num] = clean_up(correct_text_by_page[pg_num])
-    # fill_final_text(pg_num, ocr_page_text[pg_num], correct_text_by_page[pg_num])
-
-# for key, value in final_text.items():
-#     print(final_text[key])
-#
-# shutil.rmtree(directory_name + " Parts")
+    p = process_page(pg_num)
+    for elem in p:
+        tag_text_elements(elem)

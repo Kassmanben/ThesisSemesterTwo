@@ -1,5 +1,8 @@
-<?xml version = "1.0" encoding = "UTF-8"?><?xml-stylesheet type = "text/css" href = "daisy.css" media = "screen" ?><?xml-stylesheet type = "text/xsl" href = "daisyTransform.xsl" media = "screen" ?><!DOCTYPE dtbook SYSTEM "dtbook-2005-3.dtd"><?xml version="1.0" ?>
-<xml xmlns="http://www.w3.org/2001/SMIL20/">
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type = "text/css" href = "daisy.css" media = "screen" ?>
+<?xml-stylesheet type = "text/xsl" href = "daisyTransform.xsl" media = "screen" ?>
+<!DOCTYPE dtbook SYSTEM "dtbook-2005-3.dtd">
+<dtbook xmlns="http://www.w3.org/2001/SMIL20/">
      <head>
           <meta content="Title" name="dc:Title"/>
           <meta content="Jane Doe, Arnold, Karen" name="dc:TitleCreator"/>
@@ -21,4 +24,4 @@
                <docauthor id="docauthor_00002">Karen</docauthor>
           </frontmatter>
      </book>
-</xml>
+</dtbook>
