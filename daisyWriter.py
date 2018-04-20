@@ -1,5 +1,8 @@
+import pickle
 from xml.dom import minidom
 from xml.etree.cElementTree import *
+import lxml.etree as etree
+from PyPDF2 import PdfFileReader
 
 dc_metadata = {"Title": "REQUIRED", "Creator": "Unknown", "Subject": "Unknown", "Description": "Unknown",
                "Publisher": "REQUIRED", "Contributor": "Unknown", "Date": "REQUIRED", "Type": "Unknown",
@@ -176,24 +179,151 @@ def start_xml_file(attribs=None):
         else:
             doc_author = SubElement(front_matter, "docauthor", id=qec("docauthor"))
             doc_author.text = attribs["Creator"]
+    body_matter = SubElement(book, "bodymatter", id=qec("bodymatter"))
+
     return dtbook
-
-def text_content(ncx,smil,xml,attribs=None):
-    pass
-
 
 
 def write_file(title, file_type, starting_lines, element_tree):
     filename = title + file_type
-    xmlstr = minidom.parseString(tostring(element_tree)).toprettyxml(indent="     ")
-    with open(filename, "w") as f:
-        f.write('\n'.join(starting_lines))
-        xmlstr = xmlstr.replace('<?xml version="1.0" ?>', "")
-        f.write(xmlstr)
+    tree = ElementTree(element_tree)
+    tree.write(filename)
+    f = open(filename, "r")
+    lines = f.readlines()
+    f.close()
+    f = open(filename, "w")
+    for s in starting_lines:
+        f.write(s)
+    for l in lines:
+        l.replace('<?xml version="1.0" ?>', "")
+        f.write(l)
+
+    # xmlstr = minidom.parseString(tostring(element_tree)).toprettyxml(indent="     ")
+
+
+def fill_in_page_text(ncx, smil, xml, num, level_info, attribs, multiple_tags=False):
+    l_list = level_info[1]
+    l_index = level_info[2]
+    page_num = SubElement(l_list[l_index], "pagenum", page="normal", id="p" + str(num),
+                          smilref=str(qec(attribs["Title"])) + ".smil#p" + str(num))
+
+
+def fill_in_tags(ncx, smil, xml, attribs):
+    global tag_dict, pages, max_pg
+
+    level1 = 0
+    level1_list = []
+
+    level2 = -1
+    level2_counter = 0
+    level2_list = []
+
+    level3 = -1
+    level3_counter = 0
+    level3_list = []
+
+    current_level = ""
+    page = 1
+    multiple_tags=False
+    for i in range(0, max_pg):
+        if str(i) in tag_dict.keys():
+            for e in tag_dict[str(i)]:
+                if(len(tag_dict[str(i)])>1):
+                    multiple_tags=True
+                try:
+                    if e[1] == "Contents":
+                        toc = SubElement(xml.find(".//frontmatter"), "level1", id="toc")
+                        level1_list.append(toc)
+                        fill_in_page_text(ncx, smil, xml, i, ["level1", level1_list, level1], attribs)
+
+                    if e[1] == "Preface":
+                        level1 += 1
+                        pref = SubElement(xml.find(".//frontmatter"), "level1", id="pref")
+                        level1_list.append(pref)
+                        fill_in_page_text(ncx, smil, xml, i, ["level1", level1_list, level1], attribs)
+
+                    if e[0] == "level1" and e[1] != "Contents" and e[1] != "Preface":
+                        sub_element = SubElement(xml.find(".//bodymatter"), "level1", id="ch" + str(level1))
+                        section = SubElement(sub_element, "section", attrib={"epub:type": "chapter"}, id=qec("section"))
+                        header = SubElement(section, "header", id=qec("header"))
+                        pagenum = SubElement(header, "pagenum", attrib={"epub:type": "pagebreak"}, id="p" + str(i),
+                                             page="normal", smilref=str(qec(attribs["Title"])) + ".smil#p" + str(i))
+                        h1 = SubElement(header, "h1", id="ch" + str(level1) + "-start",
+                                        attrib={"xml:space": "preserve"},
+                                        smilref=str(qec(attribs["Title"])) + ".smil#ch" + str(level1) + "-start")
+                        h1.text = e[1]
+                        level1 += 1
+                        level2_counter = 0
+                        level3_counter = 0
+                        level1_list.append(sub_element)
+                        current_level = "level1"
+                        fill_in_page_text(ncx, smil, xml, i, ["level1", level1_list, level1], attribs)
+
+
+                    if e[0] == "level2":
+                        level2 += 1
+                        level2_counter += 1
+                        sub_element = SubElement(level1_list[level1 + 1], "level2", id=qec("level2"))
+                        h2 = SubElement(sub_element, "h2", id="ch" + str(level1) + "-s" + str(level2_counter),
+                                        attrib={"xml:space": "preserve"},
+                                        smilref=str(qec(attribs["Title"])) + ".smil#ch" + str(level1) + "-s" + str(
+                                            level2_counter))
+                        h2.text = e[1]
+                        current_level = "level2"
+                        level2_list.append(sub_element)
+                        level3_counter = 0
+                        fill_in_page_text(ncx, smil, xml, i, ["level2", level2_list, level2], attribs)
+
+                    if e[0] == "level3":
+                        level3 += 1
+                        level3_counter += 1
+                        if current_level == "level1" or current_level == "" or (
+                                current_level == "level3" and len(level2_list) < 1):
+                            sub_element = SubElement(level1_list[level1], "level3", id=qec("level3"))
+                        else:
+                            sub_element = SubElement(level2_list[level2], "level3", id=qec("level3"))
+                        h3 = SubElement(sub_element, "h3",
+                                        id="ch" + str(level1 - 1) + "-s" + str(level2_counter) + "-ss" + str(
+                                            level3_counter),
+                                        attrib={"xml:space": "preserve"},
+                                        smilref=str(qec(attribs["Title"])) + ".smil#ch" + str(level1 - 1) + "-s" + str(
+                                            level2_counter) + "-ss" + str(level3_counter))
+                        h3.text = e[1]
+                        level3_list.append(sub_element)
+                        current_level = "level3"
+                        fill_in_page_text(ncx, smil, xml, i, ["level3", level3_list, level3], attribs)
+
+                except IndexError:
+                    continue
+        else:
+            if current_level == "level1":
+                fill_in_page_text(ncx, smil, xml, i, [current_level, level1_list, level1], attribs)
+            elif current_level == "level2":
+                fill_in_page_text(ncx, smil, xml, i, [current_level, level2_list, level2], attribs)
+            elif current_level == "level3":
+                fill_in_page_text(ncx, smil, xml, i, [current_level, level3_list, level3], attribs)
+
+        for j in range(0, len(pages[i])):
+            text = pages[i][j]
+            if text.__contains__("■"):
+                try:
+                    for e in tag_dict.keys():
+                        if tag_dict[e][0][1].lower() == (pages[i][j - 1] + text).replace("■ ", "").lower().strip():
+                            pages[i][j - 1] = ""
+                            text = ""
+                    if text != "":
+                        pass
+                except IndexError:
+                    pass
+            # else:
+            #     if current_level == "level1":
+            #         p = SubElement(xml.findall(".//level1")[level1],"p", attribs={"xml:space":"preserve"}, id=qec("p"))
+            #         span = SubElement(p,"span", attrib= {"class":"text"}, id=get_element_count("span"), smilref=str(qec(attribs["Title"]))+".smil#"+qec("span"))
+            #         span.text = text
 
 
 def run(**attribs):
-    global dc_metadata, dtb_metadata, ncx_smil_metadata
+    global dc_metadata, dtb_metadata, ncx_smil_metadata, tag_dict  # pages, tag_dict
     req = required_attribs(dc=True, dtb=True, nav=True, ncx_smil=True, smil=True)
     for r in req:
         if r not in attribs.keys():
@@ -204,26 +334,26 @@ def run(**attribs):
     smil = start_smil_files(attribs=attribs)
     xml = start_xml_file(attribs=attribs)
 
-    text_content(ncx,smil,xml,attribs=attribs)
-
     ncx_starting_lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<!DOCTYPE html PUBLIC>']
     smil_starting_lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<!DOCTYPE smil PUBLIC>']
     xml_starting_lines = ['<?xml version = "1.0" encoding = "UTF-8"?>',
                           '<?xml-stylesheet type = "text/css" href = "daisy.css" media = "screen" ?>',
                           '<?xml-stylesheet type = "text/xsl" href = "daisyTransform.xsl" media = "screen" ?>',
                           '<!DOCTYPE dtbook SYSTEM "dtbook-2005-3.dtd">']
-
+    fill_in_tags(ncx, smil, xml, attribs)
     write_file(attribs["Title"], ".ncx", ncx_starting_lines, ncx)
     write_file(attribs["Title"], ".smil", smil_starting_lines, smil)
     write_file(attribs["Title"], ".xml", xml_starting_lines, xml)
 
 
+pdf = PdfFileReader(open('/Users/rosie/Ben_Stuff/Sedgewick_ALGORITHMS_ED4_3513.pdf', 'rb'))
+max_pg = pdf.getNumPages()
+
+with open('tag_dict.pickle', 'rb') as handle:
+    tag_dict = pickle.load(handle)
+with open('pages.pickle', 'rb') as handle:
+    pages = pickle.load(handle)
 run(Title="Title", Creator=["Jane Doe", "Arnold", "Karen"], Publisher="Publisher", Date="2018", depth=0,
     Identifier="12341234", Format="Default",
     Language="EN", maxPageNumber=0, multimediaType="text", multimediaContent="text", totalPageCount=0,
     totalTime="00:00:00", uid="12341234", id="12341234", totalElapsedTime=0)
-# opening_lines = ['<?xml version="1.0" encoding="UTF-8"?>',
-#                  '<?xml-stylesheet type="text/css" href="daisy.css" media="screen" ?>',
-#                  '<?xml-stylesheet type="text/xsl" href="daisyTransform.xsl" media="screen" ?>',
-#                  '<!DOCTYPE dtbook SYSTEM "dtbook-2005-3.dtd">']
-# # fill_in_non_ET_Things(filename, ol=opening_lines, mt=meta_tags)

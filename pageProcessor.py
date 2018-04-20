@@ -1,8 +1,15 @@
 import logging
+import pickle
 import re
 import unicodedata
 import os
+import xml
 from subprocess import check_output
+import xml.etree.ElementTree as ET
+from PyPDF2 import PdfFileReader
+
+from pdfminer.pdfparser import PDFParser
+from pdfminer.pdftypes import resolve1
 
 en_dict_file = open("Dictionary.txt", "r")
 en_dict = set([x.strip() for x in en_dict_file.readlines()])
@@ -129,7 +136,7 @@ def clean_up(str_to_clean):
             try:
                 if s[i].__contains__("-") and s[i].replace("-", "") + s[i + 1] in en_dict:
                     str_to_clean += " " + s[i].replace("-", "") + s[i + 1]
-                    s[i+1] = ""
+                    s[i + 1] = ""
                 else:
                     str_to_clean += " " + s[i]
             except IndexError:
@@ -140,7 +147,7 @@ def clean_up(str_to_clean):
         try:
             if split[i] not in en_dict and split[i] + split[i + 1] in en_dict:
                 str_to_clean += " " + split[i].replace("-", "") + split[i + 1]
-                split[i+1] = ""
+                split[i + 1] = ""
             else:
                 str_to_clean += " " + split[i]
         except IndexError:
@@ -167,31 +174,57 @@ def process_page(page_num):
 
     return text_sections
 
-def tag_text_elements(e):
-    global tag_dict
-    if not re.search("[a-zA-Z]",e):
-        if e.strip().isdigit():
-            tag_dict["pagenum"].append(e)
-        elif len(e.strip())>0:
-            print("WEIRD",e)
-    else:
-        if not re.search("^[A-Z][a-z]+\s[A-Z][a-z]+",e.strip()):
-            if "■" in e:
-                print("List item?",e)
-            else:
-                print("P: ",e)
-        else:
-            tag_dict["h2"].append(e.split()[0])
-            tag_text_elements(" ".join(e.split()[1:]))
 
-tag_dict = {"pagenum":[],"p":[],"h2":[]}
-min_pg = 16
-max_pg = 40
+def get_tag_elem(e, tag):
+    for a in e:
+        if a.tag == tag:
+            return str(a.text)
+
+
+def tag_toc_elements(e):
+    global tag_dict
+    root = e.getroot()
+    for child in root:
+        try:
+            tag_dict[str(int(get_tag_elem(child, "pageno")) + 1)].append(
+                ("level" + child.attrib["level"], child.attrib["title"][2:-1]))
+        except KeyError:
+            tag_dict[str(int(get_tag_elem(child, "pageno")) + 1)] = [
+                ("level" + child.attrib["level"], child.attrib["title"][2:-1])]
+
+
+def get_toc():
+    pg_text = check_output(
+        ["dumppdf.py -T /Users/rosie/Ben_Stuff/Sedgewick_ALGORITHMS_ED4_3513.pdf"],
+        shell=True).decode("utf-8")
+    return ET.ElementTree(ET.fromstring(pg_text))
+
+
+toc = get_toc()
+tag_dict = {}
+tag_toc_elements(toc)
+pdf = PdfFileReader(open('/Users/rosie/Ben_Stuff/Sedgewick_ALGORITHMS_ED4_3513.pdf', 'rb'))
+min_pg = 0
+max_pg = pdf.getNumPages()
 
 logging.propagate = False
 logging.getLogger().setLevel(logging.ERROR)
 
+with open('tag_dict.pickle', 'wb') as handle:
+    pickle.dump(tag_dict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+with open('pages.pickle', 'wb') as handle:
+    pickle.dump([], handle, protocol=pickle.HIGHEST_PROTOCOL)
+
 for pg_num in range(min_pg, max_pg):
-    p = process_page(pg_num)
-    for elem in p:
-        tag_text_elements(elem)
+    print(str(pg_num) + " out of " + str(max_pg))
+
+    with open('pages.pickle', 'rb') as handle:
+        pages = pickle.load(handle)
+
+    pages.append(process_page(pg_num))
+
+    with open('pages.pickle', 'wb') as handle:
+        pickle.dump(pages, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+

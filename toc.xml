@@ -1,0 +1,2462 @@
+<outlines>
+    <outline level="1" title="b'Contents'">
+        <dest>
+            <list size="5">
+                <ref id="16"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>6</pageno>
+    </outline>
+    <outline level="1" title="b'Preface'">
+        <dest>
+            <list size="5">
+                <ref id="28"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>9</pageno>
+    </outline>
+    <outline level="1" title="b'1 Fundamentals'">
+        <dest>
+            <list size="5">
+                <ref id="43"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>14</pageno>
+    </outline>
+    <outline level="2" title="b'1.1 Basic Programming Model'">
+        <dest>
+            <list size="5">
+                <ref id="61"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>20</pageno>
+    </outline>
+    <outline level="3" title="b'Primitive data types'">
+        <dest>
+            <list size="5">
+                <ref id="70"/>
+                <literal>XYZ</literal>
+                <number>15</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>23</pageno>
+    </outline>
+    <outline level="3" title="b'Loops and conditionals'">
+        <dest>
+            <list size="5">
+                <ref id="82"/>
+                <literal>XYZ</literal>
+                <number>-5</number>
+                <number>439</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>27</pageno>
+    </outline>
+    <outline level="3" title="b'Arrays'">
+        <dest>
+            <list size="5">
+                <ref id="91"/>
+                <literal>XYZ</literal>
+                <number>-5</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>30</pageno>
+    </outline>
+    <outline level="3" title="b'Static methods'">
+        <dest>
+            <list size="5">
+                <ref id="103"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>34</pageno>
+    </outline>
+    <outline level="3" title="b'Recursion'">
+        <dest>
+            <list size="5">
+                <ref id="112"/>
+                <literal>XYZ</literal>
+                <number>38</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>37</pageno>
+    </outline>
+    <outline level="3" title="b'APIs'">
+        <dest>
+            <list size="5">
+                <ref id="121"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>40</pageno>
+    </outline>
+    <outline level="3" title="b'Strings'">
+        <dest>
+            <list size="5">
+                <ref id="139"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>46</pageno>
+    </outline>
+    <outline level="3" title="b'Input and output'">
+        <dest>
+            <list size="5">
+                <ref id="145"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>48</pageno>
+    </outline>
+    <outline level="3" title="b'Binary search'">
+        <dest>
+            <list size="5">
+                <ref id="175"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>58</pageno>
+    </outline>
+    <outline level="2" title="b'1.2 Data Abstraction'">
+        <dest>
+            <list size="5">
+                <ref id="229"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>76</pageno>
+    </outline>
+    <outline level="3" title="b'Objects'">
+        <dest>
+            <list size="5">
+                <ref id="238"/>
+                <literal>XYZ</literal>
+                <number>38</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>79</pageno>
+    </outline>
+    <outline level="3" title="b'Abstract data types'">
+        <dest>
+            <list size="5">
+                <ref id="289"/>
+                <literal>XYZ</literal>
+                <number>-5</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>96</pageno>
+    </outline>
+    <outline level="3" title="b'Implementing ADTs'">
+        <dest>
+            <list size="5">
+                <ref id="307"/>
+                <literal>XYZ</literal>
+                <number>-5</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>102</pageno>
+    </outline>
+    <outline level="3" title="b'Designing ADTs'">
+        <dest>
+            <list size="5">
+                <ref id="325"/>
+                <literal>XYZ</literal>
+                <number>-5</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>108</pageno>
+    </outline>
+    <outline level="2" title="b'1.3 Bags, Queues, and Stacks'">
+        <dest>
+            <list size="5">
+                <ref id="397"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>132</pageno>
+    </outline>
+    <outline level="3" title="b'APIs'">
+        <dest>
+            <list size="5">
+                <ref id="400"/>
+                <literal>XYZ</literal>
+                <number>38</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>133</pageno>
+    </outline>
+    <outline level="3" title="b'Arithmetic expression evaluation'">
+        <dest>
+            <list size="5">
+                <ref id="421"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>140</pageno>
+    </outline>
+    <outline level="3" title="b'Resizing arrays'">
+        <dest>
+            <list size="5">
+                <ref id="445"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>148</pageno>
+    </outline>
+    <outline level="3" title="b'Generics'">
+        <dest>
+            <list size="5">
+                <ref id="439"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>146</pageno>
+    </outline>
+    <outline level="3" title="b'Iterators'">
+        <dest>
+            <list size="5">
+                <ref id="451"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>150</pageno>
+    </outline>
+    <outline level="3" title="b'Linked lists'">
+        <dest>
+            <list size="5">
+                <ref id="463"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>154</pageno>
+    </outline>
+    <outline level="2" title="b'1.4 Analysis of Algorithms'">
+        <dest>
+            <list size="5">
+                <ref id="553"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>184</pageno>
+    </outline>
+    <outline level="3" title="b'Running time'">
+        <dest>
+            <list size="5">
+                <ref id="577"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>192</pageno>
+    </outline>
+    <outline level="3" title="b'Computational experiments'">
+        <dest>
+            <list size="5">
+                <ref id="613"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>204</pageno>
+    </outline>
+    <outline level="3" title="b'Tilde notation'">
+        <dest>
+            <list size="5">
+                <ref id="571"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>471</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>190</pageno>
+    </outline>
+    <outline level="3" title="b'Order-of growth classifications'">
+        <dest>
+            <list size="5">
+                <ref id="595"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>198</pageno>
+    </outline>
+    <outline level="3" title="b'Amortized analysis'">
+        <dest>
+            <list size="5">
+                <ref id="631"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>471</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>210</pageno>
+    </outline>
+    <outline level="3" title="b'Memory usage'">
+        <dest>
+            <list size="5">
+                <ref id="637"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>212</pageno>
+    </outline>
+    <outline level="2" title="b'1.5 Case Study: Union-Find'">
+        <dest>
+            <list size="5">
+                <ref id="685"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>228</pageno>
+    </outline>
+    <outline level="3" title="b'Dynamic connectivity'">
+        <dest>
+            <list size="5">
+                <ref id="685"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>471</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>228</pageno>
+    </outline>
+    <outline level="3" title="b'Quick find'">
+        <dest>
+            <list size="5">
+                <ref id="706"/>
+                <literal>XYZ</literal>
+                <number>38</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>235</pageno>
+    </outline>
+    <outline level="3" title="b'Quick union'">
+        <dest>
+            <list size="5">
+                <ref id="709"/>
+                <literal>XYZ</literal>
+                <number>-5</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>236</pageno>
+    </outline>
+    <outline level="3" title="b'Weighted quick union'">
+        <dest>
+            <list size="5">
+                <ref id="718"/>
+                <literal>XYZ</literal>
+                <number>38</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>239</pageno>
+    </outline>
+    <outline level="1" title="b'2 Sorting'">
+        <dest>
+            <list size="5">
+                <ref id="763"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>254</pageno>
+    </outline>
+    <outline level="2" title="b'2.1 Elementary Sorts'">
+        <dest>
+            <list size="5">
+                <ref id="769"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>256</pageno>
+    </outline>
+    <outline level="3" title="b'Rules of the game'">
+        <dest>
+            <list size="5">
+                <ref id="769"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>256</pageno>
+    </outline>
+    <outline level="3" title="b'Selection sort'">
+        <dest>
+            <list size="5">
+                <ref id="781"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>260</pageno>
+    </outline>
+    <outline level="3" title="b'Insertion sort'">
+        <dest>
+            <list size="5">
+                <ref id="787"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>262</pageno>
+    </outline>
+    <outline level="3" title="b'Shellsort'">
+        <dest>
+            <list size="5">
+                <ref id="811"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>270</pageno>
+    </outline>
+    <outline level="2" title="b'2.2 Mergesort'">
+        <dest>
+            <list size="5">
+                <ref id="847"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>282</pageno>
+    </outline>
+    <outline level="3" title="b'Abstract in-place merge'">
+        <dest>
+            <list size="5">
+                <ref id="847"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>282</pageno>
+    </outline>
+    <outline level="3" title="b'Top-down mergesort'">
+        <dest>
+            <list size="5">
+                <ref id="853"/>
+                <literal>XYZ</literal>
+                <number>-5</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>284</pageno>
+    </outline>
+    <outline level="3" title="b'Bottom-up mergesort'">
+        <dest>
+            <list size="5">
+                <ref id="868"/>
+                <literal>XYZ</literal>
+                <number>38</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>289</pageno>
+    </outline>
+    <outline level="3" title="b'N lg N lower bound for sorting'">
+        <dest>
+            <list size="5">
+                <ref id="874"/>
+                <literal>XYZ</literal>
+                <number>38</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>291</pageno>
+    </outline>
+    <outline level="2" title="b'2.3 Quicksort'">
+        <dest>
+            <list size="5">
+                <ref id="901"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>300</pageno>
+    </outline>
+    <outline level="3" title="b'In-place partitioning'">
+        <dest>
+            <list size="5">
+                <ref id="913"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>304</pageno>
+    </outline>
+    <outline level="3" title="b'Randomized quicksort'">
+        <dest>
+            <list size="5">
+                <ref id="913"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>304</pageno>
+    </outline>
+    <outline level="3" title="b'3-way partitioning'">
+        <dest>
+            <list size="5">
+                <ref id="925"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>308</pageno>
+    </outline>
+    <outline level="2" title="b'2.4 Priority Queues'">
+        <dest>
+            <list size="5">
+                <ref id="961"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>320</pageno>
+    </outline>
+    <outline level="3" title="b'Priority queue API'">
+        <dest>
+            <list size="5">
+                <ref id="964"/>
+                <literal>XYZ</literal>
+                <number>38</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>321</pageno>
+    </outline>
+    <outline level="3" title="b'Elementary implementations'">
+        <dest>
+            <list size="5">
+                <ref id="967"/>
+                <literal>XYZ</literal>
+                <number>47</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>322</pageno>
+    </outline>
+    <outline level="3" title="b'Binary heap'">
+        <dest>
+            <list size="5">
+                <ref id="976"/>
+                <literal>XYZ</literal>
+                <number>38</number>
+                <number>471</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>325</pageno>
+    </outline>
+    <outline level="3" title="b'Heapsort'">
+        <dest>
+            <list size="5">
+                <ref id="1006"/>
+                <literal>XYZ</literal>
+                <number>-5</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>335</pageno>
+    </outline>
+    <outline level="2" title="b'2.5 Applications'">
+        <dest>
+            <list size="5">
+                <ref id="1045"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>348</pageno>
+    </outline>
+    <outline level="3" title="b'Comparators'">
+        <dest>
+            <list size="5">
+                <ref id="1057"/>
+                <literal>XYZ</literal>
+                <number>-5</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>352</pageno>
+    </outline>
+    <outline level="3" title="b'Stability'">
+        <dest>
+            <list size="5">
+                <ref id="1060"/>
+                <literal>XYZ</literal>
+                <number>38</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>353</pageno>
+    </outline>
+    <outline level="3" title="b'Median and order statistics'">
+        <dest>
+            <list size="5">
+                <ref id="1072"/>
+                <literal>XYZ</literal>
+                <number>38</number>
+                <number>471</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>357</pageno>
+    </outline>
+    <outline level="1" title="b'3 Searching'">
+        <dest>
+            <list size="5">
+                <ref id="1117"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>372</pageno>
+    </outline>
+    <outline level="2" title="b'3.1 Symbol Tables'">
+        <dest>
+            <list size="5">
+                <ref id="1123"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>374</pageno>
+    </outline>
+    <outline level="3" title="b'Symbol table API'">
+        <dest>
+            <list size="5">
+                <ref id="1126"/>
+                <literal>XYZ</literal>
+                <number>11</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>375</pageno>
+    </outline>
+    <outline level="3" title="b'Ordered symbol table API'">
+        <dest>
+            <list size="5">
+                <ref id="1135"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>378</pageno>
+    </outline>
+    <outline level="3" title="b'Dedup'">
+        <dest>
+            <list size="5">
+                <ref id="1507"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>471</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>502</pageno>
+    </outline>
+    <outline level="3" title="b'Frequency counter'">
+        <dest>
+            <list size="5">
+                <ref id="20"/>
+                <literal>XYZ</literal>
+                <number>83</number>
+                <number>669</number>
+                <number>1.5</number>
+            </list>
+        </dest>
+        <pageno>7</pageno>
+    </outline>
+    <outline level="3" title="b'Sequential search'">
+        <dest>
+            <list size="5">
+                <ref id="1171"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>390</pageno>
+    </outline>
+    <outline level="3" title="b'Binary search'">
+        <dest>
+            <list size="5">
+                <ref id="1177"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>392</pageno>
+    </outline>
+    <outline level="2" title="b'3.2 Binary Search Trees'">
+        <dest>
+            <list size="5">
+                <ref id="1225"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>408</pageno>
+    </outline>
+    <outline level="3" title="b'Basic implementation'">
+        <dest>
+            <list size="5">
+                <ref id="1228"/>
+                <literal>XYZ</literal>
+                <number>11</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>409</pageno>
+    </outline>
+    <outline level="3" title="b'Order-based methods'">
+        <dest>
+            <list size="5">
+                <ref id="1255"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>418</pageno>
+    </outline>
+    <outline level="3" title="b'Deletion'">
+        <dest>
+            <list size="5">
+                <ref id="1270"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>423</pageno>
+    </outline>
+    <outline level="2" title="b'3.3 Balanced Search Trees'">
+        <dest>
+            <list size="5">
+                <ref id="1309"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>436</pageno>
+    </outline>
+    <outline level="3" title="b'2-3 search trees'">
+        <dest>
+            <list size="5">
+                <ref id="1309"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>436</pageno>
+    </outline>
+    <outline level="3" title="b'Red-black BSTs'">
+        <dest>
+            <list size="5">
+                <ref id="1333"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>444</pageno>
+    </outline>
+    <outline level="3" title="b'Deletion'">
+        <dest>
+            <list size="5">
+                <ref id="1360"/>
+                <literal>XYZ</literal>
+                <number>11</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>453</pageno>
+    </outline>
+    <outline level="2" title="b'3.4 Hash Tables'">
+        <dest>
+            <list size="5">
+                <ref id="1411"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>470</pageno>
+    </outline>
+    <outline level="3" title="b'Hash functions'">
+        <dest>
+            <list size="5">
+                <ref id="1414"/>
+                <literal>XYZ</literal>
+                <number>-32</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>471</pageno>
+    </outline>
+    <outline level="3" title="b'Separate chaining'">
+        <dest>
+            <list size="5">
+                <ref id="1429"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>476</pageno>
+    </outline>
+    <outline level="3" title="b'Linear probing'">
+        <dest>
+            <list size="5">
+                <ref id="1444"/>
+                <literal>XYZ</literal>
+                <number>-32</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>481</pageno>
+    </outline>
+    <outline level="2" title="b'3.5 Applications'">
+        <dest>
+            <list size="5">
+                <ref id="1495"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>498</pageno>
+    </outline>
+    <outline level="3" title="b'Set data type'">
+        <dest>
+            <list size="5">
+                <ref id="1501"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>500</pageno>
+    </outline>
+    <outline level="3" title="b'Whitelist and blacklist filters'">
+        <dest>
+            <list size="5">
+                <ref id="1510"/>
+                <literal>XYZ</literal>
+                <number>11</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>503</pageno>
+    </outline>
+    <outline level="3" title="b'Dictionary lookup'">
+        <dest>
+            <list size="5">
+                <ref id="1522"/>
+                <literal>XYZ</literal>
+                <number>11</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>507</pageno>
+    </outline>
+    <outline level="3" title="b'Inverted index'">
+        <dest>
+            <list size="5">
+                <ref id="1531"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>510</pageno>
+    </outline>
+    <outline level="3" title="b'File indexing'">
+        <dest>
+            <list size="5">
+                <ref id="1540"/>
+                <literal>XYZ</literal>
+                <number>11</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>513</pageno>
+    </outline>
+    <outline level="3" title="b'Sparse matrix-vector multiplication'">
+        <dest>
+            <list size="5">
+                <ref id="1543"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>514</pageno>
+    </outline>
+    <outline level="1" title="b'4 Graphs'">
+        <dest>
+            <list size="5">
+                <ref id="1579"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>526</pageno>
+    </outline>
+    <outline level="2" title="b'4.1 Undirected Graphs'">
+        <dest>
+            <list size="5">
+                <ref id="1591"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>530</pageno>
+    </outline>
+    <outline level="3" title="b'Glossary'">
+        <dest>
+            <list size="5">
+                <ref id="1594"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>531</pageno>
+    </outline>
+    <outline level="3" title="b'Undirected graph type'">
+        <dest>
+            <list size="5">
+                <ref id="1603"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>534</pageno>
+    </outline>
+    <outline level="3" title="b'Adjacency-lists representation'">
+        <dest>
+            <list size="5">
+                <ref id="1612"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>537</pageno>
+    </outline>
+    <outline level="3" title="b'Depth-first search'">
+        <dest>
+            <list size="5">
+                <ref id="1627"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>542</pageno>
+    </outline>
+    <outline level="3" title="b'Breadth-first search'">
+        <dest>
+            <list size="5">
+                <ref id="1651"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>550</pageno>
+    </outline>
+    <outline level="3" title="b'Connected components'">
+        <dest>
+            <list size="5">
+                <ref id="1666"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>555</pageno>
+    </outline>
+    <outline level="3" title="b'Degrees of separation'">
+        <dest>
+            <list size="5">
+                <ref id="1696"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>565</pageno>
+    </outline>
+    <outline level="2" title="b'4.2 Directed Graphs'">
+        <dest>
+            <list size="5">
+                <ref id="1735"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>578</pageno>
+    </outline>
+    <outline level="3" title="b'Glossary'">
+        <dest>
+            <list size="5">
+                <ref id="1735"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>452</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>578</pageno>
+    </outline>
+    <outline level="3" title="b'Digraph data type'">
+        <dest>
+            <list size="5">
+                <ref id="1741"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>580</pageno>
+    </outline>
+    <outline level="3" title="b'Depth-first search'">
+        <dest>
+            <list size="5">
+                <ref id="1777"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>592</pageno>
+    </outline>
+    <outline level="3" title="b'Directed cycle detection'">
+        <dest>
+            <list size="5">
+                <ref id="1759"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>586</pageno>
+    </outline>
+    <outline level="3" title="b'Precedence-constrained scheduling'">
+        <dest>
+            <list size="5">
+                <ref id="1759"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>586</pageno>
+    </outline>
+    <outline level="3" title="b'Topological sort'">
+        <dest>
+            <list size="5">
+                <ref id="1780"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>593</pageno>
+    </outline>
+    <outline level="3" title="b'Strong connectivity'">
+        <dest>
+            <list size="5">
+                <ref id="1789"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>452</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>596</pageno>
+    </outline>
+    <outline level="3" title="b'Kosaraju-Sharir algorithm'">
+        <dest>
+            <list size="5">
+                <ref id="1795"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>598</pageno>
+    </outline>
+    <outline level="3" title="b'Transitive closure'">
+        <dest>
+            <list size="5">
+                <ref id="1816"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>605</pageno>
+    </outline>
+    <outline level="2" title="b'4.3 Minimum Spanning Trees'">
+        <dest>
+            <list size="5">
+                <ref id="1849"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>616</pageno>
+    </outline>
+    <outline level="3" title="b'Cut property'">
+        <dest>
+            <list size="5">
+                <ref id="1855"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>618</pageno>
+    </outline>
+    <outline level="3" title="b'Greedy algorithm'">
+        <dest>
+            <list size="5">
+                <ref id="1858"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>619</pageno>
+    </outline>
+    <outline level="3" title="b'Edge-weighted graph data type'">
+        <dest>
+            <list size="5">
+                <ref id="1861"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>620</pageno>
+    </outline>
+    <outline level="3" title="b'Prim&#39;s algorithm'">
+        <dest>
+            <list size="5">
+                <ref id="1885"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>628</pageno>
+    </outline>
+    <outline level="3" title="b'Kruskal&#39;s algorithm'">
+        <dest>
+            <list size="5">
+                <ref id="1909"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>636</pageno>
+    </outline>
+    <outline level="2" title="b'4.4 Shortest Paths'">
+        <dest>
+            <list size="5">
+                <ref id="1951"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>650</pageno>
+    </outline>
+    <outline level="3" title="b'Properties of shortest paths'">
+        <dest>
+            <list size="5">
+                <ref id="1954"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>651</pageno>
+    </outline>
+    <outline level="3" title="b'Edge-weighted digraph data types'">
+        <dest>
+            <list size="5">
+                <ref id="1960"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>653</pageno>
+    </outline>
+    <outline level="3" title="b'Generic shortest paths algorithm'">
+        <dest>
+            <list size="5">
+                <ref id="1990"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>663</pageno>
+    </outline>
+    <outline level="3" title="b'Dijkstra&#39;s algorithm'">
+        <dest>
+            <list size="5">
+                <ref id="1993"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>664</pageno>
+    </outline>
+    <outline level="3" title="b'Shortest paths in edgeweighted DAGs'">
+        <dest>
+            <list size="5">
+                <ref id="2017"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>672</pageno>
+    </outline>
+    <outline level="3" title="b'Critical-path method'">
+        <dest>
+            <list size="5">
+                <ref id="2032"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>677</pageno>
+    </outline>
+    <outline level="3" title="b'Bellman-Ford algorithm'">
+        <dest>
+            <list size="5">
+                <ref id="2059"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>686</pageno>
+    </outline>
+    <outline level="3" title="b'Negative cycle detection'">
+        <dest>
+            <list size="5">
+                <ref id="2068"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>689</pageno>
+    </outline>
+    <outline level="3" title="b'Arbitrage'">
+        <dest>
+            <list size="5">
+                <ref id="2074"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>691</pageno>
+    </outline>
+    <outline level="1" title="b'5 Strings'">
+        <dest>
+            <list size="5">
+                <ref id="2119"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>706</pageno>
+    </outline>
+    <outline level="2" title="b'5.1 String Sorts'">
+        <dest>
+            <list size="5">
+                <ref id="2143"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>714</pageno>
+    </outline>
+    <outline level="3" title="b'Key-indexed counting'">
+        <dest>
+            <list size="5">
+                <ref id="2146"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>715</pageno>
+    </outline>
+    <outline level="3" title="b'LSD string sort'">
+        <dest>
+            <list size="5">
+                <ref id="2155"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>718</pageno>
+    </outline>
+    <outline level="3" title="b'MSD string sort'">
+        <dest>
+            <list size="5">
+                <ref id="2167"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>722</pageno>
+    </outline>
+    <outline level="3" title="b'3-way string quicksort'">
+        <dest>
+            <list size="5">
+                <ref id="2194"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>731</pageno>
+    </outline>
+    <outline level="2" title="b'5.2 Tries'">
+        <dest>
+            <list size="5">
+                <ref id="2227"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>742</pageno>
+    </outline>
+    <outline level="3" title="b'String symbol table API'">
+        <dest>
+            <list size="5">
+                <ref id="2248"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>749</pageno>
+    </outline>
+    <outline level="3" title="b'R-way tries'">
+        <dest>
+            <list size="5">
+                <ref id="2263"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>754</pageno>
+    </outline>
+    <outline level="3" title="b'Ternary search tries'">
+        <dest>
+            <list size="5">
+                <ref id="2275"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>758</pageno>
+    </outline>
+    <outline level="3" title="b'Characterbased operations'">
+        <dest>
+            <list size="5">
+                <ref id="24"/>
+                <literal>XYZ</literal>
+                <number>-3</number>
+                <number>643</number>
+                <number>1.4500000477</number>
+            </list>
+        </dest>
+        <pageno>8</pageno>
+    </outline>
+    <outline level="2" title="b'5.3 Substring Search'">
+        <dest>
+            <list size="5">
+                <ref id="2311"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>770</pageno>
+    </outline>
+    <outline level="3" title="b'Brute-force algorithm'">
+        <dest>
+            <list size="5">
+                <ref id="2317"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>772</pageno>
+    </outline>
+    <outline level="3" title="b'Knuth-Morric-Pratt algorithm'">
+        <dest>
+            <list size="5">
+                <ref id="2323"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>774</pageno>
+    </outline>
+    <outline level="3" title="b'Boyer-Moore algorithm'">
+        <dest>
+            <list size="5">
+                <ref id="2347"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>782</pageno>
+    </outline>
+    <outline level="3" title="b'Rabin-Karp fingerprint algorithm'">
+        <dest>
+            <list size="5">
+                <ref id="2359"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>786</pageno>
+    </outline>
+    <outline level="2" title="b'5.4 Regular Expressions'">
+        <dest>
+            <list size="5">
+                <ref id="2401"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>800</pageno>
+    </outline>
+    <outline level="3" title="b'Describing patterns with REs'">
+        <dest>
+            <list size="5">
+                <ref id="2404"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>801</pageno>
+    </outline>
+    <outline level="3" title="b'Applications'">
+        <dest>
+            <list size="5">
+                <ref id="2413"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>804</pageno>
+    </outline>
+    <outline level="3" title="b'Nondeterministic finite-state automata'">
+        <dest>
+            <list size="5">
+                <ref id="2419"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>806</pageno>
+    </outline>
+    <outline level="3" title="b'Simulating an NFA'">
+        <dest>
+            <list size="5">
+                <ref id="2428"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>809</pageno>
+    </outline>
+    <outline level="3" title="b'Building an NFA corresponding to an RE'">
+        <dest>
+            <list size="5">
+                <ref id="2437"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>812</pageno>
+    </outline>
+    <outline level="2" title="b'5.5 Data Compression'">
+        <dest>
+            <list size="5">
+                <ref id="2467"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>822</pageno>
+    </outline>
+    <outline level="3" title="b'Rules of the game'">
+        <dest>
+            <list size="5">
+                <ref id="2470"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>823</pageno>
+    </outline>
+    <outline level="3" title="b'Reading and writing binary data'">
+        <dest>
+            <list size="5">
+                <ref id="2470"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>484</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>823</pageno>
+    </outline>
+    <outline level="3" title="b'Limitations'">
+        <dest>
+            <list size="5">
+                <ref id="2485"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>828</pageno>
+    </outline>
+    <outline level="3" title="b'Run-length coding'">
+        <dest>
+            <list size="5">
+                <ref id="2505"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>834</pageno>
+    </outline>
+    <outline level="3" title="b'Huffman compression'">
+        <dest>
+            <list size="5">
+                <ref id="2521"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>838</pageno>
+    </outline>
+    <outline level="3" title="b'LZW compression'">
+        <dest>
+            <list size="5">
+                <ref id="2563"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>851</pageno>
+    </outline>
+    <outline level="1" title="b'6 Context'">
+        <dest>
+            <list size="5">
+                <ref id="2603"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>864</pageno>
+    </outline>
+    <outline level="2" title="b'Event-Driven Simulation'">
+        <dest>
+            <list size="5">
+                <ref id="2615"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>868</pageno>
+    </outline>
+    <outline level="3" title="b'Hard-disc model'">
+        <dest>
+            <list size="5">
+                <ref id="2615"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>868</pageno>
+    </outline>
+    <outline level="3" title="b'Collision prediction'">
+        <dest>
+            <list size="5">
+                <ref id="2618"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>484</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>869</pageno>
+    </outline>
+    <outline level="3" title="b'Collision resolution'">
+        <dest>
+            <list size="5">
+                <ref id="2621"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>484</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>870</pageno>
+    </outline>
+    <outline level="2" title="b'B-trees'">
+        <dest>
+            <list size="5">
+                <ref id="2648"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>878</pageno>
+    </outline>
+    <outline level="3" title="b'Cost model'">
+        <dest>
+            <list size="5">
+                <ref id="2648"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>878</pageno>
+    </outline>
+    <outline level="3" title="b'Search and insert'">
+        <dest>
+            <list size="5">
+                <ref id="2654"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>880</pageno>
+    </outline>
+    <outline level="2" title="b'Suffix Arrays'">
+        <dest>
+            <list size="5">
+                <ref id="2675"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>887</pageno>
+    </outline>
+    <outline level="3" title="b'Suffix sorting'">
+        <dest>
+            <list size="5">
+                <ref id="2678"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>888</pageno>
+    </outline>
+    <outline level="3" title="b'Longest repeated substring'">
+        <dest>
+            <list size="5">
+                <ref id="2675"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>887</pageno>
+    </outline>
+    <outline level="3" title="b'Keyword in context'">
+        <dest>
+            <list size="5">
+                <ref id="24"/>
+                <literal>XYZ</literal>
+                <number>61</number>
+                <number>447</number>
+                <number>1.4500000477</number>
+            </list>
+        </dest>
+        <pageno>8</pageno>
+    </outline>
+    <outline level="2" title="b'Network Flow'">
+        <dest>
+            <list size="5">
+                <ref id="2708"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>898</pageno>
+    </outline>
+    <outline level="3" title="b'Maximum flow'">
+        <dest>
+            <list size="5">
+                <ref id="2765"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>917</pageno>
+    </outline>
+    <outline level="3" title="b'Minimum cut'">
+        <dest>
+            <list size="5">
+                <ref id="2756"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>914</pageno>
+    </outline>
+    <outline level="3" title="b'Ford-Fulkerson algorithm'">
+        <dest>
+            <list size="5">
+                <ref id="2723"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>903</pageno>
+    </outline>
+    <outline level="2" title="b'Reductions'">
+        <dest>
+            <list size="5">
+                <ref id="2759"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>915</pageno>
+    </outline>
+    <outline level="3" title="b'Sorting'">
+        <dest>
+            <list size="5">
+                <ref id="2759"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>915</pageno>
+    </outline>
+    <outline level="3" title="b'Shortest path'">
+        <dest>
+            <list size="5">
+                <ref id="2762"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>916</pageno>
+    </outline>
+    <outline level="3" title="b'Bipartite matching'">
+        <dest>
+            <list size="5">
+                <ref id="2768"/>
+                <literal>XYZ</literal>
+                <number>-20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>918</pageno>
+    </outline>
+    <outline level="3" title="b'Linear programming'">
+        <dest>
+            <list size="5">
+                <ref id="2771"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>919</pageno>
+    </outline>
+    <outline level="2" title="b'Intractability'">
+        <dest>
+            <list size="5">
+                <ref id="2780"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>922</pageno>
+    </outline>
+    <outline level="3" title="b'Longest-paths problem'">
+        <dest>
+            <list size="5">
+                <ref id="2786"/>
+                <literal>XYZ</literal>
+                <number>32</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>924</pageno>
+    </outline>
+    <outline level="3" title="b'P vs. NP'">
+        <dest>
+            <list size="5">
+                <ref id="24"/>
+                <literal>XYZ</literal>
+                <number>61</number>
+                <number>348</number>
+                <number>1.4500000477</number>
+            </list>
+        </dest>
+        <pageno>8</pageno>
+    </outline>
+    <outline level="3" title="b'Boolean satisfiability'">
+        <dest>
+            <list size="5">
+                <ref id="24"/>
+                <literal>XYZ</literal>
+                <number>61</number>
+                <number>348</number>
+                <number>1.4500000477</number>
+            </list>
+        </dest>
+        <pageno>8</pageno>
+    </outline>
+    <outline level="3" title="b'NP-completeness'">
+        <dest>
+            <list size="5">
+                <ref id="2801"/>
+                <literal>XYZ</literal>
+                <number>23</number>
+                <number>484</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>929</pageno>
+    </outline>
+    <outline level="1" title="b'Index'">
+        <dest>
+            <list size="5">
+                <ref id="2846"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>708</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>944</pageno>
+    </outline>
+    <outline level="2" title="b'A'">
+        <dest>
+            <list size="5">
+                <ref id="2849"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>945</pageno>
+    </outline>
+    <outline level="2" title="b'B'">
+        <dest>
+            <list size="5">
+                <ref id="2858"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>947</pageno>
+    </outline>
+    <outline level="2" title="b'C'">
+        <dest>
+            <list size="5">
+                <ref id="2858"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>486</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>947</pageno>
+    </outline>
+    <outline level="2" title="b'D'">
+        <dest>
+            <list size="5">
+                <ref id="2869"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>949</pageno>
+    </outline>
+    <outline level="2" title="b'E'">
+        <dest>
+            <list size="5">
+                <ref id="2874"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>950</pageno>
+    </outline>
+    <outline level="2" title="b'F'">
+        <dest>
+            <list size="5">
+                <ref id="2879"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>951</pageno>
+    </outline>
+    <outline level="2" title="b'G'">
+        <dest>
+            <list size="5">
+                <ref id="2879"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>486</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>951</pageno>
+    </outline>
+    <outline level="2" title="b'H'">
+        <dest>
+            <list size="5">
+                <ref id="2884"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>952</pageno>
+    </outline>
+    <outline level="2" title="b'I'">
+        <dest>
+            <list size="5">
+                <ref id="2884"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>486</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>952</pageno>
+    </outline>
+    <outline level="2" title="b'J'">
+        <dest>
+            <list size="5">
+                <ref id="2890"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>953</pageno>
+    </outline>
+    <outline level="2" title="b'K'">
+        <dest>
+            <list size="5">
+                <ref id="2895"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>954</pageno>
+    </outline>
+    <outline level="2" title="b'L'">
+        <dest>
+            <list size="5">
+                <ref id="2895"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>486</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>954</pageno>
+    </outline>
+    <outline level="2" title="b'M'">
+        <dest>
+            <list size="5">
+                <ref id="2900"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>955</pageno>
+    </outline>
+    <outline level="2" title="b'N'">
+        <dest>
+            <list size="5">
+                <ref id="2905"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>486</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>956</pageno>
+    </outline>
+    <outline level="2" title="b'O'">
+        <dest>
+            <list size="5">
+                <ref id="2905"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>956</pageno>
+    </outline>
+    <outline level="2" title="b'P'">
+        <dest>
+            <list size="5">
+                <ref id="2905"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>486</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>956</pageno>
+    </outline>
+    <outline level="2" title="b'Q'">
+        <dest>
+            <list size="5">
+                <ref id="2920"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>959</pageno>
+    </outline>
+    <outline level="2" title="b'R'">
+        <dest>
+            <list size="5">
+                <ref id="2920"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>486</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>959</pageno>
+    </outline>
+    <outline level="2" title="b'S'">
+        <dest>
+            <list size="5">
+                <ref id="2926"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>960</pageno>
+    </outline>
+    <outline level="2" title="b'T'">
+        <dest>
+            <list size="5">
+                <ref id="2944"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>963</pageno>
+    </outline>
+    <outline level="2" title="b'U'">
+        <dest>
+            <list size="5">
+                <ref id="2944"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>682</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>963</pageno>
+    </outline>
+    <outline level="2" title="b'V'">
+        <dest>
+            <list size="5">
+                <ref id="2949"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>964</pageno>
+    </outline>
+    <outline level="2" title="b'W'">
+        <dest>
+            <list size="5">
+                <ref id="2949"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>486</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>964</pageno>
+    </outline>
+    <outline level="2" title="b'Z'">
+        <dest>
+            <list size="5">
+                <ref id="2949"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>964</pageno>
+    </outline>
+    <outline level="1" title="b'Algorithms'">
+        <dest>
+            <list size="5">
+                <ref id="2957"/>
+                <literal>XYZ</literal>
+                <number>29</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>966</pageno>
+    </outline>
+    <outline level="1" title="b'Clients'">
+        <dest>
+            <list size="5">
+                <ref id="2960"/>
+                <literal>XYZ</literal>
+                <number>20</number>
+                <number>714</number>
+                <number>1</number>
+            </list>
+        </dest>
+        <pageno>967</pageno>
+    </outline>
+</outlines>

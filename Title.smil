@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE smil PUBLIC>
-<smil xmlns="http://www.w3.org/2001/SMIL20/">
-     <head>
-          <meta content="12341234" name="dtb:uid"/>
-          <meta content="0" name="dtb:uidtotalElapsedTime"/>
-          <layout>
-               <region bottom="auto" fit="hidden" height="auto" id="textRegion" left="auto" right="auto" showBackground="always" top="auto" width="auto"/>
-          </layout>
-          <customAttributes>
-               <customTest defaultState="false" id="pagenumCustomTest" override="visible"/>
-          </customAttributes>
-     </head>
-     <body>
-          <seq class="book" fill="remove" id="baseseq"/>
-     </body>
-</smil>
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE smil PUBLIC><smil xmlns="http://www.w3.org/2001/SMIL20/"><head><meta content="12341234" name="dtb:uid" /><meta content="0" name="dtb:uidtotalElapsedTime" /><layout><region bottom="auto" fit="hidden" height="auto" id="textRegion" left="auto" right="auto" showBackground="always" top="auto" width="auto" /></layout><customAttributes><customTest defaultState="false" id="pagenumCustomTest" override="visible" /></customAttributes></head><body><seq class="book" fill="remove" id="baseseq" /></body></smil>
