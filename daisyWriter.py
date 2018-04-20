@@ -134,7 +134,9 @@ def start_ncx_file(attribs=None):
             doc_author_text.text = str(attribs["Creator"])
 
     nav_map = SubElement(ncx, "navMap")
-
+    nav_info = SubElement(nav_map, "navInfo")
+    text = SubElement(nav_info, "text")
+    text.text = "Primary navigation is by level"
     return ncx
 
 
@@ -201,11 +203,52 @@ def write_file(title, file_type, starting_lines, element_tree):
     # xmlstr = minidom.parseString(tostring(element_tree)).toprettyxml(indent="     ")
 
 
-def fill_in_page_text(ncx, smil, xml, num, level_info, attribs, multiple_tags=False):
+def fill_in_page_text(ncx, smil, xml, num, level_info, attribs, playOrder, multiple_tags=False, newLevel=False, newLevelText=""):
+    global pages, tag_dict
+
     l_list = level_info[1]
     l_index = level_info[2]
-    page_num = SubElement(l_list[l_index], "pagenum", page="normal", id="p" + str(num),
-                          smilref=str(qec(attribs["Title"])) + ".smil#p" + str(num))
+    if newLevel:
+        par = SubElement(smil.find(".//seq"), "par", id="p" + str(num), attrib={"class": "pagenum"},
+                         customTest="pagenumCustomTest")
+        text = SubElement(par, "text", src=attribs["Title"] + ".xml#p" + str(num), region="textRegion")
+        nav_point = SubElement(ncx.find(".//navMap"), "navPoint", id=get_element_count(level_info[0]),
+                               attrib={"class": "navPoint-level-"+level_info[0]}, playOrder=str(playOrder))
+        nav_label = SubElement(nav_point, "navLabel")
+        text = SubElement(nav_label, "text")
+        text.text = newLevelText
+        content = SubElement(nav_point, "content", src=attribs["Title"] + ".smil#" + qec("p"))
+        playOrder += 1
+
+    if level_info[0] == "level1" and l_index == 0:
+        return playOrder
+    
+    if not multiple_tags:
+        page_num = SubElement(l_list[l_index], "pagenum", page="normal", id="p" + str(num),
+                              smilref=attribs["Title"] + ".smil#p" + str(num))
+        par = SubElement(smil.find(".//seq"), "par", id="p" + str(num), attrib={"class": "pagenum"},
+                         customTest="pagenumCustomTest")
+        text = SubElement(par, "text", src=attribs["Title"] + ".xml#p" + str(num), region="textRegion")
+
+    for j in range(0, len(pages[num])):
+        text = pages[num][j]
+        if text.__contains__("■"):
+            try:
+                for e in tag_dict.keys():
+                    if tag_dict[e][0][1].lower() == (pages[num][j - 1] + text).replace("■ ", "").lower().strip():
+                        pages[num][j - 1] = ""
+                        text = ""
+                if text != "":
+                    pass
+            except IndexError:
+                continue
+        else:
+            p = SubElement(l_list[l_index], "p", attribs={"xml:space": "preserve"}, id=get_element_count("p"),
+                           smilref=attribs["Title"] + ".smil#" + get_element_count("p"))
+            p.text = text
+            par = SubElement(smil.find(".//seq"), "par", id="p" + get_element_count("p"), attrib={"class": "p"})
+            text = SubElement(par, "text", src=attribs["Title"] + ".xml#" + qec("p"), region="textRegion")
+    return playOrder
 
 
 def fill_in_tags(ncx, smil, xml, attribs):
@@ -224,102 +267,97 @@ def fill_in_tags(ncx, smil, xml, attribs):
 
     current_level = ""
     page = 1
-    multiple_tags=False
+    multiple_tags = False
+    playOrder = 0
     for i in range(0, max_pg):
         if str(i) in tag_dict.keys():
             for e in tag_dict[str(i)]:
-                if(len(tag_dict[str(i)])>1):
-                    multiple_tags=True
+                if len(tag_dict[str(i)]) > 1 and tag_dict[str(i)].index(e) > 0:
+                    multiple_tags = True
+                else:
+                    multiple_tags = False
                 try:
                     if e[1] == "Contents":
                         toc = SubElement(xml.find(".//frontmatter"), "level1", id="toc")
                         level1_list.append(toc)
-                        fill_in_page_text(ncx, smil, xml, i, ["level1", level1_list, level1], attribs)
+                        playOrder = fill_in_page_text(ncx, smil, xml, i, ["level1", level1_list, level1], attribs,
+                                                      playOrder, multiple_tags=multiple_tags)
 
                     if e[1] == "Preface":
                         level1 += 1
                         pref = SubElement(xml.find(".//frontmatter"), "level1", id="pref")
                         level1_list.append(pref)
-                        fill_in_page_text(ncx, smil, xml, i, ["level1", level1_list, level1], attribs)
+                        playOrder = fill_in_page_text(ncx, smil, xml, i, ["level1", level1_list, level1], attribs,
+                                                      playOrder, multiple_tags=multiple_tags)
 
                     if e[0] == "level1" and e[1] != "Contents" and e[1] != "Preface":
                         sub_element = SubElement(xml.find(".//bodymatter"), "level1", id="ch" + str(level1))
                         section = SubElement(sub_element, "section", attrib={"epub:type": "chapter"}, id=qec("section"))
                         header = SubElement(section, "header", id=qec("header"))
                         pagenum = SubElement(header, "pagenum", attrib={"epub:type": "pagebreak"}, id="p" + str(i),
-                                             page="normal", smilref=str(qec(attribs["Title"])) + ".smil#p" + str(i))
+                                             page="normal", smilref=attribs["Title"] + ".smil#p" + str(i))
                         h1 = SubElement(header, "h1", id="ch" + str(level1) + "-start",
                                         attrib={"xml:space": "preserve"},
-                                        smilref=str(qec(attribs["Title"])) + ".smil#ch" + str(level1) + "-start")
+                                        smilref=attribs["Title"] + ".smil#ch" + str(level1) + "-start")
                         h1.text = e[1]
                         level1 += 1
                         level2_counter = 0
                         level3_counter = 0
                         level1_list.append(sub_element)
                         current_level = "level1"
-                        fill_in_page_text(ncx, smil, xml, i, ["level1", level1_list, level1], attribs)
-
+                        playOrder = fill_in_page_text(ncx, smil, xml, i, ["level1", level1_list, level1], attribs,
+                                                      playOrder, multiple_tags=multiple_tags)
 
                     if e[0] == "level2":
-                        level2 += 1
-                        level2_counter += 1
-                        sub_element = SubElement(level1_list[level1 + 1], "level2", id=qec("level2"))
-                        h2 = SubElement(sub_element, "h2", id="ch" + str(level1) + "-s" + str(level2_counter),
-                                        attrib={"xml:space": "preserve"},
-                                        smilref=str(qec(attribs["Title"])) + ".smil#ch" + str(level1) + "-s" + str(
-                                            level2_counter))
-                        h2.text = e[1]
-                        current_level = "level2"
-                        level2_list.append(sub_element)
-                        level3_counter = 0
-                        fill_in_page_text(ncx, smil, xml, i, ["level2", level2_list, level2], attribs)
+                        if level1 > 0:
+                            level2 += 1
+                            level2_counter += 1
+                            sub_element = SubElement(level1_list[level1 + 1], "level2", id=get_element_count("level2"))
+                            h2 = SubElement(sub_element, "h2", id="ch" + str(level1) + "-s" + str(level2_counter),
+                                            attrib={"xml:space": "preserve"},
+                                            smilref=attribs["Title"] + ".smil#ch" + str(level1) + "-s" + str(
+                                                level2_counter))
+                            h2.text = e[1]
+                            current_level = "level2"
+                            level2_list.append(sub_element)
+                            level3_counter = 0
+                            playOrder = fill_in_page_text(ncx, smil, xml, i, ["level2", level2_list, level2], attribs,
+                                                          playOrder, multiple_tags=multiple_tags)
 
                     if e[0] == "level3":
-                        level3 += 1
-                        level3_counter += 1
-                        if current_level == "level1" or current_level == "" or (
-                                current_level == "level3" and len(level2_list) < 1):
-                            sub_element = SubElement(level1_list[level1], "level3", id=qec("level3"))
-                        else:
-                            sub_element = SubElement(level2_list[level2], "level3", id=qec("level3"))
-                        h3 = SubElement(sub_element, "h3",
-                                        id="ch" + str(level1 - 1) + "-s" + str(level2_counter) + "-ss" + str(
-                                            level3_counter),
-                                        attrib={"xml:space": "preserve"},
-                                        smilref=str(qec(attribs["Title"])) + ".smil#ch" + str(level1 - 1) + "-s" + str(
-                                            level2_counter) + "-ss" + str(level3_counter))
-                        h3.text = e[1]
-                        level3_list.append(sub_element)
-                        current_level = "level3"
-                        fill_in_page_text(ncx, smil, xml, i, ["level3", level3_list, level3], attribs)
+                        if level1 > 0:
+                            level3 += 1
+                            level3_counter += 1
+                            if current_level == "level1" or current_level == "" or (
+                                    current_level == "level3" and len(level2_list) < 1):
+                                sub_element = SubElement(level1_list[level1], "level3", id=get_element_count("level3"))
+                            else:
+                                sub_element = SubElement(level2_list[level2], "level3", id=get_element_count("level3"))
+                            h3 = SubElement(sub_element, "h3",
+                                            id="ch" + str(level1 - 1) + "-s" + str(level2_counter) + "-ss" + str(
+                                                level3_counter),
+                                            attrib={"xml:space": "preserve"},
+                                            smilref=attribs["Title"] + ".smil#ch" + str(
+                                                level1 - 1) + "-s" + str(
+                                                level2_counter) + "-ss" + str(level3_counter))
+                            h3.text = e[1]
+                            level3_list.append(sub_element)
+                            current_level = "level3"
+                            playOrder = fill_in_page_text(ncx, smil, xml, i, ["level3", level3_list, level3], attribs,
+                                                          playOrder, multiple_tags=multiple_tags)
 
                 except IndexError:
                     continue
         else:
             if current_level == "level1":
-                fill_in_page_text(ncx, smil, xml, i, [current_level, level1_list, level1], attribs)
+                playOrder = fill_in_page_text(ncx, smil, xml, i, [current_level, level1_list, level1], attribs,
+                                              playOrder, multiple_tags=multiple_tags)
             elif current_level == "level2":
-                fill_in_page_text(ncx, smil, xml, i, [current_level, level2_list, level2], attribs)
+                playOrder = fill_in_page_text(ncx, smil, xml, i, [current_level, level2_list, level2], attribs,
+                                              playOrder, multiple_tags=multiple_tags)
             elif current_level == "level3":
-                fill_in_page_text(ncx, smil, xml, i, [current_level, level3_list, level3], attribs)
-
-        for j in range(0, len(pages[i])):
-            text = pages[i][j]
-            if text.__contains__("■"):
-                try:
-                    for e in tag_dict.keys():
-                        if tag_dict[e][0][1].lower() == (pages[i][j - 1] + text).replace("■ ", "").lower().strip():
-                            pages[i][j - 1] = ""
-                            text = ""
-                    if text != "":
-                        pass
-                except IndexError:
-                    pass
-            # else:
-            #     if current_level == "level1":
-            #         p = SubElement(xml.findall(".//level1")[level1],"p", attribs={"xml:space":"preserve"}, id=qec("p"))
-            #         span = SubElement(p,"span", attrib= {"class":"text"}, id=get_element_count("span"), smilref=str(qec(attribs["Title"]))+".smil#"+qec("span"))
-            #         span.text = text
+                playOrder = fill_in_page_text(ncx, smil, xml, i, [current_level, level3_list, level3], attribs,
+                                              playOrder, multiple_tags=multiple_tags)
 
 
 def run(**attribs):

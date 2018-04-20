@@ -1,1 +1,751 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC><ncx version="2005-1" xml:lang="eng" xmlns="http://www.daisy.org/z3986/2005/ncx/"><head><smilCustomTest bookStruct="PAGENUMBER" defaultState="false" id="12341234" override="hidden" /><meta content="0" name="dtb:depth" /><meta content="0" name="dtb:depthmaxPageNumber" /><meta content="0" name="dtb:depthmaxPageNumbertotalPageCount" /><meta content="12341234" name="dtb:depthmaxPageNumbertotalPageCountuid" /></head><docTitle><text>Title</text></docTitle><docAuthor><text>Jane Doe, Arnold, and Karen</text></docAuthor><navMap /></ncx>
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC>
+<ncx version="2005-1" xml:lang="eng" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+    <head>
+        <smilCustomTest bookStruct="PAGENUMBER" defaultState="false" id="12341234" override="hidden"/>
+        <meta content="0" name="dtb:depth"/>
+        <meta content="0" name="dtb:depthmaxPageNumber"/>
+        <meta content="0" name="dtb:depthmaxPageNumbertotalPageCount"/>
+        <meta content="12341234" name="dtb:depthmaxPageNumbertotalPageCountuid"/>
+    </head>
+    <docTitle>
+        <text>Title</text>
+    </docTitle>
+    <docAuthor>
+        <text>Jane Doe, Arnold, and Karen</text>
+    </docAuthor>
+    <navMap>
+        <navInfo>
+            <text>Primary navigation is by level</text>
+        </navInfo>
+        <navPoint class="navPoint-level-level1" id="toc" playOrder="0">
+            <navLabel>
+                <text>TABLE OF CONTENTS</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level1" id="pref" playOrder="1">
+            <navLabel>
+                <text>PREFACE</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level1" id="ch2" playOrder="2">
+            <navLabel>
+                <text>1 Fundamentals</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00000" playOrder="3">
+            <navLabel>
+                <text>Primitive data types</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00001" playOrder="4">
+            <navLabel>
+                <text>Loops and conditionals</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00002" playOrder="5">
+            <navLabel>
+                <text>Arrays</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00003" playOrder="6">
+            <navLabel>
+                <text>Static methods</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00004" playOrder="7">
+            <navLabel>
+                <text>Recursion</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00005" playOrder="8">
+            <navLabel>
+                <text>APIs</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00006" playOrder="9">
+            <navLabel>
+                <text>Strings</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00007" playOrder="10">
+            <navLabel>
+                <text>Input and output</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00008" playOrder="11">
+            <navLabel>
+                <text>Binary search</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00009" playOrder="12">
+            <navLabel>
+                <text>Objects</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00010" playOrder="13">
+            <navLabel>
+                <text>Abstract data types</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00011" playOrder="14">
+            <navLabel>
+                <text>Implementing ADTs</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00012" playOrder="15">
+            <navLabel>
+                <text>Designing ADTs</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00013" playOrder="16">
+            <navLabel>
+                <text>APIs</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00014" playOrder="17">
+            <navLabel>
+                <text>Arithmetic expression evaluation</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00015" playOrder="18">
+            <navLabel>
+                <text>Generics</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00016" playOrder="19">
+            <navLabel>
+                <text>Resizing arrays</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00017" playOrder="20">
+            <navLabel>
+                <text>Iterators</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00018" playOrder="21">
+            <navLabel>
+                <text>Linked lists</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00019" playOrder="22">
+            <navLabel>
+                <text>Tilde notation</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00020" playOrder="23">
+            <navLabel>
+                <text>Running time</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00021" playOrder="24">
+            <navLabel>
+                <text>Order-of growth classifications</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00022" playOrder="25">
+            <navLabel>
+                <text>Computational experiments</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00023" playOrder="26">
+            <navLabel>
+                <text>Amortized analysis</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00024" playOrder="27">
+            <navLabel>
+                <text>Memory usage</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00025" playOrder="28">
+            <navLabel>
+                <text>Dynamic connectivity</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00026" playOrder="29">
+            <navLabel>
+                <text>Quick find</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00027" playOrder="30">
+            <navLabel>
+                <text>Quick union</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00028" playOrder="31">
+            <navLabel>
+                <text>Weighted quick union</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level1" id="ch3" playOrder="32">
+            <navLabel>
+                <text>2 Sorting</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00029" playOrder="33">
+            <navLabel>
+                <text>Rules of the game</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00030" playOrder="34">
+            <navLabel>
+                <text>Selection sort</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00031" playOrder="35">
+            <navLabel>
+                <text>Insertion sort</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00032" playOrder="36">
+            <navLabel>
+                <text>Shellsort</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00033" playOrder="37">
+            <navLabel>
+                <text>Abstract in-place merge</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00034" playOrder="38">
+            <navLabel>
+                <text>Top-down mergesort</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00035" playOrder="39">
+            <navLabel>
+                <text>Bottom-up mergesort</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00036" playOrder="40">
+            <navLabel>
+                <text>N lg N lower bound for sorting</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00037" playOrder="41">
+            <navLabel>
+                <text>In-place partitioning</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00038" playOrder="42">
+            <navLabel>
+                <text>Randomized quicksort</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00039" playOrder="43">
+            <navLabel>
+                <text>3-way partitioning</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00040" playOrder="44">
+            <navLabel>
+                <text>Priority queue API</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00041" playOrder="45">
+            <navLabel>
+                <text>Elementary implementations</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00042" playOrder="46">
+            <navLabel>
+                <text>Binary heap</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00043" playOrder="47">
+            <navLabel>
+                <text>Heapsort</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00044" playOrder="48">
+            <navLabel>
+                <text>Comparators</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00045" playOrder="49">
+            <navLabel>
+                <text>Stability</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00046" playOrder="50">
+            <navLabel>
+                <text>Median and order statistics</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level1" id="ch4" playOrder="51">
+            <navLabel>
+                <text>3 Searching</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00047" playOrder="52">
+            <navLabel>
+                <text>Symbol table API</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00048" playOrder="53">
+            <navLabel>
+                <text>Ordered symbol table API</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00049" playOrder="54">
+            <navLabel>
+                <text>Sequential search</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00050" playOrder="55">
+            <navLabel>
+                <text>Binary search</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00051" playOrder="56">
+            <navLabel>
+                <text>Basic implementation</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00052" playOrder="57">
+            <navLabel>
+                <text>Order-based methods</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00053" playOrder="58">
+            <navLabel>
+                <text>Deletion</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00054" playOrder="59">
+            <navLabel>
+                <text>2-3 search trees</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00055" playOrder="60">
+            <navLabel>
+                <text>Red-black BSTs</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00056" playOrder="61">
+            <navLabel>
+                <text>Deletion</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00057" playOrder="62">
+            <navLabel>
+                <text>Hash functions</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00058" playOrder="63">
+            <navLabel>
+                <text>Separate chaining</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00059" playOrder="64">
+            <navLabel>
+                <text>Linear probing</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00060" playOrder="65">
+            <navLabel>
+                <text>Set data type</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00061" playOrder="66">
+            <navLabel>
+                <text>Dedup</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00062" playOrder="67">
+            <navLabel>
+                <text>Whitelist and blacklist filters</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00063" playOrder="68">
+            <navLabel>
+                <text>Dictionary lookup</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00064" playOrder="69">
+            <navLabel>
+                <text>Inverted index</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00065" playOrder="70">
+            <navLabel>
+                <text>File indexing</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00066" playOrder="71">
+            <navLabel>
+                <text>Sparse matrix-vector multiplication</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level1" id="ch5" playOrder="72">
+            <navLabel>
+                <text>4 Graphs</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00067" playOrder="73">
+            <navLabel>
+                <text>Glossary</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00068" playOrder="74">
+            <navLabel>
+                <text>Undirected graph type</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00069" playOrder="75">
+            <navLabel>
+                <text>Adjacency-lists representation</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00070" playOrder="76">
+            <navLabel>
+                <text>Depth-first search</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00071" playOrder="77">
+            <navLabel>
+                <text>Breadth-first search</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00072" playOrder="78">
+            <navLabel>
+                <text>Connected components</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00073" playOrder="79">
+            <navLabel>
+                <text>Degrees of separation</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00074" playOrder="80">
+            <navLabel>
+                <text>Glossary</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00075" playOrder="81">
+            <navLabel>
+                <text>Digraph data type</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00076" playOrder="82">
+            <navLabel>
+                <text>Directed cycle detection</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00077" playOrder="83">
+            <navLabel>
+                <text>Precedence-constrained scheduling</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00078" playOrder="84">
+            <navLabel>
+                <text>Depth-first search</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00079" playOrder="85">
+            <navLabel>
+                <text>Topological sort</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00080" playOrder="86">
+            <navLabel>
+                <text>Strong connectivity</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00081" playOrder="87">
+            <navLabel>
+                <text>Kosaraju-Sharir algorithm</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00082" playOrder="88">
+            <navLabel>
+                <text>Transitive closure</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00083" playOrder="89">
+            <navLabel>
+                <text>Cut property</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00084" playOrder="90">
+            <navLabel>
+                <text>Greedy algorithm</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00085" playOrder="91">
+            <navLabel>
+                <text>Edge-weighted graph data type</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00086" playOrder="92">
+            <navLabel>
+                <text>Prim's algorithm</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00087" playOrder="93">
+            <navLabel>
+                <text>Kruskal's algorithm</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00088" playOrder="94">
+            <navLabel>
+                <text>Properties of shortest paths</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00089" playOrder="95">
+            <navLabel>
+                <text>Edge-weighted digraph data types</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00090" playOrder="96">
+            <navLabel>
+                <text>Generic shortest paths algorithm</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00091" playOrder="97">
+            <navLabel>
+                <text>Dijkstra's algorithm</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00092" playOrder="98">
+            <navLabel>
+                <text>Shortest paths in edgeweighted DAGs</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00093" playOrder="99">
+            <navLabel>
+                <text>Critical-path method</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00094" playOrder="100">
+            <navLabel>
+                <text>Bellman-Ford algorithm</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00095" playOrder="101">
+            <navLabel>
+                <text>Negative cycle detection</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00096" playOrder="102">
+            <navLabel>
+                <text>Arbitrage</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level1" id="ch6" playOrder="103">
+            <navLabel>
+                <text>5 Strings</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00097" playOrder="104">
+            <navLabel>
+                <text>Key-indexed counting</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00098" playOrder="105">
+            <navLabel>
+                <text>LSD string sort</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00099" playOrder="106">
+            <navLabel>
+                <text>MSD string sort</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00100" playOrder="107">
+            <navLabel>
+                <text>3-way string quicksort</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00101" playOrder="108">
+            <navLabel>
+                <text>String symbol table API</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00102" playOrder="109">
+            <navLabel>
+                <text>R-way tries</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00103" playOrder="110">
+            <navLabel>
+                <text>Ternary search tries</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00104" playOrder="111">
+            <navLabel>
+                <text>Brute-force algorithm</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00105" playOrder="112">
+            <navLabel>
+                <text>Knuth-Morric-Pratt algorithm</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00106" playOrder="113">
+            <navLabel>
+                <text>Boyer-Moore algorithm</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00107" playOrder="114">
+            <navLabel>
+                <text>Rabin-Karp fingerprint algorithm</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00108" playOrder="115">
+            <navLabel>
+                <text>Describing patterns with REs</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00109" playOrder="116">
+            <navLabel>
+                <text>Applications</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00110" playOrder="117">
+            <navLabel>
+                <text>Nondeterministic finite-state automata</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00111" playOrder="118">
+            <navLabel>
+                <text>Simulating an NFA</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00112" playOrder="119">
+            <navLabel>
+                <text>Building an NFA corresponding to an RE</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00113" playOrder="120">
+            <navLabel>
+                <text>Rules of the game</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00114" playOrder="121">
+            <navLabel>
+                <text>Reading and writing binary data</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00115" playOrder="122">
+            <navLabel>
+                <text>Limitations</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00116" playOrder="123">
+            <navLabel>
+                <text>Run-length coding</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00117" playOrder="124">
+            <navLabel>
+                <text>Huffman compression</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00118" playOrder="125">
+            <navLabel>
+                <text>LZW compression</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level1" id="ch7" playOrder="126">
+            <navLabel>
+                <text>6 Context</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00119" playOrder="127">
+            <navLabel>
+                <text>Hard-disc model</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00120" playOrder="128">
+            <navLabel>
+                <text>Collision prediction</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00121" playOrder="129">
+            <navLabel>
+                <text>Collision resolution</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00122" playOrder="130">
+            <navLabel>
+                <text>Cost model</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00123" playOrder="131">
+            <navLabel>
+                <text>Search and insert</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00124" playOrder="132">
+            <navLabel>
+                <text>Longest repeated substring</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00125" playOrder="133">
+            <navLabel>
+                <text>Suffix sorting</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00126" playOrder="134">
+            <navLabel>
+                <text>Ford-Fulkerson algorithm</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00127" playOrder="135">
+            <navLabel>
+                <text>Minimum cut</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00128" playOrder="136">
+            <navLabel>
+                <text>Sorting</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00129" playOrder="137">
+            <navLabel>
+                <text>Shortest path</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00130" playOrder="138">
+            <navLabel>
+                <text>Maximum flow</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00131" playOrder="139">
+            <navLabel>
+                <text>Bipartite matching</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00132" playOrder="140">
+            <navLabel>
+                <text>Linear programming</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00133" playOrder="141">
+            <navLabel>
+                <text>Longest-paths problem</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level3" id="level3_00134" playOrder="142">
+            <navLabel>
+                <text>NP-completeness</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level1" id="ch8" playOrder="143">
+            <navLabel>
+                <text>Index</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level1" id="ch9" playOrder="144">
+            <navLabel>
+                <text>Algorithms</text>
+            </navLabel>
+        </navPoint>
+        <navPoint class="navPoint-level-level1" id="ch10" playOrder="145">
+            <navLabel>
+                <text>Clients</text>
+            </navLabel>
+        </navPoint>
+    </navMap>
+</ncx>
